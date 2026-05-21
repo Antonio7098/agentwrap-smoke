@@ -1,0 +1,42 @@
+[
+  {
+    "id": "prt_e4a893b0c001SqB5s3CdM55Au5",
+    "message_id": "msg_e4a893af7001nsQ7q89wbS6Z37",
+    "session_id": "ses_1b576c55effeEs3qWDE9PLJbLo",
+    "time_created": 1779366968086,
+    "time_updated": 1779366968088,
+    "data": "{\"type\":\"text\",\"text\":\"\\\"Say hello.\\\"\"}"
+  },
+  {
+    "id": "prt_e4a894066001heI5fI549Ta437",
+    "message_id": "msg_e4a893bdc001e0WWv2Cz349jRQ",
+    "session_id": "ses_1b576c55effeEs3qWDE9PLJbLo",
+    "time_created": 1779366969447,
+    "time_updated": 1779366969450,
+    "data": "{\"type\":\"step-start\"}"
+  },
+  {
+    "id": "prt_e4a8942da001CIvgcg6I7Vk3R0",
+    "message_id": "msg_e4a893bdc001e0WWv2Cz349jRQ",
+    "session_id": "ses_1b576c55effeEs3qWDE9PLJbLo",
+    "time_created": 1779366970074,
+    "time_updated": 1779366970372,
+    "data": "{\"type\":\"reasoning\",\"text\":\"The user wants me to say hello. I should respond concisely.\",\"time\":{\"start\":1779366970074,\"end\":1779366970368}}"
+  },
+  {
+    "id": "prt_e4a894406001JeQ61hW4tBJOJ6",
+    "message_id": "msg_e4a893bdc001e0WWv2Cz349jRQ",
+    "session_id": "ses_1b576c55effeEs3qWDE9PLJbLo",
+    "time_created": 1779366970374,
+    "time_updated": 1779366970386,
+    "data": "{\"type\":\"text\",\"text\":\"Hello.\",\"time\":{\"start\":1779366970374,\"end\":1779366970383}}"
+  },
+  {
+    "id": "prt_e4a894419001sVdNkdDMlcJm5Z",
+    "message_id": "msg_e4a893bdc001e0WWv2Cz349jRQ",
+    "session_id": "ses_1b576c55effeEs3qWDE9PLJbLo",
+    "time_created": 1779366970394,
+    "time_updated": 1779366970396,
+    "data": "{\"reason\":\"stop\",\"type\":\"step-finish\",\"tokens\":{\"total\":8252,\"input\":8234,\"output\":3,\"reasoning\":15,\"cache\":{\"write\":0,\"read\":0}},\"cost\":0}"
+  }
+]

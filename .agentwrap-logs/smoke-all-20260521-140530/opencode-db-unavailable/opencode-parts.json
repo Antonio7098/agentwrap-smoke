@@ -1,0 +1,42 @@
+[
+  {
+    "id": "prt_e4aa65d1e001o8TUkHOL3ZsLe0",
+    "message_id": "msg_e4aa65d12001zJ4PePiTZ8jbax",
+    "session_id": "ses_1b559a345ffeNJ5aqlL7ZV63CL",
+    "time_created": 1779368877353,
+    "time_updated": 1779368877355,
+    "data": "{\"type\":\"text\",\"text\":\"\\\"Say hello.\\\"\"}"
+  },
+  {
+    "id": "prt_e4aa6627f001Tx6u3J7vyiIfqM",
+    "message_id": "msg_e4aa65de3001ZntI21JDS1Qulr",
+    "session_id": "ses_1b559a345ffeNJ5aqlL7ZV63CL",
+    "time_created": 1779368878719,
+    "time_updated": 1779368878722,
+    "data": "{\"type\":\"step-start\"}"
+  },
+  {
+    "id": "prt_e4aa663b6001h01pce9pJ2lMJ6",
+    "message_id": "msg_e4aa65de3001ZntI21JDS1Qulr",
+    "session_id": "ses_1b559a345ffeNJ5aqlL7ZV63CL",
+    "time_created": 1779368879030,
+    "time_updated": 1779368879059,
+    "data": "{\"type\":\"reasoning\",\"text\":\"The user wants me to say hello.\",\"time\":{\"start\":1779368879030,\"end\":1779368879057}}"
+  },
+  {
+    "id": "prt_e4aa663d5001Z5cAr9c5f0j70m",
+    "message_id": "msg_e4aa65de3001ZntI21JDS1Qulr",
+    "session_id": "ses_1b559a345ffeNJ5aqlL7ZV63CL",
+    "time_created": 1779368879061,
+    "time_updated": 1779368879338,
+    "data": "{\"type\":\"text\",\"text\":\"Hello.\",\"time\":{\"start\":1779368879061,\"end\":1779368879336}}"
+  },
+  {
+    "id": "prt_e4aa664f0001ulLhBap14gkNI5",
+    "message_id": "msg_e4aa65de3001ZntI21JDS1Qulr",
+    "session_id": "ses_1b559a345ffeNJ5aqlL7ZV63CL",
+    "time_created": 1779368879344,
+    "time_updated": 1779368879346,
+    "data": "{\"reason\":\"stop\",\"type\":\"step-finish\",\"tokens\":{\"total\":8246,\"input\":8235,\"output\":3,\"reasoning\":8,\"cache\":{\"write\":0,\"read\":0}},\"cost\":0}"
+  }
+]

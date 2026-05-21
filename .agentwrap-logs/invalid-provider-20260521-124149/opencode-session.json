@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ses_1b5a874f9ffemIXiJs1miykC0j",
+    "project_id": "global",
+    "parent_id": null,
+    "slug": "happy-comet",
+    "directory": "/home/antonioborgerees/coding/agentwrap-smoke",
+    "title": "New session - 2026-05-21T11:41:51.751Z",
+    "version": "1.15.6",
+    "share_url": null,
+    "summary_additions": null,
+    "summary_deletions": null,
+    "summary_files": null,
+    "summary_diffs": null,
+    "revert": null,
+    "permission": "[{\"permission\":\"question\",\"pattern\":\"*\",\"action\":\"deny\"},{\"permission\":\"plan_enter\",\"pattern\":\"*\",\"action\":\"deny\"},{\"permission\":\"plan_exit\",\"pattern\":\"*\",\"action\":\"deny\"}]",
+    "time_created": 1779363711751,
+    "time_updated": 1779363711948,
+    "time_compacting": null,
+    "time_archived": null,
+    "workspace_id": null,
+    "path": "agentwrap-smoke",
+    "agent": "build",
+    "model": "{\"id\":\"test\",\"providerID\":\"nonexistent-provider\",\"variant\":\"default\"}",
+    "cost": 0,
+    "tokens_input": 0,
+    "tokens_output": 0,
+    "tokens_reasoning": 0,
+    "tokens_cache_read": 0,
+    "tokens_cache_write": 0
+  }
+]

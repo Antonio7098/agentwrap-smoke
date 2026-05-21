@@ -1,0 +1,16 @@
+[
+  {
+    "id": "msg_e4a2b1a12001mXpcCiIfy3DlG6",
+    "session_id": "ses_1b5d4e65cffe3KsJFNdNg3rjcG",
+    "time_created": 1779360799251,
+    "time_updated": 1779360799719,
+    "data": "{\"role\":\"user\",\"time\":{\"created\":1779360799251},\"agent\":\"build\",\"model\":{\"providerID\":\"opencode\",\"modelID\":\"deepseek-v4-flash-free\"},\"summary\":{\"diffs\":[]}}"
+  },
+  {
+    "id": "msg_e4a2b1b56001PVnRWKZnfn7kBT",
+    "session_id": "ses_1b5d4e65cffe3KsJFNdNg3rjcG",
+    "time_created": 1779360799574,
+    "time_updated": 1779360801374,
+    "data": "{\"parentID\":\"msg_e4a2b1a12001mXpcCiIfy3DlG6\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/agentwrap-smoke\",\"root\":\"/home/antonioborgerees/coding\"},\"cost\":0,\"tokens\":{\"total\":8259,\"input\":8242,\"output\":2,\"reasoning\":15,\"cache\":{\"write\":0,\"read\":0}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779360799574,\"completed\":1779360801371},\"finish\":\"stop\"}"
+  }
+]

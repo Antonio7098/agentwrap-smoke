@@ -1,0 +1,3 @@
+Fake OpenCode: /home/antonioborgerees/coding/agentwrap-smoke/testdata/fakeopencode/fake-opencode.sh
+RUN_MODE=final DB_MODE=complete
+Status: completed

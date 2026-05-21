@@ -1,0 +1,30 @@
+[
+  {
+    "id": "msg_e4a2cbacb001VkTYZv3YZaVEJE",
+    "session_id": "ses_1b5d345caffeaR1zrVT3bFmuO5",
+    "time_created": 1779360905931,
+    "time_updated": 1779360906372,
+    "data": "{\"role\":\"user\",\"time\":{\"created\":1779360905931},\"agent\":\"build\",\"model\":{\"providerID\":\"opencode\",\"modelID\":\"deepseek-v4-flash-free\"},\"summary\":{\"diffs\":[]}}"
+  },
+  {
+    "id": "msg_e4a2cbbfb001iGaWhCYG6OnD52",
+    "session_id": "ses_1b5d345caffeaR1zrVT3bFmuO5",
+    "time_created": 1779360906235,
+    "time_updated": 1779360908529,
+    "data": "{\"parentID\":\"msg_e4a2cbacb001VkTYZv3YZaVEJE\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/agentwrap-smoke/.agentwrap-logs/smoke-all-20260521-115308/validate-repair-exhaust\",\"root\":\"/home/antonioborgerees/coding\"},\"cost\":0,\"tokens\":{\"total\":8295,\"input\":8282,\"output\":2,\"reasoning\":11,\"cache\":{\"write\":0,\"read\":0}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779360906235,\"completed\":1779360908528},\"finish\":\"stop\"}"
+  },
+  {
+    "id": "msg_e4a2cd12700192Kgks2ovkZqCa",
+    "session_id": "ses_1b5d345caffeaR1zrVT3bFmuO5",
+    "time_created": 1779360911655,
+    "time_updated": 1779360912057,
+    "data": "{\"role\":\"user\",\"time\":{\"created\":1779360911655},\"agent\":\"build\",\"model\":{\"providerID\":\"opencode\",\"modelID\":\"deepseek-v4-flash-free\"},\"summary\":{\"diffs\":[]}}"
+  },
+  {
+    "id": "msg_e4a2cd261001ptX5J1J4p5AAIc",
+    "session_id": "ses_1b5d345caffeaR1zrVT3bFmuO5",
+    "time_created": 1779360911970,
+    "time_updated": 1779360914370,
+    "data": "{\"parentID\":\"msg_e4a2cd12700192Kgks2ovkZqCa\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/agentwrap-smoke/.agentwrap-logs/smoke-all-20260521-115308/validate-repair-exhaust\",\"root\":\"/home/antonioborgerees/coding\"},\"cost\":0,\"tokens\":{\"total\":8307,\"input\":8293,\"output\":2,\"reasoning\":12,\"cache\":{\"write\":0,\"read\":0}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779360911970,\"completed\":1779360914367},\"finish\":\"stop\"}"
+  }
+]

@@ -1,0 +1,5 @@
+Primary: opencode/not-a-real-model, Fallback: opencode/deepseek-v4-flash-free
+Status: failed
+Category: timeout
+Attempt 1 target=0 model=opencode/not-a-real-model status=failed error=runtime_exit
+Attempt 2 target=1 model=opencode/deepseek-v4-flash-free status=failed error=timeout

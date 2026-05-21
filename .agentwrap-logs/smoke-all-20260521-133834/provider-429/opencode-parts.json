@@ -1,0 +1,42 @@
+[
+  {
+    "id": "prt_e4a8dea5b001QQMKEkxVwgdGfA",
+    "message_id": "msg_e4a8dea4c001sEE5YHZ97D0qip",
+    "session_id": "ses_1b5721633ffeQtAIcRmR7wli9Z",
+    "time_created": 1779367275112,
+    "time_updated": 1779367275114,
+    "data": "{\"type\":\"text\",\"text\":\"\\\"Say hello in 3 words.\\\"\"}"
+  },
+  {
+    "id": "prt_e4a8df05b001Kxhc7u660uKUzr",
+    "message_id": "msg_e4a8deb50001cApxhWG2nxXVS1",
+    "session_id": "ses_1b5721633ffeQtAIcRmR7wli9Z",
+    "time_created": 1779367276635,
+    "time_updated": 1779367276637,
+    "data": "{\"type\":\"step-start\"}"
+  },
+  {
+    "id": "prt_e4a8df18c001hCjX7G7J80Nugk",
+    "message_id": "msg_e4a8deb50001cApxhWG2nxXVS1",
+    "session_id": "ses_1b5721633ffeQtAIcRmR7wli9Z",
+    "time_created": 1779367276940,
+    "time_updated": 1779367276955,
+    "data": "{\"type\":\"reasoning\",\"text\":\"The user is asking me to say hello in 3 words. This is a simple creative request - they want a greeting expressed in exactly three words. I should provide a direct, concise response without using any tools since this is just a conversational request.\\n\",\"time\":{\"start\":1779367276940,\"end\":1779367276952},\"metadata\":{\"anthropic\":{\"signature\":\"1f27ea1b4ac7123d77fc684904766e38e240f55e41baf6ca21a6b3cead3aac76\"}}}"
+  },
+  {
+    "id": "prt_e4a8df19e001cGOjBfBtiojkfd",
+    "message_id": "msg_e4a8deb50001cApxhWG2nxXVS1",
+    "session_id": "ses_1b5721633ffeQtAIcRmR7wli9Z",
+    "time_created": 1779367276959,
+    "time_updated": 1779367276971,
+    "data": "{\"type\":\"text\",\"text\":\"\\n\\nHello there friend\",\"time\":{\"start\":1779367276958,\"end\":1779367276967}}"
+  },
+  {
+    "id": "prt_e4a8df1b40014Zaz8IBhCwk77w",
+    "message_id": "msg_e4a8deb50001cApxhWG2nxXVS1",
+    "session_id": "ses_1b5721633ffeQtAIcRmR7wli9Z",
+    "time_created": 1779367276980,
+    "time_updated": 1779367276982,
+    "data": "{\"reason\":\"stop\",\"type\":\"step-finish\",\"tokens\":{\"total\":7697,\"input\":25,\"output\":56,\"reasoning\":0,\"cache\":{\"write\":0,\"read\":7616}},\"cost\":0}"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ses_1b8ec3ae8ffeKisq0XVzzfXdFh",
+    "project_id": "global",
+    "parent_id": null,
+    "slug": "hidden-wizard",
+    "directory": "/home/antonioborgerees/coding/ultraplan-go",
+    "title": "New session - 2026-05-20T20:28:58.519Z",
+    "version": "1.15.5",
+    "share_url": null,
+    "summary_additions": 0,
+    "summary_deletions": 0,
+    "summary_files": 0,
+    "summary_diffs": null,
+    "revert": null,
+    "permission": "[{\"permission\":\"question\",\"pattern\":\"*\",\"action\":\"deny\"},{\"permission\":\"plan_enter\",\"pattern\":\"*\",\"action\":\"deny\"},{\"permission\":\"plan_exit\",\"pattern\":\"*\",\"action\":\"deny\"}]",
+    "time_created": 1779308938519,
+    "time_updated": 1779308938910,
+    "time_compacting": null,
+    "time_archived": null,
+    "workspace_id": null,
+    "path": "home/antonioborgerees/coding/ultraplan-go",
+    "agent": "build",
+    "model": "{\"id\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"variant\":\"default\"}",
+    "cost": 0,
+    "tokens_input": 8227,
+    "tokens_output": 2,
+    "tokens_reasoning": 19,
+    "tokens_cache_read": 0,
+    "tokens_cache_write": 0
+  }
+]

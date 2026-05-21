@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ses_1b5759b43ffebkd3rwHmonWgZT",
+    "project_id": "global",
+    "parent_id": null,
+    "slug": "calm-planet",
+    "directory": "/home/antonioborgerees/coding/agentwrap-smoke/.agentwrap-logs/smoke-all-20260521-133706/smoke-file-write",
+    "title": "New session - 2026-05-21T12:37:24.285Z",
+    "version": "1.15.6",
+    "share_url": null,
+    "summary_additions": 0,
+    "summary_deletions": 0,
+    "summary_files": 0,
+    "summary_diffs": null,
+    "revert": null,
+    "permission": "[{\"permission\":\"question\",\"pattern\":\"*\",\"action\":\"deny\"},{\"permission\":\"plan_enter\",\"pattern\":\"*\",\"action\":\"deny\"},{\"permission\":\"plan_exit\",\"pattern\":\"*\",\"action\":\"deny\"}]",
+    "time_created": 1779367044285,
+    "time_updated": 1779367049090,
+    "time_compacting": null,
+    "time_archived": null,
+    "workspace_id": null,
+    "path": "agentwrap-smoke/.agentwrap-logs/smoke-all-20260521-133706/smoke-file-write",
+    "agent": "build",
+    "model": "{\"id\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"variant\":\"default\"}",
+    "cost": 0,
+    "tokens_input": 8448,
+    "tokens_output": 186,
+    "tokens_reasoning": 65,
+    "tokens_cache_read": 16768,
+    "tokens_cache_write": 0
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "prt_e4a6b683d00175hFpOSPOYTWup",
+    "message_id": "msg_e4a6b682b001Fu28UP7lRrGDvx",
+    "session_id": "ses_1b5949841ffeA4z2Eu47eDbnt6",
+    "time_created": 1779365013577,
+    "time_updated": 1779365013579,
+    "data": "{\"type\":\"text\",\"text\":\"\\\"Reply with exactly: hello\\\"\"}"
+  },
+  {
+    "id": "prt_e4a6b701f001G30JWlcP8WSKfi",
+    "message_id": "msg_e4a6b6929001lAwL4rO9aNGhQl",
+    "session_id": "ses_1b5949841ffeA4z2Eu47eDbnt6",
+    "time_created": 1779365015584,
+    "time_updated": 1779365015586,
+    "data": "{\"type\":\"step-start\"}"
+  },
+  {
+    "id": "prt_e4a6b702600112hunMNRJgUSxg",
+    "message_id": "msg_e4a6b6929001lAwL4rO9aNGhQl",
+    "session_id": "ses_1b5949841ffeA4z2Eu47eDbnt6",
+    "time_created": 1779365015591,
+    "time_updated": 1779365015635,
+    "data": "{\"type\":\"reasoning\",\"text\":\"The user wants me to reply with exactly \\\"hello\\\".\",\"time\":{\"start\":1779365015591,\"end\":1779365015632}}"
+  },
+  {
+    "id": "prt_e4a6b70560017z7oAkqtdS3c34",
+    "message_id": "msg_e4a6b6929001lAwL4rO9aNGhQl",
+    "session_id": "ses_1b5949841ffeA4z2Eu47eDbnt6",
+    "time_created": 1779365015638,
+    "time_updated": 1779365015647,
+    "data": "{\"type\":\"text\",\"text\":\"hello\",\"time\":{\"start\":1779365015638,\"end\":1779365015644}}"
+  },
+  {
+    "id": "prt_e4a6b7066001g5uWfKktq3zevW",
+    "message_id": "msg_e4a6b6929001lAwL4rO9aNGhQl",
+    "session_id": "ses_1b5949841ffeA4z2Eu47eDbnt6",
+    "time_created": 1779365015654,
+    "time_updated": 1779365015656,
+    "data": "{\"reason\":\"stop\",\"type\":\"step-finish\",\"tokens\":{\"total\":8295,\"input\":8282,\"output\":2,\"reasoning\":11,\"cache\":{\"write\":0,\"read\":0}},\"cost\":0}"
+  }
+]

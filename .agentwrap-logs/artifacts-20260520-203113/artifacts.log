@@ -1,0 +1,7 @@
+=== ARTIFACTS TEST ===
+
+Using model: openai/gpt-5.5
+Run started: ID=opencode-1
+Wait error: opencode run: runtime_exit: OpenCode exited before a successful final result
+Artifacts observed during run: 0
+Final Status: failed

@@ -1,0 +1,3 @@
+Run started: ID=opencode-1
+Status: failed
+Error: opencode run: runtime_exit: OpenCode exited before a successful final result

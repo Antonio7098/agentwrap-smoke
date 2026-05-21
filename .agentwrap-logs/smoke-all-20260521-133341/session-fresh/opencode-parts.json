@@ -1,0 +1,42 @@
+[
+  {
+    "id": "prt_e4a89a6f7001kQ29JH58JVVRpm",
+    "message_id": "msg_e4a89a6eb001OitGJtZqgjzxQ9",
+    "session_id": "ses_1b576596cffet9L3vLkrJfGNmg",
+    "time_created": 1779366995714,
+    "time_updated": 1779366995715,
+    "data": "{\"type\":\"text\",\"text\":\"\\\"Reply with exactly: OK\\\"\"}"
+  },
+  {
+    "id": "prt_e4a89ac5f001509FGSzzOGRl5z",
+    "message_id": "msg_e4a89a7cd001jmdWk7Eeblq5Yk",
+    "session_id": "ses_1b576596cffet9L3vLkrJfGNmg",
+    "time_created": 1779366997088,
+    "time_updated": 1779366997091,
+    "data": "{\"type\":\"step-start\"}"
+  },
+  {
+    "id": "prt_e4a89ae20001uNJ2tzP0vU7jPO",
+    "message_id": "msg_e4a89a7cd001jmdWk7Eeblq5Yk",
+    "session_id": "ses_1b576596cffet9L3vLkrJfGNmg",
+    "time_created": 1779366997536,
+    "time_updated": 1779366997703,
+    "data": "{\"type\":\"reasoning\",\"text\":\"The user is asking me to reply with exactly \\\"OK\\\".\",\"time\":{\"start\":1779366997536,\"end\":1779366997701}}"
+  },
+  {
+    "id": "prt_e4a89aeca001M66uxqH8W3qoll",
+    "message_id": "msg_e4a89a7cd001jmdWk7Eeblq5Yk",
+    "session_id": "ses_1b576596cffet9L3vLkrJfGNmg",
+    "time_created": 1779366997706,
+    "time_updated": 1779366997713,
+    "data": "{\"type\":\"text\",\"text\":\"OK\",\"time\":{\"start\":1779366997706,\"end\":1779366997711}}"
+  },
+  {
+    "id": "prt_e4a89aed5001MDxB0JPA611go1",
+    "message_id": "msg_e4a89a7cd001jmdWk7Eeblq5Yk",
+    "session_id": "ses_1b576596cffet9L3vLkrJfGNmg",
+    "time_created": 1779366997717,
+    "time_updated": 1779366997719,
+    "data": "{\"reason\":\"stop\",\"type\":\"step-finish\",\"tokens\":{\"total\":8252,\"input\":8238,\"output\":2,\"reasoning\":12,\"cache\":{\"write\":0,\"read\":0}},\"cost\":0}"
+  }
+]

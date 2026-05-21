@@ -1,0 +1,5 @@
+Status: failed
+Category: repair_exhausted
+Repair attempts: 2
+  Repair 1: status=completed run=opencode-12
+  Repair 2: status=completed run=opencode-13

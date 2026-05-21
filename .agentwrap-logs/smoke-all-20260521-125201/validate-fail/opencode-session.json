@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ses_1b59dd153ffesaaXoa0WCowVxR",
+    "project_id": "global",
+    "parent_id": null,
+    "slug": "nimble-otter",
+    "directory": "/home/antonioborgerees/coding/agentwrap-smoke/.agentwrap-logs/smoke-all-20260521-125201/validate-fail",
+    "title": "New session - 2026-05-21T11:53:29.004Z",
+    "version": "1.15.6",
+    "share_url": null,
+    "summary_additions": 0,
+    "summary_deletions": 0,
+    "summary_files": 0,
+    "summary_diffs": null,
+    "revert": null,
+    "permission": "[{\"permission\":\"question\",\"pattern\":\"*\",\"action\":\"deny\"},{\"permission\":\"plan_enter\",\"pattern\":\"*\",\"action\":\"deny\"},{\"permission\":\"plan_exit\",\"pattern\":\"*\",\"action\":\"deny\"}]",
+    "time_created": 1779364409004,
+    "time_updated": 1779364409582,
+    "time_compacting": null,
+    "time_archived": null,
+    "workspace_id": null,
+    "path": "agentwrap-smoke/.agentwrap-logs/smoke-all-20260521-125201/validate-fail",
+    "agent": "build",
+    "model": "{\"id\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"variant\":\"default\"}",
+    "cost": 0,
+    "tokens_input": 8281,
+    "tokens_output": 2,
+    "tokens_reasoning": 17,
+    "tokens_cache_read": 0,
+    "tokens_cache_write": 0
+  }
+]

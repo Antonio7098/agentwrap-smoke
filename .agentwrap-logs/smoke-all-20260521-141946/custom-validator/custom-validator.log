@@ -1,0 +1,7 @@
+=== CUSTOM VALIDATOR TEST ===
+
+ValidatingRuntime with custom ValidatorFunc
+Using model: opencode/deepseek-v4-flash-free
+Run started: ID=validation-3
+Wait error: opencode run: timeout: OpenCode run timed out
+Final Status: failed

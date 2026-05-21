@@ -1,0 +1,7 @@
+=== USAGE TRACKING TEST ===
+
+Using model: opencode/deepseek-v4-flash-free
+Run started: ID=opencode-4
+Wait error: opencode run: runtime_exit: OpenCode finished without a final structured result
+Usage: no token counts returned
+Final Status: failed

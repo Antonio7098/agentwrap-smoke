@@ -1,0 +1,7 @@
+=== USAGE TRACKING TEST ===
+
+Using model: openai/gpt-5.5
+Run started: ID=opencode-1
+Wait error: opencode run: runtime_exit: OpenCode exited before a successful final result
+Usage: no token counts returned
+Final Status: failed

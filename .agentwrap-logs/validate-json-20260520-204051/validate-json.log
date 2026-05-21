@@ -1,0 +1,5 @@
+=== JSON VALIDATION TEST ===
+
+ValidatingRuntime with JSON expectation: reports/test.json must have status, score fields
+Run started: ID=validation-1
+Final Status: completed

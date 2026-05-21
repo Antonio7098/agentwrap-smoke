@@ -1,0 +1,11 @@
+=== CANCELLATION TEST ===
+Log dir: /home/antonioborgerees/coding/ultraplan-go/.agentwrap-logs/cancel-20260520-183309
+
+Run started: ID=opencode-1
+Waiting 3 seconds before cancelling...
+Calling Run.Cancel()...
+Cancel succeeded without error
+Wait error: opencode run: cancellation: OpenCode run was cancelled
+  Category: cancellation
+  UserDetail: OpenCode run was cancelled
+Final Status: cancelled

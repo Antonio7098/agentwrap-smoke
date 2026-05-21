@@ -1,0 +1,37 @@
+[
+  {
+    "id": "msg_e4a34c2b7001aGo3WKVkKFRpXA",
+    "session_id": "ses_1b5cb3d99ffeJI7lxsUvqtZBg0",
+    "time_created": 1779361432247,
+    "time_updated": 1779361432527,
+    "data": "{\"role\":\"user\",\"time\":{\"created\":1779361432247},\"agent\":\"build\",\"model\":{\"providerID\":\"opencode\",\"modelID\":\"deepseek-v4-flash-free\"},\"summary\":{\"diffs\":[]}}"
+  },
+  {
+    "id": "msg_e4a34c37b001Y7UfWjWfhlSZtc",
+    "session_id": "ses_1b5cb3d99ffeJI7lxsUvqtZBg0",
+    "time_created": 1779361432443,
+    "time_updated": 1779361434189,
+    "data": "{\"parentID\":\"msg_e4a34c2b7001aGo3WKVkKFRpXA\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/agentwrap-smoke/.agentwrap-logs/smoke-all-20260521-120218/validate-repair\",\"root\":\"/home/antonioborgerees/coding\"},\"cost\":0,\"tokens\":{\"total\":8317,\"input\":8286,\"output\":11,\"reasoning\":20,\"cache\":{\"write\":0,\"read\":0}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779361432443,\"completed\":1779361434188},\"finish\":\"stop\"}"
+  },
+  {
+    "id": "msg_e4a34d6d7001Rj3wKBx3g6e62k",
+    "session_id": "ses_1b5cb3d99ffeJI7lxsUvqtZBg0",
+    "time_created": 1779361437399,
+    "time_updated": 1779361440967,
+    "data": "{\"role\":\"user\",\"time\":{\"created\":1779361437399},\"agent\":\"build\",\"model\":{\"providerID\":\"opencode\",\"modelID\":\"deepseek-v4-flash-free\"},\"summary\":{\"diffs\":[]}}"
+  },
+  {
+    "id": "msg_e4a34d7a00019atS155mWCoR7E",
+    "session_id": "ses_1b5cb3d99ffeJI7lxsUvqtZBg0",
+    "time_created": 1779361437600,
+    "time_updated": 1779361440909,
+    "data": "{\"parentID\":\"msg_e4a34d6d7001Rj3wKBx3g6e62k\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/agentwrap-smoke/.agentwrap-logs/smoke-all-20260521-120218/validate-repair\",\"root\":\"/home/antonioborgerees/coding\"},\"cost\":0,\"tokens\":{\"total\":8524,\"input\":8334,\"output\":132,\"reasoning\":58,\"cache\":{\"write\":0,\"read\":0}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779361437600,\"completed\":1779361440907},\"finish\":\"tool-calls\"}"
+  },
+  {
+    "id": "msg_e4a34e496001AzDtHF3zfg0V9a",
+    "session_id": "ses_1b5cb3d99ffeJI7lxsUvqtZBg0",
+    "time_created": 1779361440918,
+    "time_updated": 1779361442737,
+    "data": "{\"parentID\":\"msg_e4a34d6d7001Rj3wKBx3g6e62k\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/agentwrap-smoke/.agentwrap-logs/smoke-all-20260521-120218/validate-repair\",\"root\":\"/home/antonioborgerees/coding\"},\"cost\":0,\"tokens\":{\"total\":8569,\"input\":90,\"output\":17,\"reasoning\":14,\"cache\":{\"write\":0,\"read\":8448}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779361440918,\"completed\":1779361442734},\"finish\":\"stop\"}"
+  }
+]

@@ -1,0 +1,2 @@
+{"ID":"opencode-5-lifecycle-1","RunID":"opencode-5","SessionID":"","Time":"2026-05-21T11:26:31.696632473+01:00","Type":"lifecycle.transition","Payload":{"event_kind":"lifecycle","from":"starting","reason":"process_started","to":"running","turn_id":""},"Raw":null}
+{"ID":"opencode-5-lifecycle-2","RunID":"opencode-5","SessionID":"","Time":"2026-05-21T11:26:33.420485012+01:00","Type":"lifecycle.transition","Payload":{"event_kind":"lifecycle","from":"running","reason":"run_failed","to":"failed","turn_id":""},"Raw":null}

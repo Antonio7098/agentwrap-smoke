@@ -1,0 +1,42 @@
+[
+  {
+    "id": "prt_e4a8e07e1001O2QVR6c0iX6vSU",
+    "message_id": "msg_e4a8e07d10015Ip5mgbwqAaE22",
+    "session_id": "ses_1b571f8abffezpCx1c9Z0b8LlO",
+    "time_created": 1779367282668,
+    "time_updated": 1779367282671,
+    "data": "{\"type\":\"text\",\"text\":\"\\\"Say hello in 3 words.\\\"\"}"
+  },
+  {
+    "id": "prt_e4a8e11fc001ibFuX85C2TxeRq",
+    "message_id": "msg_e4a8e08c3001YRHLbCZR64wfdm",
+    "session_id": "ses_1b571f8abffezpCx1c9Z0b8LlO",
+    "time_created": 1779367285245,
+    "time_updated": 1779367285248,
+    "data": "{\"type\":\"step-start\"}"
+  },
+  {
+    "id": "prt_e4a8e205a001SGLWe86htlHuOY",
+    "message_id": "msg_e4a8e08c3001YRHLbCZR64wfdm",
+    "session_id": "ses_1b571f8abffezpCx1c9Z0b8LlO",
+    "time_created": 1779367288923,
+    "time_updated": 1779367288942,
+    "data": "{\"type\":\"reasoning\",\"text\":\"The user is asking me to say hello in 3 words. This is a simple conversational request, not a software engineering task. I should just respond directly.\\n\",\"time\":{\"start\":1779367288922,\"end\":1779367288938},\"metadata\":{\"anthropic\":{\"signature\":\"91ba0275751f75c5ac48752fc4373d34d9d9b5aa1463dfdddff133f02a24b1ca\"}}}"
+  },
+  {
+    "id": "prt_e4a8e2071001kDKOtycauHxPPd",
+    "message_id": "msg_e4a8e08c3001YRHLbCZR64wfdm",
+    "session_id": "ses_1b571f8abffezpCx1c9Z0b8LlO",
+    "time_created": 1779367288945,
+    "time_updated": 1779367288954,
+    "data": "{\"type\":\"text\",\"text\":\"\\n\\nHello there, friend!\",\"time\":{\"start\":1779367288945,\"end\":1779367288952}}"
+  },
+  {
+    "id": "prt_e4a8e2080001ZEyh70MIInVmWy",
+    "message_id": "msg_e4a8e08c3001YRHLbCZR64wfdm",
+    "session_id": "ses_1b571f8abffezpCx1c9Z0b8LlO",
+    "time_created": 1779367288961,
+    "time_updated": 1779367288964,
+    "data": "{\"reason\":\"stop\",\"type\":\"step-finish\",\"tokens\":{\"total\":7639,\"input\":1,\"output\":40,\"reasoning\":0,\"cache\":{\"write\":0,\"read\":7598}},\"cost\":0}"
+  }
+]

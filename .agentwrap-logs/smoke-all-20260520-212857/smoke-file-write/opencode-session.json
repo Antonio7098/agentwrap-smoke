@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ses_1b8ec0540ffeiUIrxxjQotPz5J",
+    "project_id": "global",
+    "parent_id": null,
+    "slug": "brave-engine",
+    "directory": "/home/antonioborgerees/coding/ultraplan-go/.agentwrap-logs/smoke-all-20260520-212857/smoke-file-write",
+    "title": "Create reports/smoke.txt with OK",
+    "version": "1.15.5",
+    "share_url": null,
+    "summary_additions": 0,
+    "summary_deletions": 0,
+    "summary_files": 0,
+    "summary_diffs": null,
+    "revert": null,
+    "permission": "[{\"permission\":\"question\",\"pattern\":\"*\",\"action\":\"deny\"},{\"permission\":\"plan_enter\",\"pattern\":\"*\",\"action\":\"deny\"},{\"permission\":\"plan_exit\",\"pattern\":\"*\",\"action\":\"deny\"}]",
+    "time_created": 1779308952255,
+    "time_updated": 1779308960683,
+    "time_compacting": null,
+    "time_archived": null,
+    "workspace_id": null,
+    "path": "home/antonioborgerees/coding/ultraplan-go/.agentwrap-logs/smoke-all-20260520-212857/smoke-file-write",
+    "agent": "build",
+    "model": "{\"id\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"variant\":\"default\"}",
+    "cost": 0,
+    "tokens_input": 8469,
+    "tokens_output": 261,
+    "tokens_reasoning": 79,
+    "tokens_cache_read": 25344,
+    "tokens_cache_write": 0
+  }
+]

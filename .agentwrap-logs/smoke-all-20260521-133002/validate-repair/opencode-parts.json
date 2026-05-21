@@ -1,0 +1,42 @@
+[
+  {
+    "id": "prt_e4a85180e001vUDhNLUAWLwapt",
+    "message_id": "msg_e4a8518020010zq6cYzZavuNCs",
+    "session_id": "ses_1b57ae851ffet3OaqigvPO4rPK",
+    "time_created": 1779366696983,
+    "time_updated": 1779366696985,
+    "data": "{\"type\":\"text\",\"text\":\"\\\"Reply with exactly: initial validation should fail. Do not create files.\\\"\"}"
+  },
+  {
+    "id": "prt_e4a851cbb001BbF3nxP6dvFYjq",
+    "message_id": "msg_e4a8518cb0018pePEv4uaYO9NL",
+    "session_id": "ses_1b57ae851ffet3OaqigvPO4rPK",
+    "time_created": 1779366698172,
+    "time_updated": 1779366698173,
+    "data": "{\"type\":\"step-start\"}"
+  },
+  {
+    "id": "prt_e4a851de6001xwoqI3wi74lqIv",
+    "message_id": "msg_e4a8518cb0018pePEv4uaYO9NL",
+    "session_id": "ses_1b57ae851ffet3OaqigvPO4rPK",
+    "time_created": 1779366698471,
+    "time_updated": 1779366699105,
+    "data": "{\"type\":\"reasoning\",\"text\":\"The user wants me to reply with exactly \\\"initial validation should fail. Do not create files.\\\"\",\"time\":{\"start\":1779366698470,\"end\":1779366699103}}"
+  },
+  {
+    "id": "prt_e4a852063001Y4ATQdmmiyTAg3",
+    "message_id": "msg_e4a8518cb0018pePEv4uaYO9NL",
+    "session_id": "ses_1b57ae851ffet3OaqigvPO4rPK",
+    "time_created": 1779366699107,
+    "time_updated": 1779366699121,
+    "data": "{\"type\":\"text\",\"text\":\"initial validation should fail. Do not create files.\",\"time\":{\"start\":1779366699107,\"end\":1779366699118}}"
+  },
+  {
+    "id": "prt_e4a852077001pfgw4S1yjaSL9x",
+    "message_id": "msg_e4a8518cb0018pePEv4uaYO9NL",
+    "session_id": "ses_1b57ae851ffet3OaqigvPO4rPK",
+    "time_created": 1779366699128,
+    "time_updated": 1779366699129,
+    "data": "{\"reason\":\"stop\",\"type\":\"step-finish\",\"tokens\":{\"total\":8315,\"input\":8285,\"output\":11,\"reasoning\":19,\"cache\":{\"write\":0,\"read\":0}},\"cost\":0}"
+  }
+]

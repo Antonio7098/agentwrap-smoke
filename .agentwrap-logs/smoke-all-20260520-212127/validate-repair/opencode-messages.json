@@ -1,0 +1,51 @@
+[
+  {
+    "id": "msg_e470e2fce001E9HebxL8dTWXlY",
+    "session_id": "ses_1b8f1d09effeuIBOoKY34eH3I4",
+    "time_created": 1779308572622,
+    "time_updated": 1779308577347,
+    "data": "{\"role\":\"user\",\"time\":{\"created\":1779308572622},\"agent\":\"build\",\"model\":{\"providerID\":\"opencode\",\"modelID\":\"deepseek-v4-flash-free\"},\"summary\":{\"diffs\":[]}}"
+  },
+  {
+    "id": "msg_e470e30c2001yksblgTihzzPxm",
+    "session_id": "ses_1b8f1d09effeuIBOoKY34eH3I4",
+    "time_created": 1779308572866,
+    "time_updated": 1779308575145,
+    "data": "{\"parentID\":\"msg_e470e2fce001E9HebxL8dTWXlY\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/ultraplan-go/.agentwrap-logs/smoke-all-20260520-212127/validate-repair\",\"root\":\"/\"},\"cost\":0,\"tokens\":{\"total\":8369,\"input\":8265,\"output\":79,\"reasoning\":25,\"cache\":{\"write\":0,\"read\":0}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779308572866,\"completed\":1779308575144},\"finish\":\"tool-calls\"}"
+  },
+  {
+    "id": "msg_e470e39b0001Jn7ufZSD08bTAv",
+    "session_id": "ses_1b8f1d09effeuIBOoKY34eH3I4",
+    "time_created": 1779308575152,
+    "time_updated": 1779308577314,
+    "data": "{\"parentID\":\"msg_e470e2fce001E9HebxL8dTWXlY\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/ultraplan-go/.agentwrap-logs/smoke-all-20260520-212127/validate-repair\",\"root\":\"/\"},\"cost\":0,\"tokens\":{\"total\":8624,\"input\":125,\"output\":167,\"reasoning\":12,\"cache\":{\"write\":0,\"read\":8320}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779308575152,\"completed\":1779308577313},\"finish\":\"tool-calls\"}"
+  },
+  {
+    "id": "msg_e470e4227001PTpNRymVJH6lgK",
+    "session_id": "ses_1b8f1d09effeuIBOoKY34eH3I4",
+    "time_created": 1779308577319,
+    "time_updated": 1779308580362,
+    "data": "{\"parentID\":\"msg_e470e2fce001E9HebxL8dTWXlY\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/ultraplan-go/.agentwrap-logs/smoke-all-20260520-212127/validate-repair\",\"root\":\"/\"},\"cost\":0,\"tokens\":{\"total\":8905,\"input\":193,\"output\":82,\"reasoning\":54,\"cache\":{\"write\":0,\"read\":8576}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779308577319,\"completed\":1779308580361},\"finish\":\"stop\"}"
+  },
+  {
+    "id": "msg_e470e542d001uCaDuj7ttz8b5U",
+    "session_id": "ses_1b8f1d09effeuIBOoKY34eH3I4",
+    "time_created": 1779308581933,
+    "time_updated": 1779308584687,
+    "data": "{\"role\":\"user\",\"time\":{\"created\":1779308581933},\"agent\":\"build\",\"model\":{\"providerID\":\"opencode\",\"modelID\":\"deepseek-v4-flash-free\"},\"summary\":{\"diffs\":[]}}"
+  },
+  {
+    "id": "msg_e470e5501001lmDprPcPzQ11sL",
+    "session_id": "ses_1b8f1d09effeuIBOoKY34eH3I4",
+    "time_created": 1779308582145,
+    "time_updated": 1779308584662,
+    "data": "{\"parentID\":\"msg_e470e542d001uCaDuj7ttz8b5U\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/ultraplan-go/.agentwrap-logs/smoke-all-20260520-212127/validate-repair\",\"root\":\"/\"},\"cost\":0,\"tokens\":{\"total\":9022,\"input\":89,\"output\":101,\"reasoning\":0,\"cache\":{\"write\":0,\"read\":8832}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779308582145,\"completed\":1779308584661},\"finish\":\"tool-calls\"}"
+  },
+  {
+    "id": "msg_e470e5edd00159l4Kgv8cey640",
+    "session_id": "ses_1b8f1d09effeuIBOoKY34eH3I4",
+    "time_created": 1779308584669,
+    "time_updated": 1779308586212,
+    "data": "{\"parentID\":\"msg_e470e542d001uCaDuj7ttz8b5U\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/ultraplan-go/.agentwrap-logs/smoke-all-20260520-212127/validate-repair\",\"root\":\"/\"},\"cost\":0,\"tokens\":{\"total\":9063,\"input\":78,\"output\":17,\"reasoning\":8,\"cache\":{\"write\":0,\"read\":8960}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779308584669,\"completed\":1779308586210},\"finish\":\"stop\"}"
+  }
+]

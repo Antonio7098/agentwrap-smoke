@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ses_1b5598dadffeZPhtlkCoFdMMsK",
+    "project_id": "global",
+    "parent_id": null,
+    "slug": "quiet-tiger",
+    "directory": "/home/antonioborgerees/coding/agentwrap-smoke",
+    "title": "New session - 2026-05-21T13:08:02.770Z",
+    "version": "1.15.6",
+    "share_url": null,
+    "summary_additions": 0,
+    "summary_deletions": 0,
+    "summary_files": 0,
+    "summary_diffs": null,
+    "revert": null,
+    "permission": "[{\"permission\":\"question\",\"pattern\":\"*\",\"action\":\"deny\"},{\"permission\":\"plan_enter\",\"pattern\":\"*\",\"action\":\"deny\"},{\"permission\":\"plan_exit\",\"pattern\":\"*\",\"action\":\"deny\"}]",
+    "time_created": 1779368882770,
+    "time_updated": 1779368883133,
+    "time_compacting": null,
+    "time_archived": null,
+    "workspace_id": null,
+    "path": "agentwrap-smoke",
+    "agent": "build",
+    "model": "{\"id\":\"MiniMax-M2.7\",\"providerID\":\"minimax-coding-plan\",\"variant\":\"default\"}",
+    "cost": 0,
+    "tokens_input": 7641,
+    "tokens_output": 27,
+    "tokens_reasoning": 0,
+    "tokens_cache_read": 0,
+    "tokens_cache_write": 0
+  }
+]

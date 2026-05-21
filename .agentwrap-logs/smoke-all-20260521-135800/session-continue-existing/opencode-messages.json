@@ -1,0 +1,30 @@
+[
+  {
+    "id": "msg_e4aa1a14800180l7bjPVudFcTc",
+    "session_id": "ses_1b55e5f5effegkcxtWLmdswCnf",
+    "time_created": 1779368567113,
+    "time_updated": 1779368567554,
+    "data": "{\"role\":\"user\",\"time\":{\"created\":1779368567113},\"agent\":\"build\",\"model\":{\"providerID\":\"opencode\",\"modelID\":\"deepseek-v4-flash-free\"},\"summary\":{\"diffs\":[]}}"
+  },
+  {
+    "id": "msg_e4aa1a271001eIjHSY3ye5WzSq",
+    "session_id": "ses_1b55e5f5effegkcxtWLmdswCnf",
+    "time_created": 1779368567409,
+    "time_updated": 1779368573997,
+    "data": "{\"parentID\":\"msg_e4aa1a14800180l7bjPVudFcTc\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/agentwrap-smoke\",\"root\":\"/home/antonioborgerees/coding\"},\"cost\":0,\"tokens\":{\"total\":8254,\"input\":8237,\"output\":3,\"reasoning\":14,\"cache\":{\"write\":0,\"read\":0}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779368567409,\"completed\":1779368573995},\"finish\":\"stop\"}"
+  },
+  {
+    "id": "msg_e4aa1c3610011lj8nhs0wgp2Jy",
+    "session_id": "ses_1b55e5f5effegkcxtWLmdswCnf",
+    "time_created": 1779368575841,
+    "time_updated": 1779368576227,
+    "data": "{\"role\":\"user\",\"time\":{\"created\":1779368575841},\"agent\":\"build\",\"model\":{\"providerID\":\"opencode\",\"modelID\":\"deepseek-v4-flash-free\"},\"summary\":{\"diffs\":[]}}"
+  },
+  {
+    "id": "msg_e4aa1c492001Fzg1fY20ui9aEB",
+    "session_id": "ses_1b55e5f5effegkcxtWLmdswCnf",
+    "time_created": 1779368576146,
+    "time_updated": 1779368582011,
+    "data": "{\"parentID\":\"msg_e4aa1c3610011lj8nhs0wgp2Jy\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/agentwrap-smoke\",\"root\":\"/home/antonioborgerees/coding\"},\"cost\":0,\"tokens\":{\"total\":8266,\"input\":8251,\"output\":3,\"reasoning\":12,\"cache\":{\"write\":0,\"read\":0}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779368576146,\"completed\":1779368582009},\"finish\":\"stop\"}"
+  }
+]

@@ -1,0 +1,184 @@
+[
+  {
+    "id": "msg_e47155a8e001AOE63D5FFmJw1o",
+    "session_id": "ses_1b8eaa5c9ffehrYIa5BVdBRbaw",
+    "time_created": 1779309042318,
+    "time_updated": 1779309042602,
+    "data": "{\"role\":\"user\",\"time\":{\"created\":1779309042318},\"agent\":\"build\",\"model\":{\"providerID\":\"opencode\",\"modelID\":\"deepseek-v4-flash-free\"},\"summary\":{\"diffs\":[]}}"
+  },
+  {
+    "id": "msg_e47155b580011lw0jpefNZsn2h",
+    "session_id": "ses_1b8eaa5c9ffehrYIa5BVdBRbaw",
+    "time_created": 1779309042520,
+    "time_updated": 1779309044574,
+    "data": "{\"parentID\":\"msg_e47155a8e001AOE63D5FFmJw1o\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/ultraplan-go/.agentwrap-logs/smoke-all-20260520-212857/validate-repair-exhaust\",\"root\":\"/\"},\"cost\":0,\"tokens\":{\"total\":8283,\"input\":8270,\"output\":2,\"reasoning\":11,\"cache\":{\"write\":0,\"read\":0}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779309042520,\"completed\":1779309044573},\"finish\":\"stop\"}"
+  },
+  {
+    "id": "msg_e47156c26001ygCHt8HqzF1Z5S",
+    "session_id": "ses_1b8eaa5c9ffehrYIa5BVdBRbaw",
+    "time_created": 1779309046822,
+    "time_updated": 1779309144421,
+    "data": "{\"role\":\"user\",\"time\":{\"created\":1779309046822},\"agent\":\"build\",\"model\":{\"providerID\":\"opencode\",\"modelID\":\"deepseek-v4-flash-free\"},\"summary\":{\"diffs\":[]}}"
+  },
+  {
+    "id": "msg_e47156cf1001Iw91ZlRskgfZBz",
+    "session_id": "ses_1b8eaa5c9ffehrYIa5BVdBRbaw",
+    "time_created": 1779309047025,
+    "time_updated": 1779309050085,
+    "data": "{\"parentID\":\"msg_e47156c26001ygCHt8HqzF1Z5S\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/ultraplan-go/.agentwrap-logs/smoke-all-20260520-212857/validate-repair-exhaust\",\"root\":\"/\"},\"cost\":0,\"tokens\":{\"total\":8420,\"input\":8314,\"output\":81,\"reasoning\":25,\"cache\":{\"write\":0,\"read\":0}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779309047025,\"completed\":1779309050084},\"finish\":\"tool-calls\"}"
+  },
+  {
+    "id": "msg_e471578ea001WBkMYAxsy8KTIE",
+    "session_id": "ses_1b8eaa5c9ffehrYIa5BVdBRbaw",
+    "time_created": 1779309050090,
+    "time_updated": 1779309051964,
+    "data": "{\"parentID\":\"msg_e47156c26001ygCHt8HqzF1Z5S\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/ultraplan-go/.agentwrap-logs/smoke-all-20260520-212857/validate-repair-exhaust\",\"root\":\"/\"},\"cost\":0,\"tokens\":{\"total\":8598,\"input\":177,\"output\":88,\"reasoning\":13,\"cache\":{\"write\":0,\"read\":8320}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779309050090,\"completed\":1779309051963},\"finish\":\"tool-calls\"}"
+  },
+  {
+    "id": "msg_e47158044001XXX7XIE4QkO6uk",
+    "session_id": "ses_1b8eaa5c9ffehrYIa5BVdBRbaw",
+    "time_created": 1779309051972,
+    "time_updated": 1779309055319,
+    "data": "{\"parentID\":\"msg_e47156c26001ygCHt8HqzF1Z5S\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/ultraplan-go/.agentwrap-logs/smoke-all-20260520-212857/validate-repair-exhaust\",\"root\":\"/\"},\"cost\":0,\"tokens\":{\"total\":8834,\"input\":105,\"output\":75,\"reasoning\":78,\"cache\":{\"write\":0,\"read\":8576}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779309051972,\"completed\":1779309055318},\"finish\":\"tool-calls\"}"
+  },
+  {
+    "id": "msg_e47158d5e001TAH8wThqxrKVe5",
+    "session_id": "ses_1b8eaa5c9ffehrYIa5BVdBRbaw",
+    "time_created": 1779309055326,
+    "time_updated": 1779309058366,
+    "data": "{\"parentID\":\"msg_e47156c26001ygCHt8HqzF1Z5S\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/ultraplan-go/.agentwrap-logs/smoke-all-20260520-212857/validate-repair-exhaust\",\"root\":\"/\"},\"cost\":0,\"tokens\":{\"total\":9194,\"input\":120,\"output\":209,\"reasoning\":33,\"cache\":{\"write\":0,\"read\":8832}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779309055326,\"completed\":1779309058365},\"finish\":\"tool-calls\"}"
+  },
+  {
+    "id": "msg_e4715994300193Z37uk27RjqLg",
+    "session_id": "ses_1b8eaa5c9ffehrYIa5BVdBRbaw",
+    "time_created": 1779309058371,
+    "time_updated": 1779309062663,
+    "data": "{\"parentID\":\"msg_e47156c26001ygCHt8HqzF1Z5S\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/ultraplan-go/.agentwrap-logs/smoke-all-20260520-212857/validate-repair-exhaust\",\"root\":\"/\"},\"cost\":0,\"tokens\":{\"total\":10746,\"input\":1336,\"output\":223,\"reasoning\":99,\"cache\":{\"write\":0,\"read\":9088}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779309058371,\"completed\":1779309062662},\"finish\":\"tool-calls\"}"
+  },
+  {
+    "id": "msg_e4715aa0c001R9sEf4SJxGRuvc",
+    "session_id": "ses_1b8eaa5c9ffehrYIa5BVdBRbaw",
+    "time_created": 1779309062668,
+    "time_updated": 1779309066661,
+    "data": "{\"parentID\":\"msg_e47156c26001ygCHt8HqzF1Z5S\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/ultraplan-go/.agentwrap-logs/smoke-all-20260520-212857/validate-repair-exhaust\",\"root\":\"/\"},\"cost\":0,\"tokens\":{\"total\":12523,\"input\":1554,\"output\":164,\"reasoning\":181,\"cache\":{\"write\":0,\"read\":10624}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779309062668,\"completed\":1779309066660},\"finish\":\"tool-calls\"}"
+  },
+  {
+    "id": "msg_e4715b9ac001AA4YGbSlFkzoq4",
+    "session_id": "ses_1b8eaa5c9ffehrYIa5BVdBRbaw",
+    "time_created": 1779309066668,
+    "time_updated": 1779309069750,
+    "data": "{\"parentID\":\"msg_e47156c26001ygCHt8HqzF1Z5S\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/ultraplan-go/.agentwrap-logs/smoke-all-20260520-212857/validate-repair-exhaust\",\"root\":\"/\"},\"cost\":0,\"tokens\":{\"total\":12835,\"input\":236,\"output\":59,\"reasoning\":124,\"cache\":{\"write\":0,\"read\":12416}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779309066668,\"completed\":1779309069749},\"finish\":\"tool-calls\"}"
+  },
+  {
+    "id": "msg_e4715c5bb001yMhSrzzG7rowvl",
+    "session_id": "ses_1b8eaa5c9ffehrYIa5BVdBRbaw",
+    "time_created": 1779309069755,
+    "time_updated": 1779309074344,
+    "data": "{\"parentID\":\"msg_e47156c26001ygCHt8HqzF1Z5S\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/ultraplan-go/.agentwrap-logs/smoke-all-20260520-212857/validate-repair-exhaust\",\"root\":\"/\"},\"cost\":0,\"tokens\":{\"total\":13312,\"input\":131,\"output\":144,\"reasoning\":237,\"cache\":{\"write\":0,\"read\":12800}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779309069755,\"completed\":1779309074343},\"finish\":\"tool-calls\"}"
+  },
+  {
+    "id": "msg_e4715d7af001iv3vCjUbGzjKBK",
+    "session_id": "ses_1b8eaa5c9ffehrYIa5BVdBRbaw",
+    "time_created": 1779309074351,
+    "time_updated": 1779309077411,
+    "data": "{\"parentID\":\"msg_e47156c26001ygCHt8HqzF1Z5S\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/ultraplan-go/.agentwrap-logs/smoke-all-20260520-212857/validate-repair-exhaust\",\"root\":\"/\"},\"cost\":0,\"tokens\":{\"total\":13738,\"input\":169,\"output\":243,\"reasoning\":14,\"cache\":{\"write\":0,\"read\":13312}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779309074351,\"completed\":1779309077411},\"finish\":\"tool-calls\"}"
+  },
+  {
+    "id": "msg_e4715e3a8001pFfCr97WpWF6sT",
+    "session_id": "ses_1b8eaa5c9ffehrYIa5BVdBRbaw",
+    "time_created": 1779309077416,
+    "time_updated": 1779309079886,
+    "data": "{\"parentID\":\"msg_e47156c26001ygCHt8HqzF1Z5S\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/ultraplan-go/.agentwrap-logs/smoke-all-20260520-212857/validate-repair-exhaust\",\"root\":\"/\"},\"cost\":0,\"tokens\":{\"total\":14823,\"input\":948,\"output\":157,\"reasoning\":22,\"cache\":{\"write\":0,\"read\":13696}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779309077416,\"completed\":1779309079885},\"finish\":\"tool-calls\"}"
+  },
+  {
+    "id": "msg_e4715ed53001vV9mSqrqq6piae",
+    "session_id": "ses_1b8eaa5c9ffehrYIa5BVdBRbaw",
+    "time_created": 1779309079891,
+    "time_updated": 1779309082363,
+    "data": "{\"parentID\":\"msg_e47156c26001ygCHt8HqzF1Z5S\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/ultraplan-go/.agentwrap-logs/smoke-all-20260520-212857/validate-repair-exhaust\",\"root\":\"/\"},\"cost\":0,\"tokens\":{\"total\":15169,\"input\":264,\"output\":161,\"reasoning\":24,\"cache\":{\"write\":0,\"read\":14720}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779309079891,\"completed\":1779309082362},\"finish\":\"tool-calls\"}"
+  },
+  {
+    "id": "msg_e4715f700001y6wrqyNzmj7OZd",
+    "session_id": "ses_1b8eaa5c9ffehrYIa5BVdBRbaw",
+    "time_created": 1779309082368,
+    "time_updated": 1779309086737,
+    "data": "{\"parentID\":\"msg_e47156c26001ygCHt8HqzF1Z5S\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/ultraplan-go/.agentwrap-logs/smoke-all-20260520-212857/validate-repair-exhaust\",\"root\":\"/\"},\"cost\":0,\"tokens\":{\"total\":33258,\"input\":17910,\"output\":170,\"reasoning\":74,\"cache\":{\"write\":0,\"read\":15104}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779309082368,\"completed\":1779309086736},\"finish\":\"tool-calls\"}"
+  },
+  {
+    "id": "msg_e471608160010zMTIfVTqY6zbx",
+    "session_id": "ses_1b8eaa5c9ffehrYIa5BVdBRbaw",
+    "time_created": 1779309086742,
+    "time_updated": 1779309102644,
+    "data": "{\"parentID\":\"msg_e47156c26001ygCHt8HqzF1Z5S\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/ultraplan-go/.agentwrap-logs/smoke-all-20260520-212857/validate-repair-exhaust\",\"root\":\"/\"},\"cost\":0,\"tokens\":{\"total\":37486,\"input\":2273,\"output\":100,\"reasoning\":1961,\"cache\":{\"write\":0,\"read\":33152}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779309086742,\"completed\":1779309102643},\"finish\":\"tool-calls\"}"
+  },
+  {
+    "id": "msg_e4716463a001zl6mER1o7cOVKz",
+    "session_id": "ses_1b8eaa5c9ffehrYIa5BVdBRbaw",
+    "time_created": 1779309102650,
+    "time_updated": 1779309105063,
+    "data": "{\"parentID\":\"msg_e47156c26001ygCHt8HqzF1Z5S\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/ultraplan-go/.agentwrap-logs/smoke-all-20260520-212857/validate-repair-exhaust\",\"root\":\"/\"},\"cost\":0,\"tokens\":{\"total\":38798,\"input\":1249,\"output\":100,\"reasoning\":73,\"cache\":{\"write\":0,\"read\":37376}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779309102650,\"completed\":1779309105062},\"finish\":\"tool-calls\"}"
+  },
+  {
+    "id": "msg_e47164fad001CTfQWSgV8A83kO",
+    "session_id": "ses_1b8eaa5c9ffehrYIa5BVdBRbaw",
+    "time_created": 1779309105069,
+    "time_updated": 1779309115812,
+    "data": "{\"parentID\":\"msg_e47156c26001ygCHt8HqzF1Z5S\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/ultraplan-go/.agentwrap-logs/smoke-all-20260520-212857/validate-repair-exhaust\",\"root\":\"/\"},\"cost\":0,\"tokens\":{\"total\":42161,\"input\":2056,\"output\":94,\"reasoning\":1227,\"cache\":{\"write\":0,\"read\":38784}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779309105069,\"completed\":1779309115811},\"finish\":\"tool-calls\"}"
+  },
+  {
+    "id": "msg_e471679ae001yzeIDwfts2Is5p",
+    "session_id": "ses_1b8eaa5c9ffehrYIa5BVdBRbaw",
+    "time_created": 1779309115822,
+    "time_updated": 1779309118885,
+    "data": "{\"parentID\":\"msg_e47156c26001ygCHt8HqzF1Z5S\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/ultraplan-go/.agentwrap-logs/smoke-all-20260520-212857/validate-repair-exhaust\",\"root\":\"/\"},\"cost\":0,\"tokens\":{\"total\":42299,\"input\":88,\"output\":99,\"reasoning\":0,\"cache\":{\"write\":0,\"read\":42112}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779309115822,\"completed\":1779309118883},\"finish\":\"tool-calls\"}"
+  },
+  {
+    "id": "msg_e471685ab001FdsiHsJ6CyFD2d",
+    "session_id": "ses_1b8eaa5c9ffehrYIa5BVdBRbaw",
+    "time_created": 1779309118891,
+    "time_updated": 1779309129689,
+    "data": "{\"parentID\":\"msg_e47156c26001ygCHt8HqzF1Z5S\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/ultraplan-go/.agentwrap-logs/smoke-all-20260520-212857/validate-repair-exhaust\",\"root\":\"/\"},\"cost\":0,\"tokens\":{\"total\":44794,\"input\":1187,\"output\":119,\"reasoning\":1248,\"cache\":{\"write\":0,\"read\":42240}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779309118891,\"completed\":1779309129688},\"finish\":\"tool-calls\"}"
+  },
+  {
+    "id": "msg_e4716afe4001n2eRBrxYxS0dOc",
+    "session_id": "ses_1b8eaa5c9ffehrYIa5BVdBRbaw",
+    "time_created": 1779309129700,
+    "time_updated": 1779309132959,
+    "data": "{\"parentID\":\"msg_e47156c26001ygCHt8HqzF1Z5S\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/ultraplan-go/.agentwrap-logs/smoke-all-20260520-212857/validate-repair-exhaust\",\"root\":\"/\"},\"cost\":0,\"tokens\":{\"total\":45945,\"input\":1059,\"output\":185,\"reasoning\":29,\"cache\":{\"write\":0,\"read\":44672}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779309129700,\"completed\":1779309132958},\"finish\":\"tool-calls\"}"
+  },
+  {
+    "id": "msg_e4716bca7001Lb4uNbulhGs4Yc",
+    "session_id": "ses_1b8eaa5c9ffehrYIa5BVdBRbaw",
+    "time_created": 1779309132967,
+    "time_updated": 1779309136585,
+    "data": "{\"parentID\":\"msg_e47156c26001ygCHt8HqzF1Z5S\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/ultraplan-go/.agentwrap-logs/smoke-all-20260520-212857/validate-repair-exhaust\",\"root\":\"/\"},\"cost\":0,\"tokens\":{\"total\":46983,\"input\":945,\"output\":181,\"reasoning\":33,\"cache\":{\"write\":0,\"read\":45824}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779309132967,\"completed\":1779309136583},\"finish\":\"tool-calls\"}"
+  },
+  {
+    "id": "msg_e4716cad0001Xc7lfMICahWbSI",
+    "session_id": "ses_1b8eaa5c9ffehrYIa5BVdBRbaw",
+    "time_created": 1779309136592,
+    "time_updated": 1779309139472,
+    "data": "{\"parentID\":\"msg_e47156c26001ygCHt8HqzF1Z5S\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/ultraplan-go/.agentwrap-logs/smoke-all-20260520-212857/validate-repair-exhaust\",\"root\":\"/\"},\"cost\":0,\"tokens\":{\"total\":47182,\"input\":78,\"output\":91,\"reasoning\":37,\"cache\":{\"write\":0,\"read\":46976}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779309136592,\"completed\":1779309139470},\"finish\":\"tool-calls\"}"
+  },
+  {
+    "id": "msg_e4716d62300115u5bYAlP552BU",
+    "session_id": "ses_1b8eaa5c9ffehrYIa5BVdBRbaw",
+    "time_created": 1779309139491,
+    "time_updated": 1779309141930,
+    "data": "{\"parentID\":\"msg_e47156c26001ygCHt8HqzF1Z5S\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/ultraplan-go/.agentwrap-logs/smoke-all-20260520-212857/validate-repair-exhaust\",\"root\":\"/\"},\"cost\":0,\"tokens\":{\"total\":47913,\"input\":690,\"output\":119,\"reasoning\":0,\"cache\":{\"write\":0,\"read\":47104}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779309139491,\"completed\":1779309141929},\"finish\":\"tool-calls\"}"
+  },
+  {
+    "id": "msg_e4716dfb0001h9mURg9m0zRUn5",
+    "session_id": "ses_1b8eaa5c9ffehrYIa5BVdBRbaw",
+    "time_created": 1779309141936,
+    "time_updated": 1779309144385,
+    "data": "{\"parentID\":\"msg_e47156c26001ygCHt8HqzF1Z5S\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/ultraplan-go/.agentwrap-logs/smoke-all-20260520-212857/validate-repair-exhaust\",\"root\":\"/\"},\"cost\":0,\"tokens\":{\"total\":48118,\"input\":140,\"output\":106,\"reasoning\":0,\"cache\":{\"write\":0,\"read\":47872}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779309141936,\"completed\":1779309144384},\"finish\":\"tool-calls\"}"
+  },
+  {
+    "id": "msg_e4716e94f001j9GPZndUkQRAmc",
+    "session_id": "ses_1b8eaa5c9ffehrYIa5BVdBRbaw",
+    "time_created": 1779309144399,
+    "time_updated": 1779309144400,
+    "data": "{\"parentID\":\"msg_e47156c26001ygCHt8HqzF1Z5S\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/ultraplan-go/.agentwrap-logs/smoke-all-20260520-212857/validate-repair-exhaust\",\"root\":\"/\"},\"cost\":0,\"tokens\":{\"input\":0,\"output\":0,\"reasoning\":0,\"cache\":{\"read\":0,\"write\":0}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779309144399}}"
+  }
+]

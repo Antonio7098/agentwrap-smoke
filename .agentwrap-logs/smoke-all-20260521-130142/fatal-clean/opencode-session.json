@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ses_1b5937c04ffe6Lw7qxI0H3OSjJ",
+    "project_id": "global",
+    "parent_id": null,
+    "slug": "clever-island",
+    "directory": "/home/antonioborgerees/coding/agentwrap-smoke",
+    "title": "New session - 2026-05-21T12:04:46.203Z",
+    "version": "1.15.6",
+    "share_url": null,
+    "summary_additions": null,
+    "summary_deletions": null,
+    "summary_files": null,
+    "summary_diffs": null,
+    "revert": null,
+    "permission": "[{\"permission\":\"question\",\"pattern\":\"*\",\"action\":\"deny\"},{\"permission\":\"plan_enter\",\"pattern\":\"*\",\"action\":\"deny\"},{\"permission\":\"plan_exit\",\"pattern\":\"*\",\"action\":\"deny\"}]",
+    "time_created": 1779365086203,
+    "time_updated": 1779365086371,
+    "time_compacting": null,
+    "time_archived": null,
+    "workspace_id": null,
+    "path": "agentwrap-smoke",
+    "agent": "build",
+    "model": "{\"id\":\"not-a-real-model\",\"providerID\":\"opencode\",\"variant\":\"default\"}",
+    "cost": 0,
+    "tokens_input": 0,
+    "tokens_output": 0,
+    "tokens_reasoning": 0,
+    "tokens_cache_read": 0,
+    "tokens_cache_write": 0
+  }
+]

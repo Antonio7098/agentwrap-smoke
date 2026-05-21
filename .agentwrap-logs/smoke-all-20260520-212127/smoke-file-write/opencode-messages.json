@@ -1,0 +1,51 @@
+[
+  {
+    "id": "msg_e470d2bea001Cu0IBdUBUQZ0YD",
+    "session_id": "ses_1b8f2d49cffe6TogUu0mA6PIHV",
+    "time_created": 1779308506090,
+    "time_updated": 1779308517711,
+    "data": "{\"role\":\"user\",\"time\":{\"created\":1779308506090},\"agent\":\"build\",\"model\":{\"providerID\":\"opencode\",\"modelID\":\"deepseek-v4-flash-free\"},\"summary\":{\"diffs\":[]}}"
+  },
+  {
+    "id": "msg_e470d2ce20012MDUXd5Ucq2C9g",
+    "session_id": "ses_1b8f2d49cffe6TogUu0mA6PIHV",
+    "time_created": 1779308506338,
+    "time_updated": 1779308508711,
+    "data": "{\"parentID\":\"msg_e470d2bea001Cu0IBdUBUQZ0YD\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/ultraplan-go/.agentwrap-logs/smoke-all-20260520-212127/smoke-file-write\",\"root\":\"/\"},\"cost\":0,\"tokens\":{\"total\":8388,\"input\":8276,\"output\":76,\"reasoning\":36,\"cache\":{\"write\":0,\"read\":0}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779308506338,\"completed\":1779308508709},\"finish\":\"tool-calls\"}"
+  },
+  {
+    "id": "msg_e470d362d001tpwcbxXBsLukVk",
+    "session_id": "ses_1b8f2d49cffe6TogUu0mA6PIHV",
+    "time_created": 1779308508717,
+    "time_updated": 1779308511597,
+    "data": "{\"parentID\":\"msg_e470d2bea001Cu0IBdUBUQZ0YD\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/ultraplan-go/.agentwrap-logs/smoke-all-20260520-212127/smoke-file-write\",\"root\":\"/\"},\"cost\":0,\"tokens\":{\"total\":8580,\"input\":82,\"output\":63,\"reasoning\":115,\"cache\":{\"write\":0,\"read\":8320}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779308508717,\"completed\":1779308511596},\"finish\":\"tool-calls\"}"
+  },
+  {
+    "id": "msg_e470d4172001Icm5vqEBqEs40e",
+    "session_id": "ses_1b8f2d49cffe6TogUu0mA6PIHV",
+    "time_created": 1779308511602,
+    "time_updated": 1779308513439,
+    "data": "{\"parentID\":\"msg_e470d2bea001Cu0IBdUBUQZ0YD\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/ultraplan-go/.agentwrap-logs/smoke-all-20260520-212127/smoke-file-write\",\"root\":\"/\"},\"cost\":0,\"tokens\":{\"total\":8709,\"input\":54,\"output\":64,\"reasoning\":15,\"cache\":{\"write\":0,\"read\":8576}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779308511602,\"completed\":1779308513437},\"finish\":\"tool-calls\"}"
+  },
+  {
+    "id": "msg_e470d48a6001igtVij9yZYz7Ib",
+    "session_id": "ses_1b8f2d49cffe6TogUu0mA6PIHV",
+    "time_created": 1779308513446,
+    "time_updated": 1779308515846,
+    "data": "{\"parentID\":\"msg_e470d2bea001Cu0IBdUBUQZ0YD\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/ultraplan-go/.agentwrap-logs/smoke-all-20260520-212127/smoke-file-write\",\"root\":\"/\"},\"cost\":0,\"tokens\":{\"total\":8835,\"input\":19,\"output\":103,\"reasoning\":9,\"cache\":{\"write\":0,\"read\":8704}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779308513446,\"completed\":1779308515845},\"finish\":\"tool-calls\"}"
+  },
+  {
+    "id": "msg_e470d520a001HRdRSOVI4txNvD",
+    "session_id": "ses_1b8f2d49cffe6TogUu0mA6PIHV",
+    "time_created": 1779308515850,
+    "time_updated": 1779308517685,
+    "data": "{\"parentID\":\"msg_e470d2bea001Cu0IBdUBUQZ0YD\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/ultraplan-go/.agentwrap-logs/smoke-all-20260520-212127/smoke-file-write\",\"root\":\"/\"},\"cost\":0,\"tokens\":{\"total\":8944,\"input\":19,\"output\":87,\"reasoning\":6,\"cache\":{\"write\":0,\"read\":8832}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779308515850,\"completed\":1779308517684},\"finish\":\"tool-calls\"}"
+  },
+  {
+    "id": "msg_e470d593a001UARRhK0ZlCc1SS",
+    "session_id": "ses_1b8f2d49cffe6TogUu0mA6PIHV",
+    "time_created": 1779308517690,
+    "time_updated": 1779308519233,
+    "data": "{\"parentID\":\"msg_e470d2bea001Cu0IBdUBUQZ0YD\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/ultraplan-go/.agentwrap-logs/smoke-all-20260520-212127/smoke-file-write\",\"root\":\"/\"},\"cost\":0,\"tokens\":{\"total\":9046,\"input\":198,\"output\":16,\"reasoning\":0,\"cache\":{\"write\":0,\"read\":8832}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779308517690,\"completed\":1779308519232},\"finish\":\"stop\"}"
+  }
+]

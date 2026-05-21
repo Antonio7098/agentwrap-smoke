@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ses_1b5582866ffe0OxR4zomtllL5O",
+    "project_id": "global",
+    "parent_id": null,
+    "slug": "cosmic-circuit",
+    "directory": "/home/antonioborgerees/coding/agentwrap-smoke/.agentwrap-logs/smoke-all-20260521-140919/smoke-file-write",
+    "title": "Write OK to reports/smoke.txt",
+    "version": "1.15.6",
+    "share_url": null,
+    "summary_additions": 0,
+    "summary_deletions": 0,
+    "summary_files": 0,
+    "summary_diffs": null,
+    "revert": null,
+    "permission": "[{\"permission\":\"question\",\"pattern\":\"*\",\"action\":\"deny\"},{\"permission\":\"plan_enter\",\"pattern\":\"*\",\"action\":\"deny\"},{\"permission\":\"plan_exit\",\"pattern\":\"*\",\"action\":\"deny\"}]",
+    "time_created": 1779368974233,
+    "time_updated": 1779369009377,
+    "time_compacting": null,
+    "time_archived": null,
+    "workspace_id": null,
+    "path": "agentwrap-smoke/.agentwrap-logs/smoke-all-20260521-140919/smoke-file-write",
+    "agent": "build",
+    "model": "{\"id\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"variant\":\"default\"}",
+    "cost": 0,
+    "tokens_input": 8576,
+    "tokens_output": 276,
+    "tokens_reasoning": 99,
+    "tokens_cache_read": 25472,
+    "tokens_cache_write": 0
+  }
+]

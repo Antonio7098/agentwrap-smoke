@@ -1,0 +1,8 @@
+=== RATE LIMIT FALLBACK TEST ===
+Testing minimax-coding-plan/MiniMax-M2.7 rate limit -> fallback to opencode/deepseek-v4-flash-free
+Log dir: /home/antonioborgerees/coding/ultraplan-go/.agentwrap-logs/ratelimit-20260520-210117
+
+PolicyRunner configured with minimax-coding-plan/MiniMax-M2.7 primary and opencode/deepseek-v4-flash-free fallback
+Starting run...
+Run started: ID=policy-1
+Final Status: completed

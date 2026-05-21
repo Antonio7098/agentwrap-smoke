@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ses_1b56d1ef8ffeBlwEEZaq7whYzM",
+    "project_id": "global",
+    "parent_id": null,
+    "slug": "clever-garden",
+    "directory": "/home/antonioborgerees/coding/agentwrap-smoke",
+    "title": "New session - 2026-05-21T12:46:40.391Z",
+    "version": "1.15.6",
+    "share_url": null,
+    "summary_additions": null,
+    "summary_deletions": null,
+    "summary_files": null,
+    "summary_diffs": null,
+    "revert": null,
+    "permission": "[{\"permission\":\"question\",\"pattern\":\"*\",\"action\":\"deny\"},{\"permission\":\"plan_enter\",\"pattern\":\"*\",\"action\":\"deny\"},{\"permission\":\"plan_exit\",\"pattern\":\"*\",\"action\":\"deny\"}]",
+    "time_created": 1779367600391,
+    "time_updated": 1779367600491,
+    "time_compacting": null,
+    "time_archived": null,
+    "workspace_id": null,
+    "path": "agentwrap-smoke",
+    "agent": "build",
+    "model": "{\"id\":\"not-a-real-model\",\"providerID\":\"opencode\",\"variant\":\"default\"}",
+    "cost": 0,
+    "tokens_input": 0,
+    "tokens_output": 0,
+    "tokens_reasoning": 0,
+    "tokens_cache_read": 0,
+    "tokens_cache_write": 0
+  }
+]

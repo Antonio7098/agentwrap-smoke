@@ -1,0 +1,9 @@
+[
+  {
+    "id": "msg_e4a5a051b0010ouk00z2SVcrNB",
+    "session_id": "ses_1b5a5fb32ffesmQRCxKoa2Z2oK",
+    "time_created": 1779363874075,
+    "time_updated": 1779363874097,
+    "data": "{\"role\":\"user\",\"time\":{\"created\":1779363874075},\"agent\":\"build\",\"model\":{\"providerID\":\"nonexistent-provider\",\"modelID\":\"test\"}}"
+  }
+]

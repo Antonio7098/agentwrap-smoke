@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ses_1b5af68d0ffeRhDbQ6N2Cd6Iy2",
+    "project_id": "global",
+    "parent_id": null,
+    "slug": "witty-canyon",
+    "directory": "/home/antonioborgerees/coding/agentwrap-smoke/.agentwrap-logs/smoke-all-20260521-123355/smoke-file-write",
+    "title": "New session - 2026-05-21T11:34:16.111Z",
+    "version": "1.15.6",
+    "share_url": null,
+    "summary_additions": 0,
+    "summary_deletions": 0,
+    "summary_files": 0,
+    "summary_diffs": null,
+    "revert": null,
+    "permission": "[{\"permission\":\"question\",\"pattern\":\"*\",\"action\":\"deny\"},{\"permission\":\"plan_enter\",\"pattern\":\"*\",\"action\":\"deny\"},{\"permission\":\"plan_exit\",\"pattern\":\"*\",\"action\":\"deny\"}]",
+    "time_created": 1779363256111,
+    "time_updated": 1779363262744,
+    "time_compacting": null,
+    "time_archived": null,
+    "workspace_id": null,
+    "path": "agentwrap-smoke/.agentwrap-logs/smoke-all-20260521-123355/smoke-file-write",
+    "agent": "build",
+    "model": "{\"id\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"variant\":\"default\"}",
+    "cost": 0,
+    "tokens_input": 8497,
+    "tokens_output": 260,
+    "tokens_reasoning": 63,
+    "tokens_cache_read": 25344,
+    "tokens_cache_write": 0
+  }
+]

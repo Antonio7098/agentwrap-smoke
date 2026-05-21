@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ses_1b593a2e0ffeBEY2s7LhJ2LIgr",
+    "project_id": "global",
+    "parent_id": null,
+    "slug": "sunny-rocket",
+    "directory": "/home/antonioborgerees/coding/agentwrap-smoke",
+    "title": "New session - 2026-05-21T12:04:36.255Z",
+    "version": "1.15.6",
+    "share_url": null,
+    "summary_additions": 0,
+    "summary_deletions": 0,
+    "summary_files": 0,
+    "summary_diffs": null,
+    "revert": null,
+    "permission": "[{\"permission\":\"question\",\"pattern\":\"*\",\"action\":\"deny\"},{\"permission\":\"plan_enter\",\"pattern\":\"*\",\"action\":\"deny\"},{\"permission\":\"plan_exit\",\"pattern\":\"*\",\"action\":\"deny\"}]",
+    "time_created": 1779365076255,
+    "time_updated": 1779365076703,
+    "time_compacting": null,
+    "time_archived": null,
+    "workspace_id": null,
+    "path": "agentwrap-smoke",
+    "agent": "build",
+    "model": "{\"id\":\"MiniMax-M2.7\",\"providerID\":\"minimax-coding-plan\",\"variant\":\"default\"}",
+    "cost": 0,
+    "tokens_input": 6,
+    "tokens_output": 39,
+    "tokens_reasoning": 0,
+    "tokens_cache_read": 1499,
+    "tokens_cache_write": 6099
+  }
+]

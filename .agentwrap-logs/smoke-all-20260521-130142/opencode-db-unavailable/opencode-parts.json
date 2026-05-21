@@ -1,0 +1,42 @@
+[
+  {
+    "id": "prt_e4a6c1d9a0017oUku3KPuzcspl",
+    "message_id": "msg_e4a6c1d8d001PMEh3fFpwD1itv",
+    "session_id": "ses_1b593e2ceffeL8gvSZhdDECvxd",
+    "time_created": 1779365060002,
+    "time_updated": 1779365060004,
+    "data": "{\"type\":\"text\",\"text\":\"\\\"Say hello.\\\"\"}"
+  },
+  {
+    "id": "prt_e4a6c2315001H8EAJcERYY05Gt",
+    "message_id": "msg_e4a6c1e4b001P0t09P3zhFFdL6",
+    "session_id": "ses_1b593e2ceffeL8gvSZhdDECvxd",
+    "time_created": 1779365061397,
+    "time_updated": 1779365061399,
+    "data": "{\"type\":\"step-start\"}"
+  },
+  {
+    "id": "prt_e4a6c256d001gjJBPWY225V1r9",
+    "message_id": "msg_e4a6c1e4b001P0t09P3zhFFdL6",
+    "session_id": "ses_1b593e2ceffeL8gvSZhdDECvxd",
+    "time_created": 1779365061998,
+    "time_updated": 1779365062328,
+    "data": "{\"type\":\"reasoning\",\"text\":\"The user is saying \\\"Say hello.\\\" This seems like a simple greeting request. I should just respond with a greeting.\",\"time\":{\"start\":1779365061997,\"end\":1779365062326}}"
+  },
+  {
+    "id": "prt_e4a6c26ba001I65TTBJaqozo1D",
+    "message_id": "msg_e4a6c1e4b001P0t09P3zhFFdL6",
+    "session_id": "ses_1b593e2ceffeL8gvSZhdDECvxd",
+    "time_created": 1779365062330,
+    "time_updated": 1779365062338,
+    "data": "{\"type\":\"text\",\"text\":\"Hello!\",\"time\":{\"start\":1779365062330,\"end\":1779365062336}}"
+  },
+  {
+    "id": "prt_e4a6c26c9001E6yEcwd6g55yVz",
+    "message_id": "msg_e4a6c1e4b001P0t09P3zhFFdL6",
+    "session_id": "ses_1b593e2ceffeL8gvSZhdDECvxd",
+    "time_created": 1779365062345,
+    "time_updated": 1779365062347,
+    "data": "{\"reason\":\"stop\",\"type\":\"step-finish\",\"tokens\":{\"total\":8261,\"input\":8234,\"output\":3,\"reasoning\":24,\"cache\":{\"write\":0,\"read\":0}},\"cost\":0}"
+  }
+]

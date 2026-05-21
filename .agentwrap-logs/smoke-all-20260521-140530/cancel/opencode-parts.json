@@ -1,0 +1,26 @@
+[
+  {
+    "id": "prt_e4aa5c67b0010M5zYrVL9BdhJI",
+    "message_id": "msg_e4aa5c66d001AeuHxo3l7w1Ng4",
+    "session_id": "ses_1b55a39e8ffeQqHqLZG1NzFJsY",
+    "time_created": 1779368838789,
+    "time_updated": 1779368838791,
+    "data": "{\"type\":\"text\",\"text\":\"\\\"Count to 100 slowly. Say each number with a 2 second delay between each. Start now: 1, 2, 3...\\\"\"}"
+  },
+  {
+    "id": "prt_e4aa5cb4e0016bu3El78UBcITU",
+    "message_id": "msg_e4aa5c743001Vf76swt0t7sVjx",
+    "session_id": "ses_1b55a39e8ffeQqHqLZG1NzFJsY",
+    "time_created": 1779368840014,
+    "time_updated": 1779368840016,
+    "data": "{\"type\":\"step-start\"}"
+  },
+  {
+    "id": "prt_e4aa5cc76001GLytQphXgklrk2",
+    "message_id": "msg_e4aa5c743001Vf76swt0t7sVjx",
+    "session_id": "ses_1b55a39e8ffeQqHqLZG1NzFJsY",
+    "time_created": 1779368840310,
+    "time_updated": 1779368840312,
+    "data": "{\"type\":\"reasoning\",\"text\":\"\",\"time\":{\"start\":1779368840310}}"
+  }
+]

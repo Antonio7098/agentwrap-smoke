@@ -1,0 +1,16 @@
+[
+  {
+    "id": "msg_e4a6067fe001O4xxpzq6xnu2v5",
+    "session_id": "ses_1b59f9865ffesqfa9rBAcZWDGd",
+    "time_created": 1779364292606,
+    "time_updated": 1779364292912,
+    "data": "{\"role\":\"user\",\"time\":{\"created\":1779364292606},\"agent\":\"build\",\"model\":{\"providerID\":\"opencode\",\"modelID\":\"deepseek-v4-flash-free\"},\"summary\":{\"diffs\":[]}}"
+  },
+  {
+    "id": "msg_e4a6068d2001RyY1wqliuxnBUY",
+    "session_id": "ses_1b59f9865ffesqfa9rBAcZWDGd",
+    "time_created": 1779364292818,
+    "time_updated": 1779364294646,
+    "data": "{\"parentID\":\"msg_e4a6067fe001O4xxpzq6xnu2v5\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/agentwrap-smoke/.agentwrap-logs/smoke-all-20260521-124950/validate-repair-exhaust\",\"root\":\"/home/antonioborgerees/coding\"},\"cost\":0,\"tokens\":{\"total\":8294,\"input\":8281,\"output\":2,\"reasoning\":11,\"cache\":{\"write\":0,\"read\":0}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779364292818,\"completed\":1779364294644},\"finish\":\"stop\"}"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "msg_e4a3307ca001QiU1RXAqXKncQF",
+    "session_id": "ses_1b5ccf8b4ffehOSAioHUQP6sBR",
+    "time_created": 1779361318858,
+    "time_updated": 1779361319327,
+    "data": "{\"role\":\"user\",\"time\":{\"created\":1779361318858},\"agent\":\"build\",\"model\":{\"providerID\":\"opencode\",\"modelID\":\"deepseek-v4-flash-free\"},\"summary\":{\"diffs\":[]}}"
+  },
+  {
+    "id": "msg_e4a330911001PyphbFSq4ScPXm",
+    "session_id": "ses_1b5ccf8b4ffehOSAioHUQP6sBR",
+    "time_created": 1779361319185,
+    "time_updated": 1779361321744,
+    "data": "{\"parentID\":\"msg_e4a3307ca001QiU1RXAqXKncQF\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/agentwrap-smoke/.agentwrap-logs/validate-repair-exhaust-20260521-120156\",\"root\":\"/home/antonioborgerees/coding\"},\"cost\":0,\"tokens\":{\"total\":8286,\"input\":8273,\"output\":2,\"reasoning\":11,\"cache\":{\"write\":0,\"read\":0}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779361319185,\"completed\":1779361321743},\"finish\":\"stop\"}"
+  },
+  {
+    "id": "msg_e4a331ff9001C3MYlF760Mb2EZ",
+    "session_id": "ses_1b5ccf8b4ffehOSAioHUQP6sBR",
+    "time_created": 1779361325049,
+    "time_updated": 1779361325426,
+    "data": "{\"role\":\"user\",\"time\":{\"created\":1779361325049},\"agent\":\"build\",\"model\":{\"providerID\":\"opencode\",\"modelID\":\"deepseek-v4-flash-free\"},\"summary\":{\"diffs\":[]}}"
+  },
+  {
+    "id": "msg_e4a332124001RvxBhzLCa7zORW",
+    "session_id": "ses_1b5ccf8b4ffehOSAioHUQP6sBR",
+    "time_created": 1779361325348,
+    "time_updated": 1779361327232,
+    "data": "{\"parentID\":\"msg_e4a331ff9001C3MYlF760Mb2EZ\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/agentwrap-smoke/.agentwrap-logs/validate-repair-exhaust-20260521-120156\",\"root\":\"/home/antonioborgerees/coding\"},\"cost\":0,\"tokens\":{\"total\":8298,\"input\":93,\"output\":2,\"reasoning\":11,\"cache\":{\"write\":0,\"read\":8192}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779361325348,\"completed\":1779361327229},\"finish\":\"stop\"}"
+  }
+]

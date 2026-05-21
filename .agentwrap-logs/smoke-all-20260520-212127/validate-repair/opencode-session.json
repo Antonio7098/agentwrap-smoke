@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ses_1b8f1d09effeuIBOoKY34eH3I4",
+    "project_id": "global",
+    "parent_id": null,
+    "slug": "cosmic-river",
+    "directory": "/home/antonioborgerees/coding/ultraplan-go/.agentwrap-logs/smoke-all-20260520-212127/validate-repair",
+    "title": "Workspace exploration",
+    "version": "1.15.5",
+    "share_url": null,
+    "summary_additions": 0,
+    "summary_deletions": 0,
+    "summary_files": 0,
+    "summary_diffs": null,
+    "revert": null,
+    "permission": "[{\"permission\":\"question\",\"pattern\":\"*\",\"action\":\"deny\"},{\"permission\":\"plan_enter\",\"pattern\":\"*\",\"action\":\"deny\"},{\"permission\":\"plan_exit\",\"pattern\":\"*\",\"action\":\"deny\"}]",
+    "time_created": 1779308572513,
+    "time_updated": 1779308584680,
+    "time_compacting": null,
+    "time_archived": null,
+    "workspace_id": null,
+    "path": "home/antonioborgerees/coding/ultraplan-go/.agentwrap-logs/smoke-all-20260520-212127/validate-repair",
+    "agent": "build",
+    "model": "{\"id\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"variant\":\"default\"}",
+    "cost": 0,
+    "tokens_input": 8750,
+    "tokens_output": 446,
+    "tokens_reasoning": 99,
+    "tokens_cache_read": 34688,
+    "tokens_cache_write": 0
+  }
+]

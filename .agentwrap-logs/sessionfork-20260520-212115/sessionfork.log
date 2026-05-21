@@ -1,0 +1,8 @@
+=== SESSION FORK TEST (unsupported) ===
+
+Capabilities:
+  session_fork supported: false
+  session_continue supported: true
+
+Attempting SessionFork...
+StartRun error: opencode session: configuration: OpenCode adapter does not support session fork

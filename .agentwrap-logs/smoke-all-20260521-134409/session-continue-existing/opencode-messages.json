@@ -1,0 +1,30 @@
+[
+  {
+    "id": "msg_e4a939220001vaxMRfmkxAoTU3",
+    "session_id": "ses_1b56c6e44ffea9Z7ED3wB5fFgj",
+    "time_created": 1779367645728,
+    "time_updated": 1779367646067,
+    "data": "{\"role\":\"user\",\"time\":{\"created\":1779367645728},\"agent\":\"build\",\"model\":{\"providerID\":\"opencode\",\"modelID\":\"deepseek-v4-flash-free\"},\"summary\":{\"diffs\":[]}}"
+  },
+  {
+    "id": "msg_e4a939316001lEsZsHfVH1kiJC",
+    "session_id": "ses_1b56c6e44ffea9Z7ED3wB5fFgj",
+    "time_created": 1779367645974,
+    "time_updated": 1779367647797,
+    "data": "{\"parentID\":\"msg_e4a939220001vaxMRfmkxAoTU3\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/agentwrap-smoke\",\"root\":\"/home/antonioborgerees/coding\"},\"cost\":0,\"tokens\":{\"total\":8252,\"input\":8237,\"output\":3,\"reasoning\":12,\"cache\":{\"write\":0,\"read\":0}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779367645974,\"completed\":1779367647794},\"finish\":\"stop\"}"
+  },
+  {
+    "id": "msg_e4a93a2d5001iWuJoHQBH65Dgk",
+    "session_id": "ses_1b56c6e44ffea9Z7ED3wB5fFgj",
+    "time_created": 1779367650006,
+    "time_updated": 1779367650394,
+    "data": "{\"role\":\"user\",\"time\":{\"created\":1779367650006},\"agent\":\"build\",\"model\":{\"providerID\":\"opencode\",\"modelID\":\"deepseek-v4-flash-free\"},\"summary\":{\"diffs\":[]}}"
+  },
+  {
+    "id": "msg_e4a93a409001UJJeHZH7uf1Ysx",
+    "session_id": "ses_1b56c6e44ffea9Z7ED3wB5fFgj",
+    "time_created": 1779367650313,
+    "time_updated": 1779367651999,
+    "data": "{\"parentID\":\"msg_e4a93a2d5001iWuJoHQBH65Dgk\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/agentwrap-smoke\",\"root\":\"/home/antonioborgerees/coding\"},\"cost\":0,\"tokens\":{\"total\":8265,\"input\":58,\"output\":3,\"reasoning\":12,\"cache\":{\"write\":0,\"read\":8192}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779367650313,\"completed\":1779367651996},\"finish\":\"stop\"}"
+  }
+]

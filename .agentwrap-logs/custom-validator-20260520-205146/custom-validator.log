@@ -1,0 +1,5 @@
+=== CUSTOM VALIDATOR TEST ===
+
+ValidatingRuntime with custom ValidatorFunc
+Run started: ID=validation-1
+Final Status: completed

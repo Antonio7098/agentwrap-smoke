@@ -1,0 +1,16 @@
+[
+  {
+    "id": "msg_e4714e7a2001N3R4WmAl2ZF8Ar",
+    "session_id": "ses_1b8eb18bcffe6aQmCYAtWhIw16",
+    "time_created": 1779309012898,
+    "time_updated": 1779309013199,
+    "data": "{\"role\":\"user\",\"time\":{\"created\":1779309012898},\"agent\":\"build\",\"model\":{\"providerID\":\"opencode\",\"modelID\":\"deepseek-v4-flash-free\"},\"summary\":{\"diffs\":[]}}"
+  },
+  {
+    "id": "msg_e4714e877001hi82kYHz3NgEJO",
+    "session_id": "ses_1b8eb18bcffe6aQmCYAtWhIw16",
+    "time_created": 1779309013111,
+    "time_updated": 1779309015400,
+    "data": "{\"parentID\":\"msg_e4714e7a2001N3R4WmAl2ZF8Ar\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/ultraplan-go/.agentwrap-logs/smoke-all-20260520-212857/validate-fail\",\"root\":\"/\"},\"cost\":0,\"tokens\":{\"total\":8287,\"input\":8270,\"output\":2,\"reasoning\":15,\"cache\":{\"write\":0,\"read\":0}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779309013111,\"completed\":1779309015398},\"finish\":\"stop\"}"
+  }
+]

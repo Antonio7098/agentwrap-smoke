@@ -1,0 +1,42 @@
+[
+  {
+    "id": "prt_e4a63325f001hinbrms3TEenAH",
+    "message_id": "msg_e4a63324f001xrQs0A5OhlqCIJ",
+    "session_id": "ses_1b59cce1affeEpajiUjQfF2S1A",
+    "time_created": 1779364475497,
+    "time_updated": 1779364475499,
+    "data": "{\"type\":\"text\",\"text\":\"\\\"Say hello.\\\"\"}"
+  },
+  {
+    "id": "prt_e4a633770001pgzuUg0gP6TWvY",
+    "message_id": "msg_e4a633328001wS1KR3vxXtf42y",
+    "session_id": "ses_1b59cce1affeEpajiUjQfF2S1A",
+    "time_created": 1779364476784,
+    "time_updated": 1779364476787,
+    "data": "{\"type\":\"step-start\"}"
+  },
+  {
+    "id": "prt_e4a6339e2001O8m6XiChF3EUIQ",
+    "message_id": "msg_e4a633328001wS1KR3vxXtf42y",
+    "session_id": "ses_1b59cce1affeEpajiUjQfF2S1A",
+    "time_created": 1779364477410,
+    "time_updated": 1779364477617,
+    "data": "{\"type\":\"reasoning\",\"text\":\"The user is just saying \\\"Say hello.\\\" as a test or greeting. I'll respond concisely.\",\"time\":{\"start\":1779364477410,\"end\":1779364477614}}"
+  },
+  {
+    "id": "prt_e4a633ab30011bqcRByfzwF05k",
+    "message_id": "msg_e4a633328001wS1KR3vxXtf42y",
+    "session_id": "ses_1b59cce1affeEpajiUjQfF2S1A",
+    "time_created": 1779364477620,
+    "time_updated": 1779364477695,
+    "data": "{\"type\":\"text\",\"text\":\"Hello!\",\"time\":{\"start\":1779364477620,\"end\":1779364477692}}"
+  },
+  {
+    "id": "prt_e4a633b06001GIFmN3Tk30N4jf",
+    "message_id": "msg_e4a633328001wS1KR3vxXtf42y",
+    "session_id": "ses_1b59cce1affeEpajiUjQfF2S1A",
+    "time_created": 1779364477702,
+    "time_updated": 1779364477704,
+    "data": "{\"reason\":\"stop\",\"type\":\"step-finish\",\"tokens\":{\"total\":8259,\"input\":8234,\"output\":3,\"reasoning\":22,\"cache\":{\"write\":0,\"read\":0}},\"cost\":0}"
+  }
+]

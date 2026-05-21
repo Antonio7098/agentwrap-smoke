@@ -1,0 +1,5 @@
+Fake OpenCode: /home/antonioborgerees/coding/agentwrap-smoke/testdata/fakeopencode/fake-opencode.sh
+RUN_MODE=partial DB_MODE=unavailable
+Status: failed
+Category: runtime_exit
+UserDetail: OpenCode finished without a final structured result

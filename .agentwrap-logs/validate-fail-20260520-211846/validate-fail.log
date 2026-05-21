@@ -1,0 +1,4 @@
+Status: failed
+Category: validation
+Validation failures: 1
+  - required-file: expected=/home/antonioborgerees/coding/ultraplan-go/.agentwrap-logs/validate-fail-20260520-211846/reports/missing.txt observed=missing

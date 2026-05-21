@@ -1,0 +1,42 @@
+[
+  {
+    "id": "prt_e4a90bc69001IOp4Uwoz7EYI61",
+    "message_id": "msg_e4a90bc54001jNWsUM3pPjo6jT",
+    "session_id": "ses_1b56f441fffeV1bCq643roSgTn",
+    "time_created": 1779367459964,
+    "time_updated": 1779367459966,
+    "data": "{\"type\":\"text\",\"text\":\"\\\"Think briefly, then answer with exactly: OK\\\"\"}"
+  },
+  {
+    "id": "prt_e4a90c331001hEftfoExsik6an",
+    "message_id": "msg_e4a90bdb5001N6DYt5XcVIiLgm",
+    "session_id": "ses_1b56f441fffeV1bCq643roSgTn",
+    "time_created": 1779367461681,
+    "time_updated": 1779367461685,
+    "data": "{\"type\":\"step-start\"}"
+  },
+  {
+    "id": "prt_e4a90c53d001x7XpsQoBVhVpxt",
+    "message_id": "msg_e4a90bdb5001N6DYt5XcVIiLgm",
+    "session_id": "ses_1b56f441fffeV1bCq643roSgTn",
+    "time_created": 1779367462205,
+    "time_updated": 1779367462530,
+    "data": "{\"type\":\"reasoning\",\"text\":\"The user wants me to think briefly and then answer with exactly \\\"OK\\\".\",\"time\":{\"start\":1779367462205,\"end\":1779367462527}}"
+  },
+  {
+    "id": "prt_e4a90c685001iG3LCU7AjFoeK2",
+    "message_id": "msg_e4a90bdb5001N6DYt5XcVIiLgm",
+    "session_id": "ses_1b56f441fffeV1bCq643roSgTn",
+    "time_created": 1779367462533,
+    "time_updated": 1779367462543,
+    "data": "{\"type\":\"text\",\"text\":\"OK\",\"time\":{\"start\":1779367462533,\"end\":1779367462540}}"
+  },
+  {
+    "id": "prt_e4a90c697001KZYW27bI8pk3Zw",
+    "message_id": "msg_e4a90bdb5001N6DYt5XcVIiLgm",
+    "session_id": "ses_1b56f441fffeV1bCq643roSgTn",
+    "time_created": 1779367462551,
+    "time_updated": 1779367462553,
+    "data": "{\"reason\":\"stop\",\"type\":\"step-finish\",\"tokens\":{\"total\":8258,\"input\":8241,\"output\":2,\"reasoning\":15,\"cache\":{\"write\":0,\"read\":0}},\"cost\":0}"
+  }
+]

@@ -1,0 +1,7 @@
+=== USAGE TRACKING TEST ===
+
+Using model: opencode/deepseek-v4-flash-free
+Run started: ID=opencode-4
+Wait error: opencode run: timeout: OpenCode run timed out
+Usage: no token counts returned
+Final Status: failed

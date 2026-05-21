@@ -1,0 +1,42 @@
+[
+  {
+    "id": "prt_e4a927ea4001e9lYgG3JLbLCUg",
+    "message_id": "msg_e4a927e93001aOz3Mosm3j4Fye",
+    "session_id": "ses_1b56d81feffe7bCudE4Lxwj6NZ",
+    "time_created": 1779367575218,
+    "time_updated": 1779367575221,
+    "data": "{\"type\":\"text\",\"text\":\"\\\"Say hello in 3 words.\\\"\"}"
+  },
+  {
+    "id": "prt_e4a9284d2001gGJYYXT2eA9rGP",
+    "message_id": "msg_e4a927fd3001YgNsuMWsRyDf39",
+    "session_id": "ses_1b56d81feffe7bCudE4Lxwj6NZ",
+    "time_created": 1779367576787,
+    "time_updated": 1779367576790,
+    "data": "{\"type\":\"step-start\"}"
+  },
+  {
+    "id": "prt_e4a928730001otG3EplZV2IZKp",
+    "message_id": "msg_e4a927fd3001YgNsuMWsRyDf39",
+    "session_id": "ses_1b56d81feffe7bCudE4Lxwj6NZ",
+    "time_created": 1779367577393,
+    "time_updated": 1779367577625,
+    "data": "{\"type\":\"reasoning\",\"text\":\"The user wants a 3-word greeting. Let me just respond directly.\",\"time\":{\"start\":1779367577392,\"end\":1779367577622}}"
+  },
+  {
+    "id": "prt_e4a92881b001TQvQmSZ0E6Wn5b",
+    "message_id": "msg_e4a927fd3001YgNsuMWsRyDf39",
+    "session_id": "ses_1b56d81feffe7bCudE4Lxwj6NZ",
+    "time_created": 1779367577628,
+    "time_updated": 1779367577711,
+    "data": "{\"type\":\"text\",\"text\":\"Hello from opencode!\",\"time\":{\"start\":1779367577627,\"end\":1779367577708}}"
+  },
+  {
+    "id": "prt_e4a92887a0018xSji4FwN9QqtJ",
+    "message_id": "msg_e4a927fd3001YgNsuMWsRyDf39",
+    "session_id": "ses_1b56d81feffe7bCudE4Lxwj6NZ",
+    "time_created": 1779367577722,
+    "time_updated": 1779367577725,
+    "data": "{\"reason\":\"stop\",\"type\":\"step-finish\",\"tokens\":{\"total\":8259,\"input\":8238,\"output\":6,\"reasoning\":15,\"cache\":{\"write\":0,\"read\":0}},\"cost\":0}"
+  }
+]

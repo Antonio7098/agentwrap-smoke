@@ -1,0 +1,9 @@
+=== SESSION LIFECYCLE: FRESH SESSION SUCCESS ===
+
+Run started: ID=opencode-28
+Status: failed
+Session ID: ses_1b56c8bfdffeI225jlE54Ew4ZA
+Session metadata ID: ses_1b56c8bfdffeI225jlE54Ew4ZA
+Session relationship: fresh
+Session requested action: fresh
+Category: runtime_exit

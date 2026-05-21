@@ -1,0 +1,42 @@
+[
+  {
+    "id": "prt_e4a6372fc001thvysybneIaPoe",
+    "message_id": "msg_e4a6372f0001zQXsODGrXaxYGT",
+    "session_id": "ses_1b59c8d7cffeOlVBE0nc4ydi0J",
+    "time_created": 1779364492038,
+    "time_updated": 1779364492041,
+    "data": "{\"type\":\"text\",\"text\":\"\\\"Say hello in 3 words.\\\"\"}"
+  },
+  {
+    "id": "prt_e4a637f680011Xad8pFTN0BoMw",
+    "message_id": "msg_e4a6373bf001vBxvjmhDnmTkkH",
+    "session_id": "ses_1b59c8d7cffeOlVBE0nc4ydi0J",
+    "time_created": 1779364495208,
+    "time_updated": 1779364495211,
+    "data": "{\"type\":\"step-start\"}"
+  },
+  {
+    "id": "prt_e4a637f6f001ZGWfzImbhfHtDE",
+    "message_id": "msg_e4a6373bf001vBxvjmhDnmTkkH",
+    "session_id": "ses_1b59c8d7cffeOlVBE0nc4ydi0J",
+    "time_created": 1779364495215,
+    "time_updated": 1779364495924,
+    "data": "{\"type\":\"reasoning\",\"text\":\"The user is asking me to say hello in 3 words. This is a simple, direct request that doesn't require any tools.\",\"time\":{\"start\":1779364495215,\"end\":1779364495921},\"metadata\":{\"anthropic\":{\"signature\":\"9a30de0caf8d12c0a2160838b377baab5cd276ee5149be3c278cc6b844da0f4f\"}}}"
+  },
+  {
+    "id": "prt_e4a638236001srqUALtpus63Hr",
+    "message_id": "msg_e4a6373bf001vBxvjmhDnmTkkH",
+    "session_id": "ses_1b59c8d7cffeOlVBE0nc4ydi0J",
+    "time_created": 1779364495927,
+    "time_updated": 1779364495938,
+    "data": "{\"type\":\"text\",\"text\":\"\\nHello there friend\",\"time\":{\"start\":1779364495926,\"end\":1779364495936}}"
+  },
+  {
+    "id": "prt_e4a63824a001EoX4ytbSNzYzfM",
+    "message_id": "msg_e4a6373bf001vBxvjmhDnmTkkH",
+    "session_id": "ses_1b59c8d7cffeOlVBE0nc4ydi0J",
+    "time_created": 1779364495946,
+    "time_updated": 1779364495948,
+    "data": "{\"reason\":\"stop\",\"type\":\"step-finish\",\"tokens\":{\"total\":7637,\"input\":6,\"output\":33,\"reasoning\":0,\"cache\":{\"write\":2166,\"read\":5432}},\"cost\":0}"
+  }
+]

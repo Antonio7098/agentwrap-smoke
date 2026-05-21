@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ses_1b8ed19d7ffeaD4gIOaC8gcdhE",
+    "project_id": "global",
+    "parent_id": null,
+    "slug": "nimble-mountain",
+    "directory": "/home/antonioborgerees/coding/ultraplan-go",
+    "title": "New session - 2026-05-20T20:28:01.449Z",
+    "version": "1.15.5",
+    "share_url": null,
+    "summary_additions": null,
+    "summary_deletions": null,
+    "summary_files": null,
+    "summary_diffs": null,
+    "revert": null,
+    "permission": "[{\"permission\":\"question\",\"pattern\":\"*\",\"action\":\"deny\"},{\"permission\":\"plan_enter\",\"pattern\":\"*\",\"action\":\"deny\"},{\"permission\":\"plan_exit\",\"pattern\":\"*\",\"action\":\"deny\"}]",
+    "time_created": 1779308881449,
+    "time_updated": 1779308881627,
+    "time_compacting": null,
+    "time_archived": null,
+    "workspace_id": null,
+    "path": "home/antonioborgerees/coding/ultraplan-go",
+    "agent": "build",
+    "model": "{\"id\":\"\",\"providerID\":\"opencode\",\"variant\":\"default\"}",
+    "cost": 0,
+    "tokens_input": 0,
+    "tokens_output": 0,
+    "tokens_reasoning": 0,
+    "tokens_cache_read": 0,
+    "tokens_cache_write": 0
+  }
+]

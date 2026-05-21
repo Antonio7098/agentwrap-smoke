@@ -1,0 +1,42 @@
+[
+  {
+    "id": "prt_e4a97bb590015S9UM0COS57Lqd",
+    "message_id": "msg_e4a97bb49001JFoyAoOvrbaPD1",
+    "session_id": "ses_1b568453dffelibxoea3KTlE9H",
+    "time_created": 1779367918440,
+    "time_updated": 1779367918443,
+    "data": "{\"type\":\"text\",\"text\":\"\\\"Think briefly, then answer with exactly: OK\\\"\"}"
+  },
+  {
+    "id": "prt_e4a97c1410019bx97WReIqIFUD",
+    "message_id": "msg_e4a97bc6d0013WzDsudIqZsN3S",
+    "session_id": "ses_1b568453dffelibxoea3KTlE9H",
+    "time_created": 1779367919937,
+    "time_updated": 1779367919939,
+    "data": "{\"type\":\"step-start\"}"
+  },
+  {
+    "id": "prt_e4a97c3a5001PqtrW2GX87EELn",
+    "message_id": "msg_e4a97bc6d0013WzDsudIqZsN3S",
+    "session_id": "ses_1b568453dffelibxoea3KTlE9H",
+    "time_created": 1779367920550,
+    "time_updated": 1779367920561,
+    "data": "{\"type\":\"reasoning\",\"text\":\"The user wants a brief response.\",\"time\":{\"start\":1779367920549,\"end\":1779367920559}}"
+  },
+  {
+    "id": "prt_e4a97c3b3001AuuKkN3dNST36B",
+    "message_id": "msg_e4a97bc6d0013WzDsudIqZsN3S",
+    "session_id": "ses_1b568453dffelibxoea3KTlE9H",
+    "time_created": 1779367920563,
+    "time_updated": 1779367920848,
+    "data": "{\"type\":\"text\",\"text\":\"OK\",\"time\":{\"start\":1779367920563,\"end\":1779367920845}}"
+  },
+  {
+    "id": "prt_e4a97c4d60010crkGwA7G7p89v",
+    "message_id": "msg_e4a97bc6d0013WzDsudIqZsN3S",
+    "session_id": "ses_1b568453dffelibxoea3KTlE9H",
+    "time_created": 1779367920855,
+    "time_updated": 1779367920857,
+    "data": "{\"reason\":\"stop\",\"type\":\"step-finish\",\"tokens\":{\"total\":8250,\"input\":8241,\"output\":2,\"reasoning\":7,\"cache\":{\"write\":0,\"read\":0}},\"cost\":0}"
+  }
+]

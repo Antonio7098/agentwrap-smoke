@@ -1,0 +1,16 @@
+[
+  {
+    "id": "msg_e4713c585001YD2Y0EOpR67OgR",
+    "session_id": "ses_1b8ec3ae8ffeKisq0XVzzfXdFh",
+    "time_created": 1779308938629,
+    "time_updated": 1779308938933,
+    "data": "{\"role\":\"user\",\"time\":{\"created\":1779308938629},\"agent\":\"build\",\"model\":{\"providerID\":\"opencode\",\"modelID\":\"deepseek-v4-flash-free\"},\"summary\":{\"diffs\":[]}}"
+  },
+  {
+    "id": "msg_e4713c6600016329kmdXMBmvJD",
+    "session_id": "ses_1b8ec3ae8ffeKisq0XVzzfXdFh",
+    "time_created": 1779308938848,
+    "time_updated": 1779308941026,
+    "data": "{\"parentID\":\"msg_e4713c585001YD2Y0EOpR67OgR\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/ultraplan-go\",\"root\":\"/\"},\"cost\":0,\"tokens\":{\"total\":8248,\"input\":8227,\"output\":2,\"reasoning\":19,\"cache\":{\"write\":0,\"read\":0}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779308938848,\"completed\":1779308941025},\"finish\":\"stop\"}"
+  }
+]

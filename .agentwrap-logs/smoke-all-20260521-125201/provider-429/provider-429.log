@@ -1,0 +1,4 @@
+Model: minimax-coding-plan/MiniMax-M2.7
+Note: Provider 429 is non-deterministic; expected category is rate_limit when it occurs
+Status: failed
+Category: runtime_exit

@@ -1,0 +1,138 @@
+[
+  {
+    "id": "prt_e4a582977001lBzTtLjawybFKN",
+    "message_id": "msg_e4a58296b001BbR0IMzXSzlQAN",
+    "session_id": "ses_1b5a7d6edffeYUMh15ixiBgl0x",
+    "time_created": 1779363752320,
+    "time_updated": 1779363752321,
+    "data": "{\"type\":\"text\",\"text\":\"\\\"Create reports/smoke.txt containing exactly: OK\\\"\"}"
+  },
+  {
+    "id": "prt_e4a582e66001HyQ6qu2nQ7i1Xw",
+    "message_id": "msg_e4a582a30001fiHNY41iYuNdJQ",
+    "session_id": "ses_1b5a7d6edffeYUMh15ixiBgl0x",
+    "time_created": 1779363753574,
+    "time_updated": 1779363753576,
+    "data": "{\"type\":\"step-start\"}"
+  },
+  {
+    "id": "prt_e4a582fbd00140jTjJRa7dPns0",
+    "message_id": "msg_e4a582a30001fiHNY41iYuNdJQ",
+    "session_id": "ses_1b5a7d6edffeYUMh15ixiBgl0x",
+    "time_created": 1779363753917,
+    "time_updated": 1779363754534,
+    "data": "{\"type\":\"reasoning\",\"text\":\"The user wants me to create a file at `reports/smoke.txt` containing exactly \\\"OK\\\". Let me first check if the `reports` directory exists.\",\"time\":{\"start\":1779363753917,\"end\":1779363754531}}"
+  },
+  {
+    "id": "prt_e4a5832290017FcjZpnbbfna7X",
+    "message_id": "msg_e4a582a30001fiHNY41iYuNdJQ",
+    "session_id": "ses_1b5a7d6edffeYUMh15ixiBgl0x",
+    "time_created": 1779363754537,
+    "time_updated": 1779363755136,
+    "data": "{\"type\":\"tool\",\"tool\":\"bash\",\"callID\":\"call_00_sPcBHugpqOfimEm4acDt9533\",\"state\":{\"status\":\"completed\",\"input\":{\"command\":\"ls reports/ 2>&1 || echo \\\"directory does not exist\\\"\",\"description\":\"Check if reports directory exists\"},\"output\":\"(no output)\",\"metadata\":{\"output\":\"(no output)\",\"exit\":0,\"description\":\"Check if reports directory exists\",\"truncated\":false},\"title\":\"Check if reports directory exists\",\"time\":{\"start\":1779363755101,\"end\":1779363755134}}}"
+  },
+  {
+    "id": "prt_e4a583487001yOV0kOormPuqER",
+    "message_id": "msg_e4a582a30001fiHNY41iYuNdJQ",
+    "session_id": "ses_1b5a7d6edffeYUMh15ixiBgl0x",
+    "time_created": 1779363755143,
+    "time_updated": 1779363755146,
+    "data": "{\"reason\":\"tool-calls\",\"type\":\"step-finish\",\"tokens\":{\"total\":8399,\"input\":8287,\"output\":77,\"reasoning\":35,\"cache\":{\"write\":0,\"read\":0}},\"cost\":0}"
+  },
+  {
+    "id": "prt_e4a583827001JRjtqvsbGw3tHJ",
+    "message_id": "msg_e4a58349e001QgxiOqC2VNccf9",
+    "session_id": "ses_1b5a7d6edffeYUMh15ixiBgl0x",
+    "time_created": 1779363756071,
+    "time_updated": 1779363756073,
+    "data": "{\"type\":\"step-start\"}"
+  },
+  {
+    "id": "prt_e4a583959001rw3KgsDUsfyvew",
+    "message_id": "msg_e4a58349e001QgxiOqC2VNccf9",
+    "session_id": "ses_1b5a7d6edffeYUMh15ixiBgl0x",
+    "time_created": 1779363756378,
+    "time_updated": 1779363756683,
+    "data": "{\"type\":\"reasoning\",\"text\":\"The directory doesn't exist (the output is just \\\"directory does not exist\\\"). I need to create it first, then write the file.\",\"time\":{\"start\":1779363756377,\"end\":1779363756681}}"
+  },
+  {
+    "id": "prt_e4a583a8d0012BV5wCNDcg1W1T",
+    "message_id": "msg_e4a58349e001QgxiOqC2VNccf9",
+    "session_id": "ses_1b5a7d6edffeYUMh15ixiBgl0x",
+    "time_created": 1779363756685,
+    "time_updated": 1779363757039,
+    "data": "{\"type\":\"tool\",\"tool\":\"bash\",\"callID\":\"call_00_qTBZGU4RboEzf2Q9b31A3669\",\"state\":{\"status\":\"completed\",\"input\":{\"description\":\"Create reports directory\",\"command\":\"mkdir -p reports\"},\"output\":\"(no output)\",\"metadata\":{\"output\":\"(no output)\",\"exit\":0,\"description\":\"Create reports directory\",\"truncated\":false},\"title\":\"Create reports directory\",\"time\":{\"start\":1779363756997,\"end\":1779363757037}}}"
+  },
+  {
+    "id": "prt_e4a583bf2001ttvG034jVgIwlG",
+    "message_id": "msg_e4a58349e001QgxiOqC2VNccf9",
+    "session_id": "ses_1b5a7d6edffeYUMh15ixiBgl0x",
+    "time_created": 1779363757043,
+    "time_updated": 1779363757045,
+    "data": "{\"reason\":\"tool-calls\",\"type\":\"step-finish\",\"tokens\":{\"total\":8505,\"input\":93,\"output\":64,\"reasoning\":28,\"cache\":{\"write\":0,\"read\":8320}},\"cost\":0}"
+  },
+  {
+    "id": "prt_e4a583eee001KoIb2rWr2kQyPH",
+    "message_id": "msg_e4a583c04001ajLtlU7xMbeiSy",
+    "session_id": "ses_1b5a7d6edffeYUMh15ixiBgl0x",
+    "time_created": 1779363757806,
+    "time_updated": 1779363757809,
+    "data": "{\"type\":\"step-start\"}"
+  },
+  {
+    "id": "prt_e4a58408b001BQpylEhpcH0iew",
+    "message_id": "msg_e4a583c04001ajLtlU7xMbeiSy",
+    "session_id": "ses_1b5a7d6edffeYUMh15ixiBgl0x",
+    "time_created": 1779363758220,
+    "time_updated": 1779363758524,
+    "data": "{\"type\":\"reasoning\",\"text\":\"Now write the file.\",\"time\":{\"start\":1779363758219,\"end\":1779363758521}}"
+  },
+  {
+    "id": "prt_e4a5841be0018BEMfwv2KRNAqL",
+    "message_id": "msg_e4a583c04001ajLtlU7xMbeiSy",
+    "session_id": "ses_1b5a7d6edffeYUMh15ixiBgl0x",
+    "time_created": 1779363758526,
+    "time_updated": 1779363758871,
+    "data": "{\"type\":\"tool\",\"tool\":\"write\",\"callID\":\"call_00_ZCnLVmRXoBa85YgqEZls7321\",\"state\":{\"status\":\"completed\",\"input\":{\"filePath\":\"/home/antonioborgerees/coding/agentwrap-smoke/.agentwrap-logs/smoke-all-20260521-124214/smoke-file-write/reports/smoke.txt\",\"content\":\"OK\"},\"output\":\"Wrote file successfully.\",\"metadata\":{\"diagnostics\":{},\"filepath\":\"/home/antonioborgerees/coding/agentwrap-smoke/.agentwrap-logs/smoke-all-20260521-124214/smoke-file-write/reports/smoke.txt\",\"exists\":false,\"truncated\":false},\"title\":\"agentwrap-smoke/.agentwrap-logs/smoke-all-20260521-124214/smoke-file-write/reports/smoke.txt\",\"time\":{\"start\":1779363758848,\"end\":1779363758869}}}"
+  },
+  {
+    "id": "prt_e4a584319001Vq2re2iAnF0uhA",
+    "message_id": "msg_e4a583c04001ajLtlU7xMbeiSy",
+    "session_id": "ses_1b5a7d6edffeYUMh15ixiBgl0x",
+    "time_created": 1779363758873,
+    "time_updated": 1779363758875,
+    "data": "{\"reason\":\"tool-calls\",\"type\":\"step-finish\",\"tokens\":{\"total\":8627,\"input\":71,\"output\":103,\"reasoning\":5,\"cache\":{\"write\":0,\"read\":8448}},\"cost\":0}"
+  },
+  {
+    "id": "prt_e4a5847ba001sYLKbt4VKX9Bs6",
+    "message_id": "msg_e4a58432a001XCs7ltIr16Ik8A",
+    "session_id": "ses_1b5a7d6edffeYUMh15ixiBgl0x",
+    "time_created": 1779363760059,
+    "time_updated": 1779363760061,
+    "data": "{\"type\":\"step-start\"}"
+  },
+  {
+    "id": "prt_e4a5848ec001RYOVghpfNq0R9R",
+    "message_id": "msg_e4a58432a001XCs7ltIr16Ik8A",
+    "session_id": "ses_1b5a7d6edffeYUMh15ixiBgl0x",
+    "time_created": 1779363760364,
+    "time_updated": 1779363760412,
+    "data": "{\"type\":\"reasoning\",\"text\":\"Done. Let me verify the file contents.\",\"time\":{\"start\":1779363760364,\"end\":1779363760408}}"
+  },
+  {
+    "id": "prt_e4a58491d001445vOx1vXGRNtU",
+    "message_id": "msg_e4a58432a001XCs7ltIr16Ik8A",
+    "session_id": "ses_1b5a7d6edffeYUMh15ixiBgl0x",
+    "time_created": 1779363760413,
+    "time_updated": 1779363760683,
+    "data": "{\"type\":\"text\",\"text\":\"Done. `reports/smoke.txt` created with content: `OK`\",\"time\":{\"start\":1779363760413,\"end\":1779363760681}}"
+  },
+  {
+    "id": "prt_e4a584a2d00120w5XOemrTaY8O",
+    "message_id": "msg_e4a58432a001XCs7ltIr16Ik8A",
+    "session_id": "ses_1b5a7d6edffeYUMh15ixiBgl0x",
+    "time_created": 1779363760685,
+    "time_updated": 1779363760687,
+    "data": "{\"reason\":\"stop\",\"type\":\"step-finish\",\"tokens\":{\"total\":8670,\"input\":67,\"output\":18,\"reasoning\":9,\"cache\":{\"write\":0,\"read\":8576}},\"cost\":0}"
+  }
+]

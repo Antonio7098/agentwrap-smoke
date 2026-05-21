@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ses_1b571f8abffezpCx1c9Z0b8LlO",
+    "project_id": "global",
+    "parent_id": null,
+    "slug": "cosmic-river",
+    "directory": "/home/antonioborgerees/coding/agentwrap-smoke",
+    "title": "Hello in 3 words",
+    "version": "1.15.6",
+    "share_url": null,
+    "summary_additions": 0,
+    "summary_deletions": 0,
+    "summary_files": 0,
+    "summary_diffs": null,
+    "revert": null,
+    "permission": "[{\"permission\":\"question\",\"pattern\":\"*\",\"action\":\"deny\"},{\"permission\":\"plan_enter\",\"pattern\":\"*\",\"action\":\"deny\"},{\"permission\":\"plan_exit\",\"pattern\":\"*\",\"action\":\"deny\"}]",
+    "time_created": 1779367282516,
+    "time_updated": 1779367282955,
+    "time_compacting": null,
+    "time_archived": null,
+    "workspace_id": null,
+    "path": "agentwrap-smoke",
+    "agent": "build",
+    "model": "{\"id\":\"MiniMax-M2.7\",\"providerID\":\"minimax-coding-plan\",\"variant\":\"default\"}",
+    "cost": 0,
+    "tokens_input": 1,
+    "tokens_output": 40,
+    "tokens_reasoning": 0,
+    "tokens_cache_read": 7598,
+    "tokens_cache_write": 0
+  }
+]

@@ -1,0 +1,6 @@
+=== CUSTOM VALIDATOR TEST ===
+
+ValidatingRuntime with custom ValidatorFunc
+Using model: opencode/deepseek-v4-flash-free
+Run started: ID=validation-1
+Final Status: completed

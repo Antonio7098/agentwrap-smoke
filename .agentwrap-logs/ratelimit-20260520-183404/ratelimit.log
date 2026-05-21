@@ -1,0 +1,11 @@
+=== RATE LIMIT FALLBACK TEST ===
+Testing gpt-5.5 rate limit → fallback to deepseek-v4-flash-free
+Log dir: /home/antonioborgerees/coding/ultraplan-go/.agentwrap-logs/ratelimit-20260520-183404
+
+PolicyRunner configured with gpt-5.5 primary and deepseek fallback
+Starting run...
+Run started: ID=policy-1
+Wait error: opencode run: runtime_exit: OpenCode finished without a final structured result
+  Category: runtime_exit
+  UserDetail: OpenCode finished without a final structured result
+Final Status: failed

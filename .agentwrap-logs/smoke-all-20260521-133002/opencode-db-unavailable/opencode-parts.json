@@ -1,0 +1,42 @@
+[
+  {
+    "id": "prt_e4a85f4820016KhnzPCXBqmWlD",
+    "message_id": "msg_e4a85f475001vwcaT0tM6TUpwM",
+    "session_id": "ses_1b57a0befffeHYppCOkvEefN9d",
+    "time_created": 1779366753418,
+    "time_updated": 1779366753420,
+    "data": "{\"type\":\"text\",\"text\":\"\\\"Say hello.\\\"\"}"
+  },
+  {
+    "id": "prt_e4a85f9970018AsiDnNoZ1l7EN",
+    "message_id": "msg_e4a85f52f001KN5L6MHgxDG5pQ",
+    "session_id": "ses_1b57a0befffeHYppCOkvEefN9d",
+    "time_created": 1779366754712,
+    "time_updated": 1779366754714,
+    "data": "{\"type\":\"step-start\"}"
+  },
+  {
+    "id": "prt_e4a85fac600117VzOOH9SzBmxs",
+    "message_id": "msg_e4a85f52f001KN5L6MHgxDG5pQ",
+    "session_id": "ses_1b57a0befffeHYppCOkvEefN9d",
+    "time_created": 1779366755014,
+    "time_updated": 1779366755345,
+    "data": "{\"type\":\"reasoning\",\"text\":\"The user is just saying \\\"Say hello.\\\" This is a simple greeting request.\",\"time\":{\"start\":1779366755014,\"end\":1779366755342}}"
+  },
+  {
+    "id": "prt_e4a85fc130013pEAlZoNsqZ0Pv",
+    "message_id": "msg_e4a85f52f001KN5L6MHgxDG5pQ",
+    "session_id": "ses_1b57a0befffeHYppCOkvEefN9d",
+    "time_created": 1779366755348,
+    "time_updated": 1779366755362,
+    "data": "{\"type\":\"text\",\"text\":\"Hello!\",\"time\":{\"start\":1779366755348,\"end\":1779366755358}}"
+  },
+  {
+    "id": "prt_e4a85fc2e0012CDC0fLj2ThRxw",
+    "message_id": "msg_e4a85f52f001KN5L6MHgxDG5pQ",
+    "session_id": "ses_1b57a0befffeHYppCOkvEefN9d",
+    "time_created": 1779366755374,
+    "time_updated": 1779366755377,
+    "data": "{\"reason\":\"stop\",\"type\":\"step-finish\",\"tokens\":{\"total\":8253,\"input\":8234,\"output\":3,\"reasoning\":16,\"cache\":{\"write\":0,\"read\":0}},\"cost\":0}"
+  }
+]

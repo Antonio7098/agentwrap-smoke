@@ -1,0 +1,9 @@
+=== HEALTH CHECK FAILURE TEST ===
+
+--- TEST 1: Nonexistent workdir ---
+Overall status: unrecoverable_failure
+  workdir: unrecoverable_failure - working directory is invalid
+
+--- TEST 2: Bad config ---
+Overall status: transient_failure
+  config: transient_failure - OpenCode probe failed

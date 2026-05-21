@@ -1,0 +1,6 @@
+=== CUSTOM VALIDATOR TEST ===
+
+ValidatingRuntime with custom ValidatorFunc
+Run started: ID=validation-1
+Wait error: validation: validation: required output validation failed
+Final Status: failed

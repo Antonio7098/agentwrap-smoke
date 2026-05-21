@@ -1,0 +1,8 @@
+Model: opencode/not-a-real-model (expected to cause fatal event)
+Status: failed
+Category: runtime_exit
+UserDetail: OpenCode reported a fatal session error
+DebugDetail: Model not found: opencode/not-a-real-model.
+Confirmed: clean fatal event -> runtime_exit
+Native metadata native_event_types: map[error:1 lifecycle.transition:2 session.relationship:1]
+Native metadata event_categories: map[fatal_error:1 lifecycle:2 session:1]

@@ -1,0 +1,5 @@
+Testing OpenCode DB unavailable scenario
+Note: This category is triggered by 'pragma wal_checkpoint', 'database is locked', or 'sqlite.*database' in OpenCode logs
+Status: failed
+Category: runtime_exit
+UserDetail: OpenCode finished without a final structured result

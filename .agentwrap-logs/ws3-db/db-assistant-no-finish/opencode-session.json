@@ -1,0 +1,2 @@
+[{"id":"ses_test123","time_created":"2026-05-21T10:00:00Z","time_updated":"2026-05-21T10:01:00Z","model":"deepseek-v4-flash-free","tokens_input":100,"tokens_output":50,"tokens_reasoning":0}]
+[{"id":"msg_1","session_id":"ses_test123","role":"assistant","time_created":"2026-05-21T10:00:30Z","data":"{\"role\":\"assistant\",\"content\":\"thinking\"}"}]

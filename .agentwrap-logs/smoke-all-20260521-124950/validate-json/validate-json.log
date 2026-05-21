@@ -1,0 +1,6 @@
+=== JSON VALIDATION TEST ===
+
+ValidatingRuntime with JSON expectation: reports/test.json must have status, score fields
+Using model: opencode/deepseek-v4-flash-free
+Run started: ID=validation-1
+Final Status: completed

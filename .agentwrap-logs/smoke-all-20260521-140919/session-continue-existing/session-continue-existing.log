@@ -1,0 +1,5 @@
+=== SESSION LIFECYCLE: CONTINUE EXISTING SESSION SUCCESS ===
+
+Run 1 Status: failed
+Run 1: No session ID returned
+ERROR: Run 1 did not return a session ID, cannot continue

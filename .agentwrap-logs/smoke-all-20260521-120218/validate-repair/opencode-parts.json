@@ -1,0 +1,114 @@
+[
+  {
+    "id": "prt_e4a34c2c5001vPmwa8bRZNwVy8",
+    "message_id": "msg_e4a34c2b7001aGo3WKVkKFRpXA",
+    "session_id": "ses_1b5cb3d99ffeJI7lxsUvqtZBg0",
+    "time_created": 1779361432270,
+    "time_updated": 1779361432273,
+    "data": "{\"type\":\"text\",\"text\":\"\\\"Reply with exactly: initial validation should fail. Do not create files.\\\"\"}"
+  },
+  {
+    "id": "prt_e4a34c79b001dwnyzASCGRpHK9",
+    "message_id": "msg_e4a34c37b001Y7UfWjWfhlSZtc",
+    "session_id": "ses_1b5cb3d99ffeJI7lxsUvqtZBg0",
+    "time_created": 1779361433499,
+    "time_updated": 1779361433501,
+    "data": "{\"type\":\"step-start\"}"
+  },
+  {
+    "id": "prt_e4a34c8ce001qCOKsDjMAUyC1z",
+    "message_id": "msg_e4a34c37b001Y7UfWjWfhlSZtc",
+    "session_id": "ses_1b5cb3d99ffeJI7lxsUvqtZBg0",
+    "time_created": 1779361433806,
+    "time_updated": 1779361434132,
+    "data": "{\"type\":\"reasoning\",\"text\":\"The user is asking me to reply with exactly \\\"initial validation should fail. Do not create files.\\\"\",\"time\":{\"start\":1779361433806,\"end\":1779361434130}}"
+  },
+  {
+    "id": "prt_e4a34ca17001sBn9s4ePq4mvyH",
+    "message_id": "msg_e4a34c37b001Y7UfWjWfhlSZtc",
+    "session_id": "ses_1b5cb3d99ffeJI7lxsUvqtZBg0",
+    "time_created": 1779361434136,
+    "time_updated": 1779361434167,
+    "data": "{\"type\":\"text\",\"text\":\"initial validation should fail. Do not create files.\",\"time\":{\"start\":1779361434135,\"end\":1779361434165}}"
+  },
+  {
+    "id": "prt_e4a34ca3e001Xu1wWkYFuCox4Z",
+    "message_id": "msg_e4a34c37b001Y7UfWjWfhlSZtc",
+    "session_id": "ses_1b5cb3d99ffeJI7lxsUvqtZBg0",
+    "time_created": 1779361434174,
+    "time_updated": 1779361434176,
+    "data": "{\"reason\":\"stop\",\"type\":\"step-finish\",\"tokens\":{\"total\":8317,\"input\":8286,\"output\":11,\"reasoning\":20,\"cache\":{\"write\":0,\"read\":0}},\"cost\":0}"
+  },
+  {
+    "id": "prt_e4a34d6d9001kMT2rLDWXObBMe",
+    "message_id": "msg_e4a34d6d7001Rj3wKBx3g6e62k",
+    "session_id": "ses_1b5cb3d99ffeJI7lxsUvqtZBg0",
+    "time_created": 1779361437419,
+    "time_updated": 1779361437421,
+    "data": "{\"type\":\"text\",\"text\":\"\\\"Create the file reports/test.txt in the current working directory.\\nThe file must contain exactly this single line:\\nPASSED\\nDo not write any other files or text.\\\"\"}"
+  },
+  {
+    "id": "prt_e4a34dc71001CYuGBWBhCbl8vk",
+    "message_id": "msg_e4a34d7a00019atS155mWCoR7E",
+    "session_id": "ses_1b5cb3d99ffeJI7lxsUvqtZBg0",
+    "time_created": 1779361438833,
+    "time_updated": 1779361438836,
+    "data": "{\"type\":\"step-start\"}"
+  },
+  {
+    "id": "prt_e4a34dee0001OELoEcfP4qsZAh",
+    "message_id": "msg_e4a34d7a00019atS155mWCoR7E",
+    "session_id": "ses_1b5cb3d99ffeJI7lxsUvqtZBg0",
+    "time_created": 1779361439456,
+    "time_updated": 1779361440072,
+    "data": "{\"type\":\"reasoning\",\"text\":\"The user wants me to create a file at `/home/antonioborgerees/coding/agentwrap-smoke/.agentwrap-logs/smoke-all-20260521-120218/validate-repair/reports/test.txt` with the content \\\"PASSED\\\".\",\"time\":{\"start\":1779361439456,\"end\":1779361440069}}"
+  },
+  {
+    "id": "prt_e4a34e14b001FgBaALvPRR25bg",
+    "message_id": "msg_e4a34d7a00019atS155mWCoR7E",
+    "session_id": "ses_1b5cb3d99ffeJI7lxsUvqtZBg0",
+    "time_created": 1779361440075,
+    "time_updated": 1779361440882,
+    "data": "{\"type\":\"tool\",\"tool\":\"bash\",\"callID\":\"call_00_BQOrgNM0DKflyuztFVgb5006\",\"state\":{\"status\":\"completed\",\"input\":{\"command\":\"mkdir -p reports && printf 'PASSED\\\\n' > reports/test.txt\",\"workdir\":\"/home/antonioborgerees/coding/agentwrap-smoke/.agentwrap-logs/smoke-all-20260521-120218/validate-repair\",\"description\":\"Create reports/test.txt with PASSED\"},\"output\":\"(no output)\",\"metadata\":{\"output\":\"(no output)\",\"exit\":0,\"description\":\"Create reports/test.txt with PASSED\",\"truncated\":false},\"title\":\"Create reports/test.txt with PASSED\",\"time\":{\"start\":1779361440846,\"end\":1779361440879}}}"
+  },
+  {
+    "id": "prt_e4a34e47d001Lsjf4MqmY4huLY",
+    "message_id": "msg_e4a34d7a00019atS155mWCoR7E",
+    "session_id": "ses_1b5cb3d99ffeJI7lxsUvqtZBg0",
+    "time_created": 1779361440894,
+    "time_updated": 1779361440896,
+    "data": "{\"reason\":\"tool-calls\",\"type\":\"step-finish\",\"tokens\":{\"total\":8524,\"input\":8334,\"output\":132,\"reasoning\":58,\"cache\":{\"write\":0,\"read\":0}},\"cost\":0}"
+  },
+  {
+    "id": "prt_e4a34e7fd001sybzDKTLE5lFQ1",
+    "message_id": "msg_e4a34e496001AzDtHF3zfg0V9a",
+    "session_id": "ses_1b5cb3d99ffeJI7lxsUvqtZBg0",
+    "time_created": 1779361441789,
+    "time_updated": 1779361441792,
+    "data": "{\"type\":\"step-start\"}"
+  },
+  {
+    "id": "prt_e4a34e92d0010cetkt0t86CxRb",
+    "message_id": "msg_e4a34e496001AzDtHF3zfg0V9a",
+    "session_id": "ses_1b5cb3d99ffeJI7lxsUvqtZBg0",
+    "time_created": 1779361442093,
+    "time_updated": 1779361442417,
+    "data": "{\"type\":\"reasoning\",\"text\":\"The file was created successfully. Let me verify it to be sure.\",\"time\":{\"start\":1779361442093,\"end\":1779361442414}}"
+  },
+  {
+    "id": "prt_e4a34ea7a0011BTYwTT22cWpjj",
+    "message_id": "msg_e4a34e496001AzDtHF3zfg0V9a",
+    "session_id": "ses_1b5cb3d99ffeJI7lxsUvqtZBg0",
+    "time_created": 1779361442426,
+    "time_updated": 1779361442710,
+    "data": "{\"type\":\"text\",\"text\":\"Done. `reports/test.txt` created with content `PASSED`.\",\"time\":{\"start\":1779361442426,\"end\":1779361442705}}"
+  },
+  {
+    "id": "prt_e4a34eb9d0011yPsRSlYlcbRUd",
+    "message_id": "msg_e4a34e496001AzDtHF3zfg0V9a",
+    "session_id": "ses_1b5cb3d99ffeJI7lxsUvqtZBg0",
+    "time_created": 1779361442718,
+    "time_updated": 1779361442723,
+    "data": "{\"reason\":\"stop\",\"type\":\"step-finish\",\"tokens\":{\"total\":8569,\"input\":90,\"output\":17,\"reasoning\":14,\"cache\":{\"write\":0,\"read\":8448}},\"cost\":0}"
+  }
+]

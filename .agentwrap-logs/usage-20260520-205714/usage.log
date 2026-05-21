@@ -1,0 +1,7 @@
+=== USAGE TRACKING TEST ===
+
+Using model: minimax-coding-plan/MiniMax-M2.7
+Run started: ID=opencode-1
+Wait error: opencode run: timeout: OpenCode run timed out
+Usage: no token counts returned
+Final Status: failed

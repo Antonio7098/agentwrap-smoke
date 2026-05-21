@@ -1,0 +1,9 @@
+=== SESSION LIFECYCLE: CONTINUE MISSING/INVALID SESSION ===
+
+Attempting to continue non-existent session: ses_does_not_exist_12345
+Run started: ID=opencode-31
+Status: failed
+Session ID: ses_does_not_exist_12345
+Category: runtime_exit
+UserDetail: OpenCode exited before a successful final result
+Expectation: status=failed category=runtime_exit passed=true

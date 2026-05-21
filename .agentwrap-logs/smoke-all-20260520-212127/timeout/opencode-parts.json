@@ -1,0 +1,74 @@
+[
+  {
+    "id": "prt_e470f987c001DQ0M1F0BFAgXUF",
+    "message_id": "msg_e470f986a001KD436ZXq6FkLtB",
+    "session_id": "ses_1b8f06837ffexwjJc5maaOgX35",
+    "time_created": 1779308664969,
+    "time_updated": 1779308664972,
+    "data": "{\"type\":\"text\",\"text\":\"\\\"Count to 100 slowly. Say each number with a 2 second delay between each. Start now: 1, 2, 3...\\\"\"}"
+  },
+  {
+    "id": "prt_e470fa06f001yuWM7Wfq7AhSKK",
+    "message_id": "msg_e470f9970001mtxTcQXbDKXGPI",
+    "session_id": "ses_1b8f06837ffexwjJc5maaOgX35",
+    "time_created": 1779308666991,
+    "time_updated": 1779308666992,
+    "data": "{\"type\":\"step-start\"}"
+  },
+  {
+    "id": "prt_e470fa0c8001wYI4YQx8eTdGaY",
+    "message_id": "msg_e470f9970001mtxTcQXbDKXGPI",
+    "session_id": "ses_1b8f06837ffexwjJc5maaOgX35",
+    "time_created": 1779308667080,
+    "time_updated": 1779308667912,
+    "data": "{\"type\":\"reasoning\",\"text\":\"The user wants me to count to 100 slowly with a 2 second delay between each number. However, I cannot actually create real-time delays with 2-second intervals in a text-based conversation - I can only respond with text. Let me think about this...\\n\\nActually, I could use the bash tool to run a script that counts to 100 with 2-second delays. Let me do that.\",\"time\":{\"start\":1779308667080,\"end\":1779308667910}}"
+  },
+  {
+    "id": "prt_e470fa40b001MBfTztjxOaesnJ",
+    "message_id": "msg_e470f9970001mtxTcQXbDKXGPI",
+    "session_id": "ses_1b8f06837ffexwjJc5maaOgX35",
+    "time_created": 1779308667915,
+    "time_updated": 1779308868464,
+    "data": "{\"type\":\"tool\",\"tool\":\"bash\",\"callID\":\"call_00_cIdpsK6luKmOz37Kak5G8180\",\"state\":{\"status\":\"completed\",\"input\":{\"command\":\"for i in $(seq 1 100); do echo \\\"$i\\\"; sleep 2; done\",\"description\":\"Count to 100 with 2s delay\",\"timeout\":300000},\"output\":\"1\\n2\\n3\\n4\\n5\\n6\\n7\\n8\\n9\\n10\\n11\\n12\\n13\\n14\\n15\\n16\\n17\\n18\\n19\\n20\\n21\\n22\\n23\\n24\\n25\\n26\\n27\\n28\\n29\\n30\\n31\\n32\\n33\\n34\\n35\\n36\\n37\\n38\\n39\\n40\\n41\\n42\\n43\\n44\\n45\\n46\\n47\\n48\\n49\\n50\\n51\\n52\\n53\\n54\\n55\\n56\\n57\\n58\\n59\\n60\\n61\\n62\\n63\\n64\\n65\\n66\\n67\\n68\\n69\\n70\\n71\\n72\\n73\\n74\\n75\\n76\\n77\\n78\\n79\\n80\\n81\\n82\\n83\\n84\\n85\\n86\\n87\\n88\\n89\\n90\\n91\\n92\\n93\\n94\\n95\\n96\\n97\\n98\\n99\\n100\\n\",\"metadata\":{\"output\":\"1\\n2\\n3\\n4\\n5\\n6\\n7\\n8\\n9\\n10\\n11\\n12\\n13\\n14\\n15\\n16\\n17\\n18\\n19\\n20\\n21\\n22\\n23\\n24\\n25\\n26\\n27\\n28\\n29\\n30\\n31\\n32\\n33\\n34\\n35\\n36\\n37\\n38\\n39\\n40\\n41\\n42\\n43\\n44\\n45\\n46\\n47\\n48\\n49\\n50\\n51\\n52\\n53\\n54\\n55\\n56\\n57\\n58\\n59\\n60\\n61\\n62\\n63\\n64\\n65\\n66\\n67\\n68\\n69\\n70\\n71\\n72\\n73\\n74\\n75\\n76\\n77\\n78\\n79\\n80\\n81\\n82\\n83\\n84\\n85\\n86\\n87\\n88\\n89\\n90\\n91\\n92\\n93\\n94\\n95\\n96\\n97\\n98\\n99\\n100\\n\",\"exit\":0,\"description\":\"Count to 100 with 2s delay\",\"truncated\":false},\"title\":\"Count to 100 with 2s delay\",\"time\":{\"start\":1779308866455,\"end\":1779308868463}}}"
+  },
+  {
+    "id": "prt_e4712b376001Sr7Tze8goCoVm4",
+    "message_id": "msg_e470f9970001mtxTcQXbDKXGPI",
+    "session_id": "ses_1b8f06837ffexwjJc5maaOgX35",
+    "time_created": 1779308868470,
+    "time_updated": 1779308868471,
+    "data": "{\"reason\":\"tool-calls\",\"type\":\"step-finish\",\"tokens\":{\"total\":8435,\"input\":8250,\"output\":104,\"reasoning\":81,\"cache\":{\"write\":0,\"read\":0}},\"cost\":0}"
+  },
+  {
+    "id": "prt_e4712b868001ESztyhAngc6zOH",
+    "message_id": "msg_e4712b383001ilFX1xn6WEO84y",
+    "session_id": "ses_1b8f06837ffexwjJc5maaOgX35",
+    "time_created": 1779308869736,
+    "time_updated": 1779308869737,
+    "data": "{\"type\":\"step-start\"}"
+  },
+  {
+    "id": "prt_e4712b99a001dZRwOTdbrOnivM",
+    "message_id": "msg_e4712b383001ilFX1xn6WEO84y",
+    "session_id": "ses_1b8f06837ffexwjJc5maaOgX35",
+    "time_created": 1779308870043,
+    "time_updated": 1779308870352,
+    "data": "{\"type\":\"reasoning\",\"text\":\"Done. The script ran for about 200 seconds (100 * 2 seconds) and counted from 1 to 100.\",\"time\":{\"start\":1779308870042,\"end\":1779308870350}}"
+  },
+  {
+    "id": "prt_e4712bad0001Q1ExnkPmrSkuK3",
+    "message_id": "msg_e4712b383001ilFX1xn6WEO84y",
+    "session_id": "ses_1b8f06837ffexwjJc5maaOgX35",
+    "time_created": 1779308870353,
+    "time_updated": 1779308870659,
+    "data": "{\"type\":\"text\",\"text\":\"Done. Counted 1 to 100 with 2-second delays — took about 3 minutes 20 seconds.\",\"time\":{\"start\":1779308870352,\"end\":1779308870657}}"
+  },
+  {
+    "id": "prt_e4712bc06001S7KLE71pp5AEb7",
+    "message_id": "msg_e4712b383001ilFX1xn6WEO84y",
+    "session_id": "ses_1b8f06837ffexwjJc5maaOgX35",
+    "time_created": 1779308870662,
+    "time_updated": 1779308870663,
+    "data": "{\"reason\":\"stop\",\"type\":\"step-finish\",\"tokens\":{\"total\":8698,\"input\":327,\"output\":25,\"reasoning\":26,\"cache\":{\"write\":0,\"read\":8320}},\"cost\":0}"
+  }
+]

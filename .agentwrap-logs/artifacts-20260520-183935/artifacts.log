@@ -1,0 +1,6 @@
+=== ARTIFACTS TEST ===
+
+Run started: ID=opencode-1
+Wait error: opencode run: timeout: OpenCode run timed out
+Artifacts observed during run: 0
+Final Status: failed

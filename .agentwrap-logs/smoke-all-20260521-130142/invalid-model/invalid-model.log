@@ -1,0 +1,4 @@
+Model: opencode/not-a-real-model
+Status: failed
+Category: runtime_exit
+UserDetail: OpenCode reported a fatal session error

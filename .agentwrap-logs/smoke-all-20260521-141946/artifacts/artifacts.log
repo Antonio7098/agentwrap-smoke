@@ -1,0 +1,7 @@
+=== ARTIFACTS TEST ===
+
+Using model: opencode/deepseek-v4-flash-free
+Run started: ID=opencode-5
+Wait error: opencode run: timeout: OpenCode run timed out
+Artifacts observed during run: 0
+Final Status: failed

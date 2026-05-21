@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ses_1b8f6080affeQZGQT8y5mWhJjN",
+    "project_id": "global",
+    "parent_id": null,
+    "slug": "silent-engine",
+    "directory": "/home/antonioborgerees/coding/ultraplan-go/.agentwrap-logs/smoke-file-write-20260520-211814",
+    "title": "Create reports/smoke.txt with OK",
+    "version": "1.15.5",
+    "share_url": null,
+    "summary_additions": 0,
+    "summary_deletions": 0,
+    "summary_files": 0,
+    "summary_diffs": null,
+    "revert": null,
+    "permission": "[{\"permission\":\"question\",\"pattern\":\"*\",\"action\":\"deny\"},{\"permission\":\"plan_enter\",\"pattern\":\"*\",\"action\":\"deny\"},{\"permission\":\"plan_exit\",\"pattern\":\"*\",\"action\":\"deny\"}]",
+    "time_created": 1779308296182,
+    "time_updated": 1779308304225,
+    "time_compacting": null,
+    "time_archived": null,
+    "workspace_id": null,
+    "path": "home/antonioborgerees/coding/ultraplan-go/.agentwrap-logs/smoke-file-write-20260520-211814",
+    "agent": "build",
+    "model": "{\"id\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"variant\":\"default\"}",
+    "cost": 0,
+    "tokens_input": 8421,
+    "tokens_output": 256,
+    "tokens_reasoning": 71,
+    "tokens_cache_read": 25344,
+    "tokens_cache_write": 0
+  }
+]

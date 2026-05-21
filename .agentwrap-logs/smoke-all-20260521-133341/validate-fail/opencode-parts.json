@@ -1,0 +1,42 @@
+[
+  {
+    "id": "prt_e4a884b10001m2pc7jqEDEpJH8",
+    "message_id": "msg_e4a884aff001DfEHmn7hbK7kVv",
+    "session_id": "ses_1b577b582ffexFzP6YUlwecbqT",
+    "time_created": 1779366906653,
+    "time_updated": 1779366906655,
+    "data": "{\"type\":\"text\",\"text\":\"\\\"Do not create any files. Reply only: done\\\"\"}"
+  },
+  {
+    "id": "prt_e4a88505b001zmZDoHxnbMy2r7",
+    "message_id": "msg_e4a884c33001JoQPUUNqLV6aMX",
+    "session_id": "ses_1b577b582ffexFzP6YUlwecbqT",
+    "time_created": 1779366907995,
+    "time_updated": 1779366907998,
+    "data": "{\"type\":\"step-start\"}"
+  },
+  {
+    "id": "prt_e4a885188001Yk2EJ5YxOm5sbS",
+    "message_id": "msg_e4a884c33001JoQPUUNqLV6aMX",
+    "session_id": "ses_1b577b582ffexFzP6YUlwecbqT",
+    "time_created": 1779366908297,
+    "time_updated": 1779366908634,
+    "data": "{\"type\":\"reasoning\",\"text\":\"The user is asking me not to create any files and to reply only with \\\"done\\\". Let me comply.\",\"time\":{\"start\":1779366908296,\"end\":1779366908630}}"
+  },
+  {
+    "id": "prt_e4a8852dc001F7tW11FAwh5iDJ",
+    "message_id": "msg_e4a884c33001JoQPUUNqLV6aMX",
+    "session_id": "ses_1b577b582ffexFzP6YUlwecbqT",
+    "time_created": 1779366908636,
+    "time_updated": 1779366908648,
+    "data": "{\"type\":\"text\",\"text\":\"done\",\"time\":{\"start\":1779366908636,\"end\":1779366908645}}"
+  },
+  {
+    "id": "prt_e4a8852f1001BQdHINgOwK6bj7",
+    "message_id": "msg_e4a884c33001JoQPUUNqLV6aMX",
+    "session_id": "ses_1b577b582ffexFzP6YUlwecbqT",
+    "time_created": 1779366908657,
+    "time_updated": 1779366908660,
+    "data": "{\"reason\":\"stop\",\"type\":\"step-finish\",\"tokens\":{\"total\":8306,\"input\":8282,\"output\":2,\"reasoning\":22,\"cache\":{\"write\":0,\"read\":0}},\"cost\":0}"
+  }
+]

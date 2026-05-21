@@ -1,0 +1,42 @@
+[
+  {
+    "id": "prt_e4a88cff5001172I208LLZTUrI",
+    "message_id": "msg_e4a88cfe5001Lx4C5Z65b2PAP0",
+    "session_id": "ses_1b57730abffeI2kUT1SD4ZkIY4",
+    "time_created": 1779366940675,
+    "time_updated": 1779366940677,
+    "data": "{\"type\":\"text\",\"text\":\"\\\"Say hello in 3 words.\\\"\"}"
+  },
+  {
+    "id": "prt_e4a88d59b001xd0kDCltqba2gS",
+    "message_id": "msg_e4a88d123001x63IJB5AowL9QW",
+    "session_id": "ses_1b57730abffeI2kUT1SD4ZkIY4",
+    "time_created": 1779366942107,
+    "time_updated": 1779366942110,
+    "data": "{\"type\":\"step-start\"}"
+  },
+  {
+    "id": "prt_e4a88d6b9001i4IHbI7Cls97hC",
+    "message_id": "msg_e4a88d123001x63IJB5AowL9QW",
+    "session_id": "ses_1b57730abffeI2kUT1SD4ZkIY4",
+    "time_created": 1779366942393,
+    "time_updated": 1779366942749,
+    "data": "{\"type\":\"reasoning\",\"text\":\"The user wants me to say hello in 3 words.\",\"time\":{\"start\":1779366942393,\"end\":1779366942746}}"
+  },
+  {
+    "id": "prt_e4a88d81f001v7feK7oFCbzC2g",
+    "message_id": "msg_e4a88d123001x63IJB5AowL9QW",
+    "session_id": "ses_1b57730abffeI2kUT1SD4ZkIY4",
+    "time_created": 1779366942752,
+    "time_updated": 1779366942774,
+    "data": "{\"type\":\"text\",\"text\":\"Hello! How can I help?\",\"time\":{\"start\":1779366942752,\"end\":1779366942770}}"
+  },
+  {
+    "id": "prt_e4a88d83f001y07aHzEg4jZyd2",
+    "message_id": "msg_e4a88d123001x63IJB5AowL9QW",
+    "session_id": "ses_1b57730abffeI2kUT1SD4ZkIY4",
+    "time_created": 1779366942784,
+    "time_updated": 1779366942787,
+    "data": "{\"reason\":\"stop\",\"type\":\"step-finish\",\"tokens\":{\"total\":8258,\"input\":8238,\"output\":8,\"reasoning\":12,\"cache\":{\"write\":0,\"read\":0}},\"cost\":0}"
+  }
+]

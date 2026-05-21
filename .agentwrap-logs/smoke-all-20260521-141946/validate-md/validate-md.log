@@ -1,0 +1,7 @@
+=== MARKDOWN TEMPLATE VALIDATION TEST ===
+
+ValidatingRuntime with MarkdownTemplate expectation
+Using model: opencode/deepseek-v4-flash-free
+Run started: ID=validation-2
+Wait error: opencode run: timeout: OpenCode run timed out
+Final Status: failed

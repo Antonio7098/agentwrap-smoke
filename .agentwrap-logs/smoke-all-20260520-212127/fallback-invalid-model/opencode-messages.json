@@ -1,0 +1,9 @@
+[
+  {
+    "id": "msg_e4712d15b001Hwb8T68wF00LT0",
+    "session_id": "ses_1b8ed2f07ffeCtFGS3tRCerLsy",
+    "time_created": 1779308876123,
+    "time_updated": 1779308876139,
+    "data": "{\"role\":\"user\",\"time\":{\"created\":1779308876123},\"agent\":\"build\",\"model\":{\"providerID\":\"opencode\",\"modelID\":\"\"}}"
+  }
+]

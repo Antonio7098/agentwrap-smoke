@@ -1,0 +1,4 @@
+Model: minimax-coding-plan/MiniMax-M2.7
+Note: Provider auth issues are non-deterministic; expected category is authentication when they occur
+Status: failed
+Category: runtime_exit

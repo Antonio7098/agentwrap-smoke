@@ -1,0 +1,42 @@
+[
+  {
+    "id": "prt_e4a8dcb24001jTsJGqBG4lg2dY",
+    "message_id": "msg_e4a8dcb18001FdziO0NrtKtGPg",
+    "session_id": "ses_1b572352dffeOBf3xRAdCGWyva",
+    "time_created": 1779367267117,
+    "time_updated": 1779367267118,
+    "data": "{\"type\":\"text\",\"text\":\"\\\"Say hello.\\\"\"}"
+  },
+  {
+    "id": "prt_e4a8dd003001tDqtdiXc2pDGTj",
+    "message_id": "msg_e4a8dcbe0001QYBTHJ2YjfpVGV",
+    "session_id": "ses_1b572352dffeOBf3xRAdCGWyva",
+    "time_created": 1779367268355,
+    "time_updated": 1779367268357,
+    "data": "{\"type\":\"step-start\"}"
+  },
+  {
+    "id": "prt_e4a8dd275001EAeH2TYorBGMYE",
+    "message_id": "msg_e4a8dcbe0001QYBTHJ2YjfpVGV",
+    "session_id": "ses_1b572352dffeOBf3xRAdCGWyva",
+    "time_created": 1779367268981,
+    "time_updated": 1779367269277,
+    "data": "{\"type\":\"reasoning\",\"text\":\"The user is saying \\\"Say hello.\\\" This is a simple request - they want me to say hello.\",\"time\":{\"start\":1779367268981,\"end\":1779367269274}}"
+  },
+  {
+    "id": "prt_e4a8dd39f001rm0gcI5tXQmkGr",
+    "message_id": "msg_e4a8dcbe0001QYBTHJ2YjfpVGV",
+    "session_id": "ses_1b572352dffeOBf3xRAdCGWyva",
+    "time_created": 1779367269280,
+    "time_updated": 1779367269291,
+    "data": "{\"type\":\"text\",\"text\":\"Hello!\",\"time\":{\"start\":1779367269279,\"end\":1779367269288}}"
+  },
+  {
+    "id": "prt_e4a8dd3b3001DDaDMRsnChGBl1",
+    "message_id": "msg_e4a8dcbe0001QYBTHJ2YjfpVGV",
+    "session_id": "ses_1b572352dffeOBf3xRAdCGWyva",
+    "time_created": 1779367269299,
+    "time_updated": 1779367269302,
+    "data": "{\"reason\":\"stop\",\"type\":\"step-finish\",\"tokens\":{\"total\":8258,\"input\":8234,\"output\":3,\"reasoning\":21,\"cache\":{\"write\":0,\"read\":0}},\"cost\":0}"
+  }
+]

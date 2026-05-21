@@ -1,0 +1,4 @@
+Run started: ID=opencode-1
+Status: failed
+Session ID: ses_1b575d739ffeQa8w1IBu5D7W1d
+Error: opencode run: runtime_exit: OpenCode finished without a final structured result

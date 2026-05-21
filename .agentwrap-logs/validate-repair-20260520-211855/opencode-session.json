@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ses_1b8f569c5ffexORgfCwKDymTrX",
+    "project_id": "global",
+    "parent_id": null,
+    "slug": "neon-sailor",
+    "directory": "/home/antonioborgerees/coding/ultraplan-go/.agentwrap-logs/validate-repair-20260520-211855",
+    "title": "Workspace exploration",
+    "version": "1.15.5",
+    "share_url": null,
+    "summary_additions": 0,
+    "summary_deletions": 0,
+    "summary_files": 0,
+    "summary_diffs": null,
+    "revert": null,
+    "permission": "[{\"permission\":\"question\",\"pattern\":\"*\",\"action\":\"deny\"},{\"permission\":\"plan_enter\",\"pattern\":\"*\",\"action\":\"deny\"},{\"permission\":\"plan_exit\",\"pattern\":\"*\",\"action\":\"deny\"}]",
+    "time_created": 1779308336698,
+    "time_updated": 1779308351237,
+    "time_compacting": null,
+    "time_archived": null,
+    "workspace_id": null,
+    "path": "home/antonioborgerees/coding/ultraplan-go/.agentwrap-logs/validate-repair-20260520-211855",
+    "agent": "build",
+    "model": "{\"id\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"variant\":\"default\"}",
+    "cost": 0,
+    "tokens_input": 17986,
+    "tokens_output": 505,
+    "tokens_reasoning": 252,
+    "tokens_cache_read": 34944,
+    "tokens_cache_write": 0
+  }
+]

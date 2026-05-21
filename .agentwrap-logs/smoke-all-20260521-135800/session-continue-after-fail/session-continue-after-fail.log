@@ -1,0 +1,4 @@
+=== SESSION LIFECYCLE: CONTINUE AFTER FAILED RUN ===
+
+Run 1 Status: failed
+Run 1 produced no session - cannot test continue after fail

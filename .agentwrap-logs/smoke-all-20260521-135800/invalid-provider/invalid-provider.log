@@ -1,0 +1,4 @@
+Model: nonexistent-provider/test
+Status: failed
+Category: runtime_exit
+UserDetail: OpenCode reported a fatal session error

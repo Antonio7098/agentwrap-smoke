@@ -1,0 +1,7 @@
+=== FIXED BACKOFF TEST ===
+
+Using model: opencode/deepseek-v4-flash-free
+FixedBackoff: DelayValue=2s
+Run started: ID=policy-1
+Wait error: opencode run: timeout: OpenCode run timed out
+Final Status: failed
