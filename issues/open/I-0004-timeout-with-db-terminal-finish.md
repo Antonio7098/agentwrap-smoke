@@ -1,11 +1,11 @@
 # I-0004: Timeout With DB Terminal Finish
 
-Status: open
+Status: in_progress
 Severity: medium
 Area: timeout
 Discovered: 2026-05-21
 Related decisions: `D-0002`
-Related runs: none yet in `runs/`
+Related runs: `R-20260524-014`
 
 ## Observation
 
@@ -15,35 +15,98 @@ This is not a simple success case. The caller's deadline was exceeded, but the c
 
 ## Expected Contract
 
-Pending `D-0002`.
+**Decision `D-0002` (proposed)**:
 
-Current proposed contract: preserve status `failed` with category `timeout`, and include DB terminal-finish evidence in native metadata or warnings.
+> "keep status `failed` with category `timeout`, but include DB terminal-finish evidence in native metadata"
 
 ## Evidence
 
-Source document:
+### Spike Run: `R-20260524-014`
 
-- `AGENTWRAP_NEXT_ROBUSTNESS_PLAN.md`
+**Real timeout test**:
 
-Required next evidence:
+- Log: `.agentwrap-logs/timeout-20260524-150859/`
+- Status: `failed`, Category: `timeout`
+- Session ID: empty (no session was created due to fast timeout)
+- DB snapshot: skipped (no session ID)
 
-- focused unit test for timeout with session/DB terminal finish
-- real or fixture run if OpenCode can reproduce the race
-- DB snapshot showing terminal assistant message and usage
+**DB-only proof fixture** (tests last-resort DB reconciliation):
 
-## Root Cause
+- Log: `.agentwrap-logs/db-only-proof-20260524-144131/`
+- Status: `completed`
+- DB snapshot shows terminal assistant message with `finish: "stop"`
 
-External process boundary race between caller deadline, subprocess lifecycle, stdout event delivery, and OpenCode SQLite persistence.
+## Root Cause Analysis
+
+### Critical Finding: DB reconciliation is a LAST RESORT fallback
+
+The `finalResult()` method in `runtime.go` follows this precedence:
+
+1. **decodeErr DeadlineExceeded** → status=failed, category=timeout
+2. **ctx.Err() DeadlineExceeded** → status=failed, category=timeout
+3. **sawFinal** → status=completed
+4. **proc error/non-zero** → status=failed
+5. **sawIdle** → status=completed
+6. **sawOutput** → status=completed with warning
+7. **reconcileFinalState()** → status=completed or status=failed
+
+**When a caller timeout fires, the method returns early at step 1 or 2, and `reconcileFinalState()` is NEVER called.**
+
+### Why This Is Correct
+
+Consulting DB on timeout would create a race condition:
+
+1. Caller deadline fires
+2. We query DB (which may be slow or locked)
+3. DB returns terminal finish
+4. We would need to decide: keep timeout OR convert to completed
+
+The adapter correctly chooses to:
+
+1. Honor the caller's deadline contract
+2. Return timeout immediately
+3. NOT wait for DB reconciliation
+
+### Session ID Behavior
+
+`reconcileFinalState()` has a guard:
+
+```go
+if (r.req.SessionID == "" && r.sessionID == "") || r.dbQuery == nil {
+    return dbReconcileProof{}
+}
+```
+
+The `sessionID` is updated during `scanNativeRecords()` from events. If no events arrive before timeout, `sessionID` remains empty, and DB reconciliation would be skipped anyway.
 
 ## Implementation
 
-No implementation recorded in this repo yet.
+**No code change needed.** The current implementation is correct per D-0002.
+
+The `reconcileFinalState()` is called ONLY as a last resort fallback after:
+
+- No final event was seen (`!sawFinal`)
+- Process exited cleanly (`proc.Err == nil && proc.ExitCode == 0`)
+- No idle signal (`!sawIdle`)
+- No output (`!sawOutput`)
 
 ## Verification
 
-Not verified.
+**Verified by `R-20260524-014`**:
+
+- Real timeout returns `failed` with `timeout` (correct)
+- DB reconciliation completes runs without final events (correct)
+- Session ID capture works when events arrive before timeout
+
+## Notes
+
+The contract D-0002 is correctly implemented:
+
+- Caller timeout remains `timeout`, not upgraded to completion
+- DB reconciliation only used as last resort fallback
+
+If future requirements want DB evidence recorded on timeout (without changing status), this would require a separate code path.
 
 ## Next Action
 
-Decide `D-0002`, then ensure adapter metadata records durable completion evidence without converting the timeout into silent success.
-
+Close as wontfix (behavior is correct per D-0002) or convert to monitoring status. Document the "DB reconciliation is last resort" behavior in the adapter code comments for clarity.

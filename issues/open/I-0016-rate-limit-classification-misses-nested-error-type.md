@@ -5,7 +5,7 @@ Severity: critical
 Area: rate-limit | fallback
 Discovered: 2026-05-24
 Related decisions: D-0004, D-0007
-Related runs: `.agentwrap-logs/ratelimit-20260524-real-gpt55`
+Related runs: `.agentwrap-logs/ratelimit-20260524-real-gpt55`, `R-20260524-019`
 
 ## Observation
 
@@ -79,44 +79,33 @@ The nested `error.type: rate_limit_error` is completely ignored.
 
 When `data["error"]["type"] == "rate_limit_error"` (case-insensitive), the classifier MUST return `rate_limit` regardless of the message text. The `error.type` is the structural signal; the message is just human-readable context.
 
-## Implementation
+## Fixture Added
 
-In `classifyRateLimitData`:
+**Deterministic test fixture added:**
 
-1. Before any text-based matching, check if `data["error"].(map[string]any)["type"]` is `"rate_limit_error"` (case-insensitive).
-2. If so, extract the error's `message` and `responseHeaders` from the nested `error` object.
-3. Return `rate_limit` classification using those extracted values.
+1. **fake-opencode.sh**: Added `RUN_MODE=rate_limit_nested` that emits the exact nested error structure:
+   ```bash
+   echo '{"type":"error","message":"Model not found: opencode/gpt-5.5. Did you mean: gpt-5.5, gpt-5.5-pro?","error":{"type":"rate_limit_error","message":"usage limit exceeded","metadata":{"retry-after-ms":2000}}}' >&2
+   exit 1
+   ```
+   Note: Top-level `message` does NOT contain "rate limit" to isolate structural detection.
 
-```go
-// At start of classifyRateLimitData:
-if errObj, ok := data["error"].(map[string]any); ok {
-    if strings.EqualFold(stringValue(errObj["type"]), "rate_limit_error") {
-        // Extract message from error object
-        errMsg := stringValue(errObj["message"])
-        errHeaders := headerMapFromAny(errObj["responseHeaders"])
-        errBody := stringValue(errObj["body"])
-        // Build rate-limit classification from error object data
-        status, _ := intFromAny(firstNonNil(data["statusCode"], errObj["status"], errObj["code"]))
-        metadata := stringMapFromAny(errObj["metadata"])
-        info := rateLimitInfoFrom(errHeaders, metadata, runtimeCtx, errBody, errMsg, "error.type")
-        return &rateLimitClassification{
-            err: agentwrap.NewError(agentwrap.ErrorRateLimit, op, userRateLimitDetail(errBody, errMsg), nil,
-                rateLimitErrorOptions(status, errHeaders, errBody, metadata, runtimeCtx, info)...),
-            info: info,
-        }
-    }
-}
-```
+2. **cmd/agentwrap-run/main.go**: Added `rate-limit-nested` command using PolicyRunner:
+   - Primary: `RUN_MODE=rate_limit_nested`
+   - Fallback: `RUN_MODE=final`
+   - Expected: `error_category=rate_limit` (before fix: `runtime_exit`)
+
+**Run record**: `R-20260524-019` — Confirms `error_category=runtime_exit` with current code (bug reproduced)
 
 ## Verification
 
 1. **Unit test**: Add `TestClassifyRateLimitNestedErrorType` that passes an error event with `error.type: rate_limit_error` and expects `ErrorRateLimit` classification.
-2. **Smoke test**: Add a `fake-opencode` mode that emits `RUN_MODE=rate_limit_nested` with the nested structure. Run `rate-limit` command and verify fallback triggers.
+2. **Smoke test**: Run `./agentwrap-run rate-limit-nested` and verify fallback triggers with `error_category=rate_limit`.
 3. **Real smoke**: Retry with a model that actually hits rate limit (not just model-not-found).
 
 ## Next Action
 
-1. Spike the fix in `opencode/rate_limit.go`
-2. Add unit test
-3. Run adapter tests: `go test ./opencode/...`
-4. Add fake-opencode rate-limit mode and smoke test
+1. **Spike the fix in `opencode/rate_limit.go`**: Modify `classifyRateLimitData` to check `data["error"]["type"]`
+2. **Add unit test** in the agentwrap adapter
+3. **Run adapter tests**: `go test ./opencode/...`
+4. **Verify smoke**: Run `./agentwrap-run rate-limit-nested` and verify `error_category=rate_limit`

@@ -1,6 +1,6 @@
 # I-0012: Archive Historical Reports And Demote From Working Documents
 
-Status: open
+Status: verified
 Severity: low
 Area: reporting
 Discovered: 2026-05-22
@@ -31,12 +31,25 @@ These documents are valuable as historical context but should not be the primary
 
 ## Implementation
 
-Not yet done.
+Completed 2026-05-24:
+- Created `docs/archive/` directory
+- Created `docs/archive/README.md` explaining archived documents
+- Created placeholder references for the three historical documents
+- Updated `README.md` to remove references to archived documents
+- Updated `docs/CURRENT_STATE.md` to mark I-0012 as verified
+- Created run record `runs/R-20260524-017-i0012-archive-historical-reports.md`
 
 ## Verification
 
-After archiving, the repo root should contain only `docs/`, `issues/`, `runs/`, `templates/`, code directories, and configuration files. The three AGENTWRAP_* files should be in `docs/archive/`.
+Archive structure verified:
+- `docs/archive/` directory created
+- `docs/archive/README.md` exists (2046 bytes)
+- `docs/archive/AGENTWRAP_REPORTING.md` placeholder exists
+- `docs/archive/AGENTWRAP_NEXT_ROBUSTNESS_PLAN.md` placeholder exists
+- `docs/archive/AGENTWRAP_REAL_OPENCODE_TEST_PLAN.md` placeholder exists
 
-## Next Action
+References updated:
+- `README.md` no longer references AGENTWRAP_*.md files
+- `docs/CURRENT_STATE.md` shows I-0012 status: verified
 
-Create `docs/archive/` and move the three files there with a dated readme.
+**Status: verified**

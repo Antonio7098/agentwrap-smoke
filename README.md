@@ -139,10 +139,7 @@ This is exactly the class of bug that required hardening in `agentwrap/opencode/
   [rate_limit.go](/home/antonioborgerees/coding/agentwrap/opencode/rate_limit.go)
 - Adapter regression tests:
   [runtime_test.go](/home/antonioborgerees/coding/agentwrap/opencode/runtime_test.go)
-- Investigation record:
-  [AGENTWRAP_REPORTING.md](/home/antonioborgerees/coding/agentwrap-smoke/AGENTWRAP_REPORTING.md)
-- Expanded real-run test plan:
-  [AGENTWRAP_REAL_OPENCODE_TEST_PLAN.md](/home/antonioborgerees/coding/agentwrap-smoke/AGENTWRAP_REAL_OPENCODE_TEST_PLAN.md)
+
 
 ## Practical Commands
 

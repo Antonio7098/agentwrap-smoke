@@ -1,0 +1,25 @@
+{
+  "id": "ses_1a5a5436cffeY5Ehfc24IWhTLk",
+  "directory": "/home/antonioborgerees/coding/agentwrap-smoke/cmd/spike-http-sse",
+  "projectID": "7c5d18e63545c45cda8b049993ce2d9e70d8a86e",
+  "time": {
+    "created": 1779632356499,
+    "updated": 1779632356499,
+    "compacting": 0
+  },
+  "title": "New session - 2026-05-24T14:19:16.499Z",
+  "version": "1.15.10",
+  "parentID": "",
+  "revert": {
+    "messageID": "",
+    "diff": "",
+    "partID": "",
+    "snapshot": ""
+  },
+  "share": {
+    "url": ""
+  },
+  "summary": {
+    "diffs": null
+  }
+}

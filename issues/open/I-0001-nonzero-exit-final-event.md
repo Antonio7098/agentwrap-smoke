@@ -1,53 +1,93 @@
 # I-0001: Non-Zero Exit Versus Final Event
 
-Status: open
+Status: verified
 Severity: high
 Area: process-boundary
 Discovered: 2026-05-21
-Related decisions: `D-0001`
-Related runs: none yet in `runs/`
+Related decisions: `D-0001` (confirmed)
+Related runs: `R-20260524-013`
 
 ## Observation
 
-`AGENTWRAP_NEXT_ROBUSTNESS_PLAN.md` records a suspected adapter bug where a non-zero OpenCode process exit can override a previously observed final structured event.
+`AGENTWRAP_NEXT_ROBUSTNESS_PLAN.md` recorded a suspected adapter bug where a non-zero OpenCode process exit could override a previously observed final structured event.
 
-Recorded finding:
+The suspected bug: "Non-zero exit overrides `sawFinal` because `proc.ExitCode != 0` is checked before `!r.sawFinal` in `finalResult()`."
 
-> Non-zero exit overrides `sawFinal` because `proc.ExitCode != 0` is checked before `!r.sawFinal` in `finalResult()`.
+## Investigation Result
 
-## Expected Contract
+**NOT A BUG.** The current adapter code correctly gives `sawFinal` precedence over non-runtime-exit process failures.
 
-Pending `D-0001`.
+The relevant logic in `/home/antonioborgerees/coding/agentwrap/opencode/runtime.go` (`finalResult()`, around line 252):
 
-Candidate contract: a strong final structured completion event should be preserved as completion, while the non-zero process exit is retained as warning/native metadata.
+```go
+} else if r.sawFinal {
+    if proc.Err != nil || proc.ExitCode != 0 {
+        if exitErr := classifyExitError(proc, r.stderrBuffer.String()); exitErr.Category != agentwrap.ErrorRuntimeExit {
+            sdkErr = exitErr
+            status = agentwrap.StatusFailed
+        } else {
+            status = agentwrap.StatusCompleted
+        }
+    } else {
+        status = agentwrap.StatusCompleted
+    }
+}
+```
 
-## Evidence
+When `sawFinal=true`:
 
-Source document:
-
-- `AGENTWRAP_NEXT_ROBUSTNESS_PLAN.md`
-- `/home/antonioborgerees/coding/ultraplan/targets/agentwrap/reports/opencode-cancellation-failures-end-of-run.md`
-
-Additional evidence from the OpenCode lifecycle report:
-
-- Section 2.2 describes `finalResult()` as intending to tolerate non-zero exit after `sawFinal` when the classified error is only `runtime_exit`.
-- Section 3.2 confirms that `step_finish` is the adapter's current final signal.
-- This sharpens the next check: verify actual current code/tests, because the reports disagree on whether non-zero-exit-overrides-final is still current or already fixed.
-
-Required next evidence:
-
-- unit test name and result from `/home/antonioborgerees/coding/agentwrap/opencode/runtime_test.go`
-- exact adapter code path in `/home/antonioborgerees/coding/agentwrap/opencode/runtime.go`
-- relevant real or fixture smoke run if one exists
-
-## Implementation
-
-No implementation recorded in this repo yet.
+1. If process error OR non-zero exit code exists
+2. AND `classifyExitError` does NOT return `ErrorRuntimeExit` (e.g., rate-limit, model error) → `failed`
+3. OR if `classifyExitError` returns `ErrorRuntimeExit` (plain non-zero exit with no actionable error) → `completed`
+4. If no process error and exit code 0 → `completed`
 
 ## Verification
 
-Not verified.
+### Unit Test: `TestRunNonZeroExitWithFinalEventStillCompletes`
+
+- **File**: `/home/antonioborgerees/coding/agentwrap/opencode/runtime_test.go` (line 1289)
+- **Fixture**: `final.ndjson` with `processResult{ExitCode: 1, Err: errors.New("exit status 1")}`
+- **Assertions**:
+  - `result.Status == agentwrap.StatusCompleted` ✅
+  - `result.Err == nil` ✅
+  - `waitErr == nil` ✅
+  - `hasFinalResult == true` (final_result event observed) ✅
+- **Result**: ✅ PASS
+
+### Smoke Test: `process-group-nonzero-final`
+
+- **Command**: `go run ./cmd/agentwrap-run process-group-nonzero-final`
+- **Fake opencode**: `RUN_MODE=nonzero_final` — emits `step_start`, `text`, `step_finish`, then exits 7
+- **Expected**: `completed`
+- **Actual**: `completed` ✅
+- **Log dir**: `.agentwrap-logs/process-group-nonzero-final-20260524-150922/`
+- **Native metadata**:
+  - `exit_code`: 7 (preserved, not discarded)
+  - `native_terminal_evidence`: `step_finish`
+  - `stderr`: `""` (empty)
+  - `event_count`: 6
+  - `event_categories`: `final_result=1, lifecycle=2, message=1, progress=1, session=1`
+
+## Contract Confirmation (D-0001)
+
+The contract decision aligns with current adapter behavior:
+
+| Scenario                                       | Exit Code | sawFinal | stderr          | Result                       |
+| ---------------------------------------------- | --------- | -------- | --------------- | ---------------------------- |
+| Final event, clean exit                        | 0         | true     | —               | `completed`                  |
+| Final event, non-zero exit (runtime_exit only) | 7         | true     | empty           | `completed` ✅ verified      |
+| Final event, non-zero exit, rate-limit stderr  | 7         | true     | rate-limit JSON | `failed` (rate_limit)        |
+| No final event, non-zero exit                  | 7         | false    | —               | `failed` (runtime_exit)      |
+| Final event, non-zero exit, model error stderr | 7         | true     | model error     | `failed` (model_unavailable) |
+
+**Decision**: Report `completed` when the final event is strong enough to prove terminal success, include a warning plus native process-exit metadata. Do not silently discard the non-zero exit.
+
+**Recommendation**: Mark `D-0001` as **accepted** (was: proposed).
+
+## Implementation
+
+No change needed — behavior is already correct.
 
 ## Next Action
 
-Confirm current adapter behavior with the narrowest unit test. If current code already preserves final events across `runtime_exit`, close this as verified and move attention to richer final-signal handling.
+Close this issue as **verified**. No further action required for the non-zero exit vs final event case. Monitor the related open issues for other process-boundary concerns.

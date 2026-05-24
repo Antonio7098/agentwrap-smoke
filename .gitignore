@@ -1,0 +1,18 @@
+# Build artifacts
+agentwrap-run
+agentwrap_demo
+cmd/agentwrap-run/agentwrap-run
+cmd/spike-http-sse/spike-http-sse
+
+# Go build cache
+.gocache/
+.gotmp/
+
+# Agent/worker artifacts
+.pi-lens/
+test-output.txt
+worker-summary.txt
+worker-*.txt
+
+# Log directories from untracked runs (keep these if you want all evidence)
+/.agentwrap-logs/

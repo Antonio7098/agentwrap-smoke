@@ -4,14 +4,16 @@ This file records behavior contracts that future adapter, harness, and report ch
 
 ## D-0001: Final Event Versus Non-Zero Exit
 
-Status: proposed
+Status: accepted
 
 Question: if OpenCode emits a final structured completion event but the process exits non-zero, should `agentwrap` report `completed` or `failed`?
 
-Current leaning: report `completed` when the final event is strong enough to prove terminal success, and include a warning plus native process-exit metadata. Do not silently discard the non-zero exit.
+Decision: report `completed` when the final event is strong enough to prove terminal success, and include a warning plus native process-exit metadata. Do not silently discard the non-zero exit.
+
+Evidence: `R-20260524-013` smoke test and `TestRunNonZeroExitWithFinalEventStillCompletes` unit test both pass — process exits 7 but status is `completed` with `exit_code: 7` preserved in native metadata.
 
 Related issues:
-- `I-0001`
+- `I-0001` (verified)
 
 ## D-0002: Timeout With Durable DB Completion
 
