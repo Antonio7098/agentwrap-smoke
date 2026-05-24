@@ -1,0 +1,5 @@
+Both primary and fallback use invalid models
+Status: failed
+Category: model_unavailable
+Attempt 1 target=0 model=opencode/not-a-real-model status=failed error=model_unavailable
+Attempt 2 target=1 model=opencode/also-not-a-model status=failed error=model_unavailable

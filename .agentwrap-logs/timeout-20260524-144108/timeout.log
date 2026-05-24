@@ -1,0 +1,11 @@
+=== TIMEOUT TEST ===
+Log dir: /home/antonioborgerees/coding/agentwrap-smoke/.agentwrap-logs/timeout-20260524-144108
+
+Using model: opencode/deepseek-v4-flash-free
+Run started: ID=opencode-1
+Timeout set to 500ms
+Wait error: opencode run: timeout: OpenCode run timed out
+  Category: timeout
+  UserDetail: OpenCode run timed out
+Final Status: failed
+Expectation: status=failed category=timeout passed=true

@@ -1,0 +1,1 @@
+{"session_id":"ses_fake123","status":"failed","errors":{"opencode-messages.json":"query timeout after 5s","opencode-parts.json":"query timeout after 5s","opencode-session.json":"query timeout after 5s"}}

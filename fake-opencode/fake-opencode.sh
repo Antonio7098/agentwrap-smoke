@@ -195,6 +195,16 @@ EOF
                     exit 7
                     ;;
 
+                rate_limit_nested)
+                    # Emits OpenCode's nested error.type structure that should classify as rate_limit
+                    emit_delay
+                    echo '{"type":"step_start","timestamp":1710000000000,"sessionID":"ses_fake123"}'
+                    emit_delay
+                    # Fatal error event with nested error.type: rate_limit_error
+                    echo '{"type":"error","timestamp":1710000001500,"sessionID":"ses_fake123","data":{"message":"Model not found: opencode/gpt-5.5. Did you mean: gpt-5.5, gpt-5.5-pro?","error":{"type":"rate_limit_error","message":"usage limit exceeded"}}}'
+                    exit 1
+                    ;;
+
                 timeout)
                     sleep 30
                     ;;

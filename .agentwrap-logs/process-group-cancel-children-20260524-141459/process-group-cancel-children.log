@@ -1,0 +1,13 @@
+=== PROCESS-GROUP TEST: Cancellation With Child Processes ===
+Expected: cancelled (whole process group terminated, no surviving children)
+
+Using fake opencode: /home/antonioborgerees/coding/agentwrap-smoke/fake-opencode/fake-opencode.sh
+PID evidence dir: /home/antonioborgerees/coding/agentwrap-smoke/.agentwrap-logs/process-group-cancel-children-20260524-141459/pids
+Run started: ID=opencode-1
+Waiting 2 seconds before cancelling...
+Calling Run.Cancel()...
+Status: cancelled
+Category: cancellation
+Fake OpenCode PID: 323070 alive=false
+Helper PID: 323073 alive=false
+Expectation: status=cancelled category=cancellation passed=true

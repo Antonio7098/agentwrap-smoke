@@ -1,0 +1,30 @@
+[
+  {
+    "id": "msg_e5a2efd92001hIXWL00Z5aewah",
+    "session_id": "ses_1a5d102e2ffeLa213pggvTATCJ",
+    "time_created": 1779629489554,
+    "time_updated": 1779629489918,
+    "data": "{\"role\":\"user\",\"time\":{\"created\":1779629489554},\"agent\":\"build\",\"model\":{\"providerID\":\"opencode\",\"modelID\":\"deepseek-v4-flash-free\"},\"summary\":{\"diffs\":[]}}"
+  },
+  {
+    "id": "msg_e5a2efe61001JX4cnBpBtV6YlD",
+    "session_id": "ses_1a5d102e2ffeLa213pggvTATCJ",
+    "time_created": 1779629489761,
+    "time_updated": 1779629492031,
+    "data": "{\"parentID\":\"msg_e5a2efd92001hIXWL00Z5aewah\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/agentwrap-smoke\",\"root\":\"/home/antonioborgerees/coding/agentwrap-smoke\"},\"cost\":0,\"tokens\":{\"total\":8257,\"input\":8242,\"output\":3,\"reasoning\":12,\"cache\":{\"write\":0,\"read\":0}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779629489761,\"completed\":1779629492030},\"finish\":\"stop\"}"
+  },
+  {
+    "id": "msg_e5a2f0c55001s7NPvhiKyheGcS",
+    "session_id": "ses_1a5d102e2ffeLa213pggvTATCJ",
+    "time_created": 1779629493333,
+    "time_updated": 1779629493716,
+    "data": "{\"role\":\"user\",\"time\":{\"created\":1779629493333},\"agent\":\"build\",\"model\":{\"providerID\":\"opencode\",\"modelID\":\"deepseek-v4-flash-free\"},\"summary\":{\"diffs\":[]}}"
+  },
+  {
+    "id": "msg_e5a2f0d19001yPcAv3MDB3AIIK",
+    "session_id": "ses_1a5d102e2ffeLa213pggvTATCJ",
+    "time_created": 1779629493529,
+    "time_updated": 1779629495727,
+    "data": "{\"parentID\":\"msg_e5a2f0c55001s7NPvhiKyheGcS\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/agentwrap-smoke\",\"root\":\"/home/antonioborgerees/coding/agentwrap-smoke\"},\"cost\":0,\"tokens\":{\"total\":8270,\"input\":63,\"output\":3,\"reasoning\":12,\"cache\":{\"write\":0,\"read\":8192}},\"modelID\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"time\":{\"created\":1779629493529,\"completed\":1779629495725},\"finish\":\"stop\"}"
+  }
+]

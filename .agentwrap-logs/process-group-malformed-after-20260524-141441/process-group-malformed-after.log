@@ -1,0 +1,8 @@
+=== PROCESS-GROUP TEST: Final Event Followed By Malformed Output ===
+Expected: completed (final event should win despite malformed output after)
+
+Using fake opencode: /home/antonioborgerees/coding/agentwrap-smoke/fake-opencode/fake-opencode.sh
+Run started: ID=opencode-1
+Status: completed
+No error returned - run completed successfully
+Expectation: status=completed category= passed=true

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "prt_e5a26d638001VQg2CeWg6fIlGL",
+    "message_id": "msg_e5a26d61c001S6OmPnpo04H6ki",
+    "session_id": "ses_1a5d92aa1ffedwtw80ly0Tsq4j",
+    "time_created": 1779628955209,
+    "time_updated": 1779628955212,
+    "data": "{\"type\":\"text\",\"text\":\"\\\"Reply with exactly: SHAPE\\\"\"}"
+  },
+  {
+    "id": "prt_e5a26dc660019d791tahFNkSuT",
+    "message_id": "msg_e5a26d7a6001vCaddhO1l6pamQ",
+    "session_id": "ses_1a5d92aa1ffedwtw80ly0Tsq4j",
+    "time_created": 1779628956774,
+    "time_updated": 1779628956777,
+    "data": "{\"type\":\"step-start\"}"
+  },
+  {
+    "id": "prt_e5a26deb9001DGh8dO09Y2LVT7",
+    "message_id": "msg_e5a26d7a6001vCaddhO1l6pamQ",
+    "session_id": "ses_1a5d92aa1ffedwtw80ly0Tsq4j",
+    "time_created": 1779628957369,
+    "time_updated": 1779628957394,
+    "data": "{\"type\":\"reasoning\",\"text\":\"The user wants me to reply with exactly \\\"SHAPE\\\".\",\"time\":{\"start\":1779628957369,\"end\":1779628957392}}"
+  },
+  {
+    "id": "prt_e5a26ded5001mIhs3Ff2dUBQZQ",
+    "message_id": "msg_e5a26d7a6001vCaddhO1l6pamQ",
+    "session_id": "ses_1a5d92aa1ffedwtw80ly0Tsq4j",
+    "time_created": 1779628957398,
+    "time_updated": 1779628957421,
+    "data": "{\"type\":\"text\",\"text\":\"SHAPE\",\"time\":{\"start\":1779628957397,\"end\":1779628957418}}"
+  },
+  {
+    "id": "prt_e5a26def7001YZq76X01kbSI8r",
+    "message_id": "msg_e5a26d7a6001vCaddhO1l6pamQ",
+    "session_id": "ses_1a5d92aa1ffedwtw80ly0Tsq4j",
+    "time_created": 1779628957432,
+    "time_updated": 1779628957434,
+    "data": "{\"reason\":\"stop\",\"type\":\"step-finish\",\"tokens\":{\"total\":8214,\"input\":8199,\"output\":3,\"reasoning\":12,\"cache\":{\"write\":0,\"read\":0}},\"cost\":0}"
+  }
+]

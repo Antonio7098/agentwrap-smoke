@@ -37,18 +37,20 @@ Related issues:
 
 ## D-0004: Fallback Signals Sufficient For Completion
 
-Status: proposed
+Status: accepted
 
 Question: which fallback signals are sufficient to treat an OpenCode run as completed when stdout lacks a final structured event?
 
-Fallback signals (strongest to weakest):
+Accepted fallback order (strongest to weakest):
 
-1. **Final event (`step_finish`)**: strongest — set `sawFinal = true`, completed without warning.
-2. **Assistant output (`text`/`reasoning`) on clean exit**: moderate — completed with warning, partial-output risk accepted.
-3. **DB terminal finish with nonzero usage**: moderate — completed with warning, requires `opencode db` available.
-4. **Clean exit with output but no DB proof**: weakest — contract pending D-0003.
+1. **Final structured event**: strongest. Report completed unless stronger contradictory evidence exists, such as provider/rate-limit classification.
+2. **Assistant output on clean exit**: report completed with warning when there is useful assistant output and no contradictory process/provider evidence.
+3. **DB terminal finish evidence**: report completed with warning when durable OpenCode state proves a terminal assistant finish and there is no caller timeout or stronger process/provider failure.
+4. **No final event, no output, no DB proof**: report failed/runtime_exit.
 
-Current adapter behavior: signals 1-3 are implemented. Signal 4 follows D-0003 outcome.
+Timeout remains governed by D-0002: durable DB evidence may be recorded, but does not silently convert a caller deadline into success.
+
+Current adapter behavior: final event and clean-output fallback are implemented; DB fallback behavior remains covered by I-0010/D-0008 testability work.
 
 Related issues:
 - `I-0006`

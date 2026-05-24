@@ -1,0 +1,13 @@
+=== SESSION LIFECYCLE: CONTINUE EXISTING SESSION SUCCESS ===
+
+Run 1 Status: completed
+Run 1 Session ID: ses_1a5d102e2ffeLa213pggvTATCJ
+
+Attempting to continue session ses_1a5d102e2ffeLa213pggvTATCJ
+Run 2 started: ID=opencode-2
+Run 2 Status: completed
+Run 2 Session ID: ses_1a5d102e2ffeLa213pggvTATCJ
+Session metadata ID: ses_1a5d102e2ffeLa213pggvTATCJ
+Session relationship: best_effort
+Session requested action: continue
+Session continued: true

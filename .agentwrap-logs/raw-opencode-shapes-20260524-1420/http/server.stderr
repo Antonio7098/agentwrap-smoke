@@ -1,0 +1,140 @@
+INFO  2026-05-24T13:24:02 +681ms service=default version=1.15.10 args=["serve","--hostname","127.0.0.1","--port","41037","--print-logs"] process_role=main run_id=fb6991de-bec6-41ca-9119-9e3bcd461391 opencode
+INFO  2026-05-24T13:24:02 +116ms service=file init
+INFO  2026-05-24T13:24:03 +625ms service=db path=/home/antonioborgerees/.local/share/opencode/opencode.db opening database
+INFO  2026-05-24T13:24:03 +15ms service=db count=20 mode=bundled applying migrations
+INFO  2026-05-24T13:24:03 +92ms service=config path=/home/antonioborgerees/.config/opencode/config.json loading
+INFO  2026-05-24T13:24:03 +40ms service=config path=/home/antonioborgerees/.config/opencode/opencode.json loading
+INFO  2026-05-24T13:24:03 +1ms service=config path=/home/antonioborgerees/.config/opencode/opencode.jsonc loading
+INFO  2026-05-24T13:24:03 +35ms service=file init
+INFO  2026-05-24T13:24:03 +545ms service=default directory=/home/antonioborgerees/coding/agentwrap-smoke creating instance
+INFO  2026-05-24T13:24:03 +2ms service=project directory=/home/antonioborgerees/coding/agentwrap-smoke fromDirectory
+INFO  2026-05-24T13:24:04 +79ms service=default directory=/home/antonioborgerees/coding/agentwrap-smoke bootstrapping
+INFO  2026-05-24T13:24:04 +32ms service=config path=/home/antonioborgerees/.config/opencode/config.json loading
+INFO  2026-05-24T13:24:04 +10ms service=config path=/home/antonioborgerees/.config/opencode/opencode.json loading
+INFO  2026-05-24T13:24:04 +1ms service=config path=/home/antonioborgerees/.config/opencode/opencode.jsonc loading
+INFO  2026-05-24T13:24:04 +60ms service=config path=/home/antonioborgerees/.opencode/opencode.json loading
+INFO  2026-05-24T13:24:04 +1ms service=config path=/home/antonioborgerees/.opencode/opencode.jsonc loading
+INFO  2026-05-24T13:24:04 +70ms service=plugin name=EG loading internal plugin
+INFO  2026-05-24T13:24:04 +2ms service=plugin name=kG loading internal plugin
+INFO  2026-05-24T13:24:04 +1ms service=plugin name=hH loading internal plugin
+INFO  2026-05-24T13:24:04 +0ms service=plugin name=Y7 loading internal plugin
+INFO  2026-05-24T13:24:04 +0ms service=plugin name=lH loading internal plugin
+INFO  2026-05-24T13:24:04 +1ms service=plugin name=cH loading internal plugin
+INFO  2026-05-24T13:24:04 +0ms service=plugin name=dH loading internal plugin
+INFO  2026-05-24T13:24:04 +0ms service=plugin name=aH loading internal plugin
+INFO  2026-05-24T13:24:04 +1ms service=plugin name=XM loading internal plugin
+INFO  2026-05-24T13:24:04 +2ms service=bus type=* subscribing
+INFO  2026-05-24T13:24:04 +5ms service=lsp all LSPs are disabled
+INFO  2026-05-24T13:24:04 +3ms service=bus type=session.updated subscribing
+INFO  2026-05-24T13:24:04 +1ms service=bus type=message.updated subscribing
+INFO  2026-05-24T13:24:04 +1ms service=bus type=message.part.updated subscribing
+INFO  2026-05-24T13:24:04 +0ms service=bus type=session.diff subscribing
+INFO  2026-05-24T13:24:04 +0ms service=bus type=session.deleted subscribing
+INFO  2026-05-24T13:24:04 +3ms service=format all formatters are disabled
+INFO  2026-05-24T13:24:04 +0ms service=format init
+INFO  2026-05-24T13:24:04 +4ms service=file.watcher directory=/home/antonioborgerees/coding/agentwrap-smoke init
+INFO  2026-05-24T13:24:04 +4ms service=file.watcher directory=/home/antonioborgerees/coding/agentwrap-smoke platform=linux backend=inotify watcher backend
+INFO  2026-05-24T13:24:04 +7ms service=bus type=command.executed subscribing
+INFO  2026-05-24T13:24:04 +229ms service=vcs branch=main default_branch=main initialized
+INFO  2026-05-24T13:24:04 +0ms service=bus type=file.watcher.updated subscribing
+INFO  2026-05-24T13:24:10 +5962ms service=session id=ses_1a5d7b59effenzw1301sORj0kY slug=hidden-falcon version=1.15.10 projectID=7c5d18e63545c45cda8b049993ce2d9e70d8a86e directory=/home/antonioborgerees/coding/agentwrap-smoke path= title=New session - 2026-05-24T13:24:10.465Z cost=0 tokens={"input":0,"output":0,"reasoning":0,"cache":{"read":0,"write":0}} time={"created":1779629050465,"updated":1779629050465} created
+INFO  2026-05-24T13:24:10 +13ms service=bus type=session.created publishing
+INFO  2026-05-24T13:24:10 +2ms service=bus type=session.updated publishing
+INFO  2026-05-24T13:24:25 +14633ms service=bus type=* subscribing
+INFO  2026-05-24T13:24:25 +0ms service=server event connected
+INFO  2026-05-24T13:24:26 +1074ms service=provider status=started state
+INFO  2026-05-24T13:24:26 +305ms service=provider init
+INFO  2026-05-24T13:24:26 +133ms service=provider providerID=minimax-coding-plan found
+INFO  2026-05-24T13:24:26 +1ms service=provider providerID=ollama-cloud found
+INFO  2026-05-24T13:24:26 +1ms service=provider providerID=openrouter found
+INFO  2026-05-24T13:24:26 +0ms service=provider providerID=openai found
+INFO  2026-05-24T13:24:26 +0ms service=provider providerID=opencode found
+INFO  2026-05-24T13:24:26 +0ms service=provider status=completed duration=440 state
+INFO  2026-05-24T13:24:26 +13ms service=bus type=session.next.agent.switched publishing
+INFO  2026-05-24T13:24:26 +7ms service=bus type=session.next.model.switched publishing
+INFO  2026-05-24T13:24:26 +20ms service=bus type=message.updated publishing
+INFO  2026-05-24T13:24:26 +7ms service=bus type=message.part.updated publishing
+INFO  2026-05-24T13:24:26 +14ms service=bus type=session.updated publishing
+INFO  2026-05-24T13:24:26 +14ms service=bus type=session.status publishing
+INFO  2026-05-24T13:24:26 +1ms service=session.prompt session.id=ses_1a5d7b59effenzw1301sORj0kY step=0 loop
+INFO  2026-05-24T13:24:26 +15ms service=bus type=message.updated publishing
+INFO  2026-05-24T13:24:26 +35ms service=llm providerID=opencode modelID=deepseek-v4-flash-free session.id=ses_1a5d7b59effenzw1301sORj0kY small=true agent=title mode=primary stream
+INFO  2026-05-24T13:24:26 +3ms service=provider status=started providerID=opencode getSDK
+INFO  2026-05-24T13:24:26 +0ms service=provider providerID=opencode pkg=@ai-sdk/openai-compatible using bundled provider
+INFO  2026-05-24T13:24:26 +9ms service=provider status=completed duration=8 providerID=opencode getSDK
+INFO  2026-05-24T13:24:26 +24ms service=default llm.runtime=ai-sdk llm.provider=opencode llm.model=deepseek-v4-flash-free llm runtime selected
+INFO  2026-05-24T13:24:27 +290ms service=snapshot hash=bddb003befff065afc9da1655a77381d56306aa5 cwd=/home/antonioborgerees/coding/agentwrap-smoke git=/home/antonioborgerees/.local/share/opencode/snapshot/7c5d18e63545c45cda8b049993ce2d9e70d8a86e/43f54646e001da17e9db4bac0bc94c67178f8495 tracking
+INFO  2026-05-24T13:24:27 +6ms service=session.tools status=started resolveTools
+INFO  2026-05-24T13:24:27 +12ms service=shell-tool shell=/bin/bash shell tool using shell
+INFO  2026-05-24T13:24:27 +2ms service=tool.registry status=started invalid
+INFO  2026-05-24T13:24:27 +0ms service=tool.registry status=completed duration=0 invalid
+INFO  2026-05-24T13:24:27 +0ms service=tool.registry status=started question
+INFO  2026-05-24T13:24:27 +1ms service=tool.registry status=completed duration=1 question
+INFO  2026-05-24T13:24:27 +0ms service=tool.registry status=started bash
+INFO  2026-05-24T13:24:27 +0ms service=tool.registry status=completed duration=0 bash
+INFO  2026-05-24T13:24:27 +0ms service=tool.registry status=started read
+INFO  2026-05-24T13:24:27 +0ms service=tool.registry status=completed duration=0 read
+INFO  2026-05-24T13:24:27 +0ms service=tool.registry status=started glob
+INFO  2026-05-24T13:24:27 +0ms service=tool.registry status=completed duration=0 glob
+INFO  2026-05-24T13:24:27 +0ms service=tool.registry status=started grep
+INFO  2026-05-24T13:24:27 +0ms service=tool.registry status=completed duration=0 grep
+INFO  2026-05-24T13:24:27 +0ms service=tool.registry status=started edit
+INFO  2026-05-24T13:24:27 +1ms service=tool.registry status=completed duration=1 edit
+INFO  2026-05-24T13:24:27 +0ms service=tool.registry status=started write
+INFO  2026-05-24T13:24:27 +0ms service=tool.registry status=completed duration=0 write
+INFO  2026-05-24T13:24:27 +0ms service=tool.registry status=started task
+INFO  2026-05-24T13:24:27 +4ms service=tool.registry status=completed duration=4 task
+INFO  2026-05-24T13:24:27 +0ms service=tool.registry status=started webfetch
+INFO  2026-05-24T13:24:27 +0ms service=tool.registry status=completed duration=0 webfetch
+INFO  2026-05-24T13:24:27 +0ms service=tool.registry status=started todowrite
+INFO  2026-05-24T13:24:27 +1ms service=tool.registry status=completed duration=1 todowrite
+INFO  2026-05-24T13:24:27 +0ms service=tool.registry status=started websearch
+INFO  2026-05-24T13:24:27 +0ms service=tool.registry status=completed duration=0 websearch
+INFO  2026-05-24T13:24:27 +0ms service=tool.registry status=started skill
+WARN  2026-05-24T13:24:27 +22ms service=skill name=find-skills existing=/home/antonioborgerees/.agents/skills/find-skills/SKILL.md duplicate=/home/antonioborgerees/.claude/skills/find-skills/SKILL.md duplicate skill name
+INFO  2026-05-24T13:24:27 +0ms service=skill count=2 init
+INFO  2026-05-24T13:24:27 +1ms service=tool.registry status=completed duration=23 skill
+INFO  2026-05-24T13:24:27 +10ms service=session.tools status=completed duration=54 resolveTools
+INFO  2026-05-24T13:24:27 +20ms service=bus type=session.updated publishing
+INFO  2026-05-24T13:24:27 +35ms service=bus type=session.diff publishing
+INFO  2026-05-24T13:24:27 +4ms service=bus type=message.updated publishing
+INFO  2026-05-24T13:24:27 +14ms service=session.processor session.id=ses_1a5d7b59effenzw1301sORj0kY messageID=msg_e5a2889da001Zwy3NBM2Tti2xW process
+INFO  2026-05-24T13:24:27 +2ms service=bus type=session.status publishing
+INFO  2026-05-24T13:24:27 +1ms service=llm providerID=opencode modelID=deepseek-v4-flash-free session.id=ses_1a5d7b59effenzw1301sORj0kY small=false agent=build mode=primary stream
+INFO  2026-05-24T13:24:27 +21ms service=default llm.runtime=ai-sdk llm.provider=opencode llm.model=deepseek-v4-flash-free llm runtime selected
+INFO  2026-05-24T13:24:28 +1135ms service=bus type=message.part.updated publishing
+INFO  2026-05-24T13:24:28 +508ms service=bus type=message.part.updated publishing
+INFO  2026-05-24T13:24:28 +2ms service=bus type=message.part.delta publishing
+INFO  2026-05-24T13:24:29 +303ms service=bus type=message.part.delta publishing
+INFO  2026-05-24T13:24:29 +1ms service=bus type=message.part.delta publishing
+INFO  2026-05-24T13:24:29 +1ms service=bus type=message.part.delta publishing
+INFO  2026-05-24T13:24:29 +1ms service=bus type=message.part.delta publishing
+INFO  2026-05-24T13:24:29 +1ms service=bus type=message.part.delta publishing
+INFO  2026-05-24T13:24:29 +1ms service=bus type=message.part.delta publishing
+INFO  2026-05-24T13:24:29 +1ms service=bus type=message.part.delta publishing
+INFO  2026-05-24T13:24:29 +0ms service=bus type=message.part.delta publishing
+INFO  2026-05-24T13:24:29 +1ms service=bus type=message.part.delta publishing
+INFO  2026-05-24T13:24:29 +1ms service=bus type=message.part.delta publishing
+INFO  2026-05-24T13:24:29 +1ms service=bus type=message.part.delta publishing
+INFO  2026-05-24T13:24:29 +1ms service=bus type=message.part.delta publishing
+INFO  2026-05-24T13:24:29 +6ms service=bus type=message.part.updated publishing
+INFO  2026-05-24T13:24:29 +5ms service=bus type=message.part.updated publishing
+INFO  2026-05-24T13:24:29 +2ms service=bus type=message.part.delta publishing
+INFO  2026-05-24T13:24:29 +1ms service=bus type=message.part.delta publishing
+INFO  2026-05-24T13:24:29 +1ms service=bus type=message.part.delta publishing
+INFO  2026-05-24T13:24:29 +6ms service=bus type=message.part.updated publishing
+INFO  2026-05-24T13:24:29 +153ms service=snapshot hash=5f659eaaf871bd61f07f8fbe9ccfd6d350aeff14 cwd=/home/antonioborgerees/coding/agentwrap-smoke git=/home/antonioborgerees/.local/share/opencode/snapshot/7c5d18e63545c45cda8b049993ce2d9e70d8a86e/43f54646e001da17e9db4bac0bc94c67178f8495 tracking
+INFO  2026-05-24T13:24:29 +8ms service=bus type=message.part.updated publishing
+INFO  2026-05-24T13:24:29 +4ms service=bus type=message.updated publishing
+INFO  2026-05-24T13:24:29 +219ms service=bus type=message.part.updated publishing
+INFO  2026-05-24T13:24:29 +8ms service=bus type=message.updated publishing
+INFO  2026-05-24T13:24:29 +1ms service=bus type=session.status publishing
+INFO  2026-05-24T13:24:29 +0ms service=session.prompt session.id=ses_1a5d7b59effenzw1301sORj0kY step=1 loop
+INFO  2026-05-24T13:24:29 +6ms service=session.prompt session.id=ses_1a5d7b59effenzw1301sORj0kY exiting loop
+INFO  2026-05-24T13:24:29 +9ms service=bus type=session.status publishing
+INFO  2026-05-24T13:24:29 +0ms service=bus type=session.idle publishing
+INFO  2026-05-24T13:24:29 +128ms service=bus type=session.updated publishing
+INFO  2026-05-24T13:24:29 +19ms service=bus type=session.diff publishing
+INFO  2026-05-24T13:24:29 +105ms service=bus type=message.updated publishing
+INFO  2026-05-24T13:24:44 +14467ms service=bus type=session.updated publishing
+INFO  2026-05-24T13:25:04 +20371ms service=snapshot prune=7.days cleanup

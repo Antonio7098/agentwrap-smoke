@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/antonioborgerees/agentwrap"
-	"github.com/antonioborgerees/agentwrap/opencode"
+	"github.com/Antonio7098/agentwrap"
+	"github.com/Antonio7098/agentwrap/opencode"
 	"github.com/spf13/cobra"
 	"github.com/ultraplan/agentwrap-smoke/internal/code"
 	"github.com/ultraplan/agentwrap-smoke/internal/config"

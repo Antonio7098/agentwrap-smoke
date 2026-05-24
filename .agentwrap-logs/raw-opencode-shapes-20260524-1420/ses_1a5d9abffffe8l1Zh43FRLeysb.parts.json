@@ -1,0 +1,42 @@
+[
+  {
+    "id": "prt_e5a2654db0011gW50f2rPvXxja",
+    "message_id": "msg_e5a2654bc001v24E7pF5rOz9KO",
+    "session_id": "ses_1a5d9abffffe8l1Zh43FRLeysb",
+    "time_created": 1779628922099,
+    "time_updated": 1779628922102,
+    "data": "{\"type\":\"text\",\"text\":\"\\\"Use no tools. Reply with exactly: DONE\\\"\"}"
+  },
+  {
+    "id": "prt_e5a265d14001qIkGsXxEgQLyX6",
+    "message_id": "msg_e5a26567c001ajcCSFxG8bw3Kj",
+    "session_id": "ses_1a5d9abffffe8l1Zh43FRLeysb",
+    "time_created": 1779628924180,
+    "time_updated": 1779628924183,
+    "data": "{\"type\":\"step-start\"}"
+  },
+  {
+    "id": "prt_e5a265e4a0011nya6MD5VzS2Go",
+    "message_id": "msg_e5a26567c001ajcCSFxG8bw3Kj",
+    "session_id": "ses_1a5d9abffffe8l1Zh43FRLeysb",
+    "time_created": 1779628924490,
+    "time_updated": 1779628924700,
+    "data": "{\"type\":\"reasoning\",\"text\":\"The user wants me to reply with exactly \\\"DONE\\\" without using any tools.\",\"time\":{\"start\":1779628924490,\"end\":1779628924697}}"
+  },
+  {
+    "id": "prt_e5a265f1f001Q7AHOZdv4gOHIT",
+    "message_id": "msg_e5a26567c001ajcCSFxG8bw3Kj",
+    "session_id": "ses_1a5d9abffffe8l1Zh43FRLeysb",
+    "time_created": 1779628924703,
+    "time_updated": 1779628924793,
+    "data": "{\"type\":\"text\",\"text\":\"DONE\",\"time\":{\"start\":1779628924703,\"end\":1779628924790}}"
+  },
+  {
+    "id": "prt_e5a265f86001jgL4F4zZk8w7DD",
+    "message_id": "msg_e5a26567c001ajcCSFxG8bw3Kj",
+    "session_id": "ses_1a5d9abffffe8l1Zh43FRLeysb",
+    "time_created": 1779628924807,
+    "time_updated": 1779628924809,
+    "data": "{\"reason\":\"stop\",\"type\":\"step-finish\",\"tokens\":{\"total\":8223,\"input\":8203,\"output\":3,\"reasoning\":17,\"cache\":{\"write\":0,\"read\":0}},\"cost\":0}"
+  }
+]

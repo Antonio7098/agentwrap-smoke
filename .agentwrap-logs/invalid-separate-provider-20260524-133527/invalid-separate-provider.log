@@ -1,0 +1,4 @@
+Provider: bad/provider Model: test-model
+StartRun error: opencode model: configuration: provider must not contain '/'
+Category: configuration
+UserDetail: provider must not contain '/'

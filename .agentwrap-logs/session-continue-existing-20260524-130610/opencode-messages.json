@@ -1,0 +1,30 @@
+[
+  {
+    "id": "msg_e59e0e925001i7cSJhXmvCX5h1",
+    "session_id": "ses_1a61f1755ffexM8RsEvxpRAywJ",
+    "time_created": 1779624372517,
+    "time_updated": 1779624373148,
+    "data": "{\"role\":\"user\",\"time\":{\"created\":1779624372517},\"agent\":\"build\",\"model\":{\"providerID\":\"openai\",\"modelID\":\"gpt-5.5\"},\"summary\":{\"diffs\":[]}}"
+  },
+  {
+    "id": "msg_e59e0ea79001LkuPmX0ImqRCP8",
+    "session_id": "ses_1a61f1755ffexM8RsEvxpRAywJ",
+    "time_created": 1779624372857,
+    "time_updated": 1779624374650,
+    "data": "{\"parentID\":\"msg_e59e0e925001i7cSJhXmvCX5h1\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/agentwrap-smoke\",\"root\":\"/home/antonioborgerees/coding/agentwrap-smoke\"},\"cost\":0,\"tokens\":{\"total\":6487,\"input\":4946,\"output\":5,\"reasoning\":0,\"cache\":{\"write\":0,\"read\":1536}},\"modelID\":\"gpt-5.5\",\"providerID\":\"openai\",\"time\":{\"created\":1779624372857,\"completed\":1779624374648},\"finish\":\"stop\"}"
+  },
+  {
+    "id": "msg_e59e0fa21001e71r0369vvNGmL",
+    "session_id": "ses_1a61f1755ffexM8RsEvxpRAywJ",
+    "time_created": 1779624376865,
+    "time_updated": 1779624377498,
+    "data": "{\"role\":\"user\",\"time\":{\"created\":1779624376865},\"agent\":\"build\",\"model\":{\"providerID\":\"openai\",\"modelID\":\"gpt-5.5\"},\"summary\":{\"diffs\":[]}}"
+  },
+  {
+    "id": "msg_e59e0fb63001G3XBvuOC37jWAI",
+    "session_id": "ses_1a61f1755ffexM8RsEvxpRAywJ",
+    "time_created": 1779624377187,
+    "time_updated": 1779624379301,
+    "data": "{\"parentID\":\"msg_e59e0fa21001e71r0369vvNGmL\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/agentwrap-smoke\",\"root\":\"/home/antonioborgerees/coding/agentwrap-smoke\"},\"cost\":0,\"tokens\":{\"total\":6505,\"input\":356,\"output\":5,\"reasoning\":0,\"cache\":{\"write\":0,\"read\":6144}},\"modelID\":\"gpt-5.5\",\"providerID\":\"openai\",\"time\":{\"created\":1779624377187,\"completed\":1779624379299},\"finish\":\"stop\"}"
+  }
+]

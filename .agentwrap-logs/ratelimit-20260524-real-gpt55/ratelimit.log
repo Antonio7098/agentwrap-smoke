@@ -1,0 +1,10 @@
+=== RATE LIMIT FALLBACK TEST ===
+Testing opencode/gpt-5.5 rate limit -> fallback to opencode/deepseek-v4-flash-free
+Log dir: .agentwrap-logs/ratelimit-20260524-real-gpt55
+
+PolicyRunner configured with opencode/gpt-5.5 primary and opencode/deepseek-v4-flash-free fallback
+Starting run...
+Run started: ID=policy-1
+Final Status: completed
+Attempt 1 target=0 model=opencode/gpt-5.5 status=failed error=runtime_exit
+Attempt 2 target=1 model=opencode/deepseek-v4-flash-free status=completed error=

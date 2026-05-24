@@ -1,0 +1,16 @@
+[
+  {
+    "id": "msg_e59e0c9cd001jB0s5J1vwGz6kh",
+    "session_id": "ses_1a61f36dcffebmDO5nFqKuJJPC",
+    "time_created": 1779624364493,
+    "time_updated": 1779624365126,
+    "data": "{\"role\":\"user\",\"time\":{\"created\":1779624364493},\"agent\":\"build\",\"model\":{\"providerID\":\"openai\",\"modelID\":\"gpt-5.5\"},\"summary\":{\"diffs\":[]}}"
+  },
+  {
+    "id": "msg_e59e0cb260012daT2ZME9Sz0OL",
+    "session_id": "ses_1a61f36dcffebmDO5nFqKuJJPC",
+    "time_created": 1779624364838,
+    "time_updated": 1779624366721,
+    "data": "{\"parentID\":\"msg_e59e0c9cd001jB0s5J1vwGz6kh\",\"role\":\"assistant\",\"mode\":\"build\",\"agent\":\"build\",\"path\":{\"cwd\":\"/home/antonioborgerees/coding/agentwrap-smoke\",\"root\":\"/home/antonioborgerees/coding/agentwrap-smoke\"},\"cost\":0,\"tokens\":{\"total\":6488,\"input\":4947,\"output\":5,\"reasoning\":0,\"cache\":{\"write\":0,\"read\":1536}},\"modelID\":\"gpt-5.5\",\"providerID\":\"openai\",\"time\":{\"created\":1779624364838,\"completed\":1779624366718},\"finish\":\"stop\"}"
+  }
+]

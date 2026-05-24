@@ -1,0 +1,42 @@
+[
+  {
+    "id": "prt_e5a2ec1ad001I6CrmqHSZMeiW2",
+    "message_id": "msg_e5a2ec1a20014uAf3eCqt9h0or",
+    "session_id": "ses_1a5d13eb6ffeCGjcWkV2dPtB8z",
+    "time_created": 1779629474231,
+    "time_updated": 1779629474233,
+    "data": "{\"type\":\"text\",\"text\":\"\\\"Reply with exactly: OK\\\"\"}"
+  },
+  {
+    "id": "prt_e5a2ec84a001USK1QM5sdFkW9y",
+    "message_id": "msg_e5a2ec27c001qNXbeljfrBGVh4",
+    "session_id": "ses_1a5d13eb6ffeCGjcWkV2dPtB8z",
+    "time_created": 1779629475914,
+    "time_updated": 1779629475916,
+    "data": "{\"snapshot\":\"ffb4ffbe6c34f2d8c018a2a8a586d70d0b4ed38d\",\"type\":\"step-start\"}"
+  },
+  {
+    "id": "prt_e5a2ec96c001E7Zxws3gNM8z7Q",
+    "message_id": "msg_e5a2ec27c001qNXbeljfrBGVh4",
+    "session_id": "ses_1a5d13eb6ffeCGjcWkV2dPtB8z",
+    "time_created": 1779629476205,
+    "time_updated": 1779629476323,
+    "data": "{\"type\":\"reasoning\",\"text\":\"The user wants me to reply with exactly \\\"OK\\\".\",\"time\":{\"start\":1779629476204,\"end\":1779629476321}}"
+  },
+  {
+    "id": "prt_e5a2ec9e5001yEj5lAawqHz5N0",
+    "message_id": "msg_e5a2ec27c001qNXbeljfrBGVh4",
+    "session_id": "ses_1a5d13eb6ffeCGjcWkV2dPtB8z",
+    "time_created": 1779629476325,
+    "time_updated": 1779629476334,
+    "data": "{\"type\":\"text\",\"text\":\"OK\",\"time\":{\"start\":1779629476325,\"end\":1779629476332}}"
+  },
+  {
+    "id": "prt_e5a2eca2b001VlEfd7DWosn1oC",
+    "message_id": "msg_e5a2ec27c001qNXbeljfrBGVh4",
+    "session_id": "ses_1a5d13eb6ffeCGjcWkV2dPtB8z",
+    "time_created": 1779629476395,
+    "time_updated": 1779629476397,
+    "data": "{\"reason\":\"stop\",\"snapshot\":\"ffb4ffbe6c34f2d8c018a2a8a586d70d0b4ed38d\",\"type\":\"step-finish\",\"tokens\":{\"total\":8255,\"input\":8242,\"output\":2,\"reasoning\":11,\"cache\":{\"write\":0,\"read\":0}},\"cost\":0}"
+  }
+]

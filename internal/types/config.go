@@ -14,14 +14,14 @@ type Config struct {
 }
 
 var DefaultConfig = Config{
-	DefaultModel:                "minimax-coding-plan/MiniMax-M2.7",
-	PrimaryModel:                "minimax-coding-plan/MiniMax-M2.7",
-	BackupModel:                "opencode/deepseek-v4-flash-free",
-	DefaultVariant:             "high",
+	DefaultModel:                "opencode/deepseek-v4-flash-free",
+	PrimaryModel:                "opencode/deepseek-v4-flash-free",
+	BackupModel:                 "opencode/deepseek-v4-flash-free",
+	DefaultVariant:              "high",
 	DefaultParallel:            3,
 	DefaultTimeoutMs:           1_800_000,
-	SprintPlanningModel:        "openai/gpt-5.5",
+	SprintPlanningModel:        "opencode/deepseek-v4-flash-free",
 	SprintPlanningContextWindow: 1_000_000,
-	SprintExecutionModel:       "openai/gpt-5.5",
+	SprintExecutionModel:       "opencode/deepseek-v4-flash-free",
 	SprintExecutionVariant:     "low",
 }

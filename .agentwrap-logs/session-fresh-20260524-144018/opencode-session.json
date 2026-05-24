@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ses_1a5c8ebc2ffe4J7Mnowz3pTQX3",
+    "project_id": "7c5d18e63545c45cda8b049993ce2d9e70d8a86e",
+    "parent_id": null,
+    "slug": "happy-canyon",
+    "directory": "/home/antonioborgerees/coding/agentwrap-smoke",
+    "title": "New session - 2026-05-24T13:40:19.645Z",
+    "version": "1.15.10",
+    "share_url": null,
+    "summary_additions": 0,
+    "summary_deletions": 0,
+    "summary_files": 0,
+    "summary_diffs": null,
+    "revert": null,
+    "permission": "[{\"permission\":\"question\",\"pattern\":\"*\",\"action\":\"deny\"},{\"permission\":\"plan_enter\",\"pattern\":\"*\",\"action\":\"deny\"},{\"permission\":\"plan_exit\",\"pattern\":\"*\",\"action\":\"deny\"}]",
+    "time_created": 1779630019645,
+    "time_updated": 1779630020134,
+    "time_compacting": null,
+    "time_archived": null,
+    "workspace_id": null,
+    "path": "",
+    "agent": "build",
+    "model": "{\"id\":\"deepseek-v4-flash-free\",\"providerID\":\"opencode\",\"variant\":\"default\"}",
+    "cost": 0,
+    "tokens_input": 8243,
+    "tokens_output": 2,
+    "tokens_reasoning": 11,
+    "tokens_cache_read": 0,
+    "tokens_cache_write": 0
+  }
+]

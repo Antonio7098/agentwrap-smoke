@@ -13,8 +13,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/antonioborgerees/agentwrap"
-	"github.com/antonioborgerees/agentwrap/opencode"
+	"github.com/Antonio7098/agentwrap"
+	"github.com/Antonio7098/agentwrap/opencode"
 	"github.com/spf13/cobra"
 	"github.com/ultraplan/agentwrap-smoke/internal/config"
 )
@@ -143,6 +143,7 @@ func main() {
 		Run:   cmdRateLimit,
 	}
 	rateLimitCmd.Flags().String("log-dir", "", "Log output directory")
+	rateLimitCmd.Flags().Bool("use-fake", false, "Use fake-opencode with rate_limit_nested mode (deterministic fixture)")
 	rateLimitCmd.Flags().String("primary-model", "opencode/gpt-5.5", "Primary model expected to fail")
 	rateLimitCmd.Flags().String("fallback-model", "opencode/deepseek-v4-flash-free", "Fallback model to use")
 	root.AddCommand(rateLimitCmd)
@@ -306,6 +307,15 @@ func main() {
 	fallbackInvalidProviderCmd.Flags().String("primary-model", "not-a-provider/model", "Invalid primary model/provider")
 	fallbackInvalidProviderCmd.Flags().String("fallback-model", "opencode/deepseek-v4-flash-free", "Fallback model")
 	root.AddCommand(fallbackInvalidProviderCmd)
+
+	invalidSeparateProviderCmd := &cobra.Command{
+		Use:   "invalid-separate-provider",
+		Short: "Test wrapper provider syntax pre-validation",
+		Args:  cobra.ExactArgs(0),
+		Run:   cmdInvalidSeparateProvider,
+	}
+	invalidSeparateProviderCmd.Flags().String("log-dir", "", "Log output directory")
+	root.AddCommand(invalidSeparateProviderCmd)
 
 	sessionFreshCmd := &cobra.Command{
 		Use:   "session-fresh",
@@ -1243,7 +1253,8 @@ func cmdSmokeAll(cmd *cobra.Command, args []string) {
 				c.Flags().Set("primary-model", "not-a-provider/model")
 				c.Flags().Set("fallback-model", "opencode/deepseek-v4-flash-free")
 			}},
-		{name: "fallback-all-fail", cmdFn: cmdFallbackAllFail, expect: scenarioExpectation{Status: "failed", Category: "runtime_exit"}},
+		{name: "fallback-all-fail", cmdFn: cmdFallbackAllFail, expect: scenarioExpectation{Status: "failed", Category: "model_unavailable"}},
+		{name: "invalid-separate-provider", cmdFn: cmdInvalidSeparateProvider, expect: scenarioExpectation{Status: "failed", Category: "configuration"}},
 		{name: "health-fail", cmdFn: cmdHealthFail, expect: scenarioExpectation{Status: "completed"}},
 		{name: "health-model", cmdFn: cmdHealthModel, expect: scenarioExpectation{Status: "completed"}},
 
@@ -1665,6 +1676,7 @@ func cmdRateLimit(cmd *cobra.Command, args []string) {
 	logDir, _ := cmd.Flags().GetString("log-dir")
 	primaryModel, _ := cmd.Flags().GetString("primary-model")
 	fallbackModel, _ := cmd.Flags().GetString("fallback-model")
+	useFake, _ := cmd.Flags().GetBool("use-fake")
 	if logDir == "" {
 		logDir = filepath.Join(UltraPlanRoot, ".agentwrap-logs", "ratelimit-"+time.Now().Format("20060102-150405"))
 	}
@@ -2944,7 +2956,7 @@ func cmdFallbackAllFail(cmd *cobra.Command, args []string) {
 		logDir = filepath.Join(UltraPlanRoot, ".agentwrap-logs", "fallback-all-fail-"+time.Now().Format("20060102-150405"))
 	}
 	os.MkdirAll(logDir, 0755)
-	rc := &runConfig{logDir: logDir}
+	rc := &runConfig{logDir: logDir, expectStatus: "failed", expectCategory: "model_unavailable"}
 
 	logFile := filepath.Join(logDir, "fallback.log")
 	f, _ := os.Create(logFile)
@@ -2999,8 +3011,56 @@ func cmdFallbackAllFail(cmd *cobra.Command, args []string) {
 		for _, a := range result.Metadata.Attempts {
 			log("Attempt %d target=%d model=%s status=%s error=%s", a.Attempt, a.TargetIndex, a.Request.Model, a.Status, a.ErrorCategory)
 		}
+		if sr := checkExpectation(rc, result, err); !sr.Passed {
+			log("Expectation failed: got status=%s category=%s want status=%s category=%s", sr.Status, sr.Category, rc.expectStatus, rc.expectCategory)
+		}
 		saveResults(rc, time.Now(), result, err)
 	}
+}
+
+func cmdInvalidSeparateProvider(cmd *cobra.Command, args []string) {
+	logDir, _ := cmd.Flags().GetString("log-dir")
+	if logDir == "" {
+		logDir = filepath.Join(UltraPlanRoot, ".agentwrap-logs", "invalid-separate-provider-"+time.Now().Format("20060102-150405"))
+	}
+	os.MkdirAll(logDir, 0755)
+	rc := &runConfig{logDir: logDir, expectStatus: "failed", expectCategory: "configuration"}
+
+	logFile := filepath.Join(logDir, "invalid-separate-provider.log")
+	f, _ := os.Create(logFile)
+	defer f.Close()
+	log := func(format string, args ...interface{}) {
+		msg := fmt.Sprintf(format, args...)
+		f.Write([]byte(msg + "\n"))
+		fmt.Printf(format+"\n", args...)
+	}
+
+	runtime := opencode.NewRuntime()
+	log("Provider: bad/provider Model: test-model")
+	run, err := runtime.StartRun(context.Background(), agentwrap.RunRequest{
+		Prompt:   "Say hello in 3 words.",
+		WorkDir:  UltraPlanRoot,
+		Provider: agentwrap.ProviderID("bad/provider"),
+		Model:    agentwrap.ModelID("test-model"),
+		Timeout:  30 * time.Second,
+	})
+	var result agentwrap.RunResult
+	if err != nil {
+		log("StartRun error: %v", err)
+		var sdkErr *agentwrap.SDKError
+		if errors.As(err, &sdkErr) {
+			log("Category: %s", sdkErr.Category)
+			log("UserDetail: %s", sdkErr.UserDetail)
+		}
+	} else {
+		result, err = run.Wait(context.Background())
+		log("Status: %s", result.Status)
+	}
+	if sr := checkExpectation(rc, result, err); !sr.Passed {
+		log("Expectation failed: got status=%s category=%s want status=%s category=%s", sr.Status, sr.Category, rc.expectStatus, rc.expectCategory)
+	}
+	saveResults(rc, time.Now(), result, err)
+	saveOpenCodeDB(rc, string(result.SessionID))
 }
 
 func cmdHealthModel(cmd *cobra.Command, args []string) {

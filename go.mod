@@ -3,7 +3,7 @@ module github.com/ultraplan/agentwrap-smoke
 go 1.22
 
 require (
-	github.com/antonioborgerees/agentwrap v0.0.0
+	github.com/Antonio7098/agentwrap v0.0.0
 	github.com/spf13/cobra v1.10.2
 	gopkg.in/yaml.v3 v3.0.1
 )
@@ -14,4 +14,4 @@ require (
 	golang.org/x/sys v0.15.0 // indirect
 )
 
-replace github.com/antonioborgerees/agentwrap => /home/antonioborgerees/coding/agentwrap
+replace github.com/Antonio7098/agentwrap => /home/antonioborgerees/coding/agentwrap

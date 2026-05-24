@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/antonioborgerees/agentwrap"
-	"github.com/antonioborgerees/agentwrap/opencode"
+	"github.com/Antonio7098/agentwrap"
+	"github.com/Antonio7098/agentwrap/opencode"
 )
 
 type metricsSink struct{}
@@ -33,9 +33,9 @@ func demoValidation() {
 	spec := agentwrap.ValidationSpec{
 		Expectations: []agentwrap.ValidationExpectation{
 			{
-				ID:      "report-file",
-				Kind:    agentwrap.ExpectationFile,
-				Path:    "reports/final/test.md",
+				ID:       "report-file",
+				Kind:     agentwrap.ExpectationFile,
+				Path:     "reports/final/test.md",
 				Severity: agentwrap.ExpectationRequired,
 			},
 			{
@@ -110,7 +110,7 @@ func demoPolicy() {
 				Runtime: fallback,
 				Request: agentwrap.RunRequest{
 					Provider: agentwrap.ProviderID("opencode"),
-					Model:   agentwrap.ModelID("opencode/deepseek-v4-flash-free"),
+					Model:    agentwrap.ModelID("opencode/deepseek-v4-flash-free"),
 				},
 			},
 		},
@@ -167,7 +167,7 @@ func demoHealthChecks() {
 			RuntimeKind: agentwrap.RuntimeKind("opencode"),
 			RuntimeName: "opencode",
 			Provider:    agentwrap.ProviderID("opencode"),
-			Model:      agentwrap.ModelID("minimax-coding-plan/MiniMax-M2.7"),
+			Model:       agentwrap.ModelID("minimax-coding-plan/MiniMax-M2.7"),
 		},
 		WorkDir:  ".",
 		Provider: "opencode",
@@ -206,7 +206,7 @@ func demoPermissions() {
 	policy := agentwrap.PermissionPolicy{
 		Default: agentwrap.PermissionActionDeny,
 		Tools: map[agentwrap.PermissionTool]agentwrap.PermissionAction{
-			agentwrap.PermissionToolRead:    agentwrap.PermissionActionAllow,
+			agentwrap.PermissionToolRead:   agentwrap.PermissionActionAllow,
 			agentwrap.PermissionToolEdit:   agentwrap.PermissionActionAllow,
 			agentwrap.PermissionToolShell:  agentwrap.PermissionActionAsk,
 			agentwrap.PermissionToolGlob:   agentwrap.PermissionActionAllow,
@@ -263,7 +263,7 @@ func demoRunFlow() {
 	}
 
 	rt := opencode.NewRuntime(
-		opencode.WithEnv("OPENCODE_CONFIG="+cfgPath),
+		opencode.WithEnv("OPENCODE_CONFIG=" + cfgPath),
 	)
 
 	validating := agentwrap.ValidatingRuntime{
@@ -286,7 +286,7 @@ func demoRunFlow() {
 		Policy: agentwrap.BasicPolicy{
 			MaxAttemptsPerTarget: 2,
 			Backoff:              backoff,
-			RetryRateLimits:       true,
+			RetryRateLimits:      true,
 		},
 	}
 
